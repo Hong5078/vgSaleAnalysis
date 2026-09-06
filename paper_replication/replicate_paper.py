@@ -21,7 +21,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-RANDOM_STATE = 42
+RANDOM_STATE = 5078
 CSV_PATH = "video_game_sales_and_ratings.csv"
 
 # ---------------------------------------------------------------------------
