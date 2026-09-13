@@ -1,0 +1,2 @@
+chi2 = 655.0, dof = 22, p-value = 2.325e-124
+Cramer's V = 0.2009
