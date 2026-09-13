@@ -1,0 +1,5 @@
+Pearson r (critic vs user) = 0.581, p = 0.000e+00, n = 7017
+ANOVA Critic_Score by Genre: F = 21.32, p = 2.277e-43
+ANOVA User_Score by Genre: F = 12.66, p = 3.929e-24
+ANOVA Critic_Score by Platform: F = 32.04, p = 1.081e-95
+ANOVA User_Score by Platform: F = 36.48, p = 1.729e-109
