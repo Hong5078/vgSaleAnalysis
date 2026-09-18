@@ -1,6 +1,11 @@
-# Proposal: Switching to a New Dataset for Video Game Sales Prediction
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+# Switching to a New Dataset for Video Game Sales Prediction
 
-**Course:** DS 340W  **Date:** September 18, 2026
+**Date:** September 18, 2026
 **Parent paper:** Gray, Shalan & Kadlec, *Sales Predictions for Video Games Using Predictive
 Analytics of Market Data*, IEEE CICN 2024 (DOI 10.1109/CICN63059.2024.10847429)
 **Current dataset:** Kaggle "Video Game Sales and Ratings" (VGChartz + Metacritic, 16,719 rows, 1980–2016)
@@ -87,8 +92,3 @@ SteamSpy covering tens of thousands of PC games through 2024–25.
 - Owner counts are SteamSpy **estimates** reported as ranges, not audited sales.
 - The dataset's exact columns and coverage will be confirmed in the first notebook before
   committing to it.
-
-## 7. Request
-
-Approval to move the next phase of the project to Steam data, with the VGChartz analysis kept
-in `old_analysis/` as the documented replication and the reason for the switch.
