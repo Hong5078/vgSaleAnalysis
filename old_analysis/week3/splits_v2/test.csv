@@ -1,0 +1,1366 @@
+Year_of_Release,Genre,Platform,Rating,Publisher,Critic_Score,Critic_Count,User_Score,User_Count,Global_Sales,Publisher_bucketed
+2010,Role-Playing,X360,M,Electronic Arts,96.0,98.0,89.0,3143.0,3.1,Electronic Arts
+2009,Action,PS3,T,Tecmo Koei,62.0,22.0,70.0,26.0,0.34,Tecmo Koei
+2001,Sports,PS,E,Activision,87.0,10.0,83.0,36.0,1.67,Activision
+2011,Shooter,PC,M,Ubisoft,51.0,12.0,33.0,126.0,0.11,Ubisoft
+2015,Role-Playing,XOne,M,Bethesda Softworks,77.0,11.0,84.0,613.0,1.28,Other
+2011,Role-Playing,PSP,T,FuRyu,61.0,8.0,75.0,15.0,0.06,Other
+2013,Action,PS3,M,Square Enix,71.0,20.0,76.0,46.0,0.21,Square Enix
+2006,Action,XB,T,Take-Two Interactive,52.0,34.0,28.0,5.0,0.04,Take-Two Interactive
+2009,Adventure,DS,E,Disney Interactive Studios,66.0,7.0,65.0,4.0,0.23,Other
+2012,Simulation,X360,M,Konami Digital Entertainment,75.0,21.0,88.0,20.0,0.2,Konami Digital Entertainment
+2002,Shooter,PS2,T,Electronic Arts,88.0,29.0,85.0,135.0,6.83,Electronic Arts
+2007,Misc,Wii,E,Electronic Arts,65.0,26.0,76.0,10.0,1.43,Electronic Arts
+2009,Simulation,Wii,E10+,Nintendo,76.0,42.0,85.0,26.0,0.86,Nintendo
+2015,Misc,WiiU,E,Nintendo,82.0,9.0,83.0,20.0,0.01,Nintendo
+2008,Simulation,X360,E,Konami Digital Entertainment,65.0,6.0,77.0,7.0,0.3,Konami Digital Entertainment
+2008,Racing,X360,E,Capcom,68.0,20.0,56.0,12.0,0.35,Capcom
+2005,Fighting,DS,E10+,Atari,66.0,13.0,76.0,28.0,0.49,Atari
+2006,Action,DS,M,Capcom,71.0,41.0,84.0,36.0,0.26,Capcom
+2002,Adventure,XB,T,Microsoft Game Studios,80.0,31.0,93.0,96.0,0.32,Microsoft Game Studios
+2016,Action,XOne,E10+,Sold Out,75.0,24.0,81.0,7.0,0.01,Other
+2010,Action,PSP,M,PQube,59.0,9.0,80.0,14.0,0.12,Other
+2004,Action,XB,T,Tecmo Koei,71.0,20.0,90.0,5.0,0.07,Tecmo Koei
+2008,Sports,PS2,E,Sony Computer Entertainment,84.0,12.0,73.0,7.0,0.42,Sony Computer Entertainment
+2011,Strategy,PC,M,THQ,80.0,52.0,78.0,235.0,0.08,THQ
+1998,Action,PS,M,Virgin Interactive,89.0,13.0,92.0,364.0,5.82,Other
+2003,Sports,XB,T,Activision Value,65.0,5.0,84.0,16.0,0.21,Other
+2009,Simulation,PS3,T,Ubisoft,62.0,34.0,70.0,16.0,0.16,Ubisoft
+2004,Shooter,PS2,T,Namco Bandai Games,57.0,16.0,86.0,11.0,0.06,Namco Bandai Games
+2004,Role-Playing,GC,T,Activision,81.0,36.0,85.0,11.0,0.53,Activision
+2009,Role-Playing,X360,M,Deep Silver,60.0,37.0,64.0,77.0,0.19,Other
+2005,Adventure,PS2,M,Atari,83.0,47.0,78.0,104.0,0.15,Atari
+2000,Strategy,PS2,E,Electronic Arts,82.0,11.0,79.0,17.0,0.48,Electronic Arts
+2003,Action,GBA,E10+,Tomy Corporation,60.0,12.0,71.0,9.0,0.22,Other
+2005,Shooter,XB,M,Electronic Arts,83.0,54.0,89.0,35.0,0.16,Electronic Arts
+2003,Racing,GBA,E,THQ,48.0,14.0,59.0,8.0,0.3,THQ
+2011,Misc,Wii,E10+,Namco Bandai Games,64.0,28.0,78.0,13.0,1.53,Namco Bandai Games
+2000,Platform,PS,E,Activision,54.0,10.0,53.0,4.0,0.63,Activision
+2008,Simulation,X360,T,Ubisoft,64.0,22.0,77.0,38.0,0.15,Ubisoft
+2009,Action,X360,M,Konami Digital Entertainment,59.0,39.0,74.0,50.0,0.28,Konami Digital Entertainment
+2006,Racing,PS2,E,Sega,81.0,42.0,88.0,17.0,0.05,Sega
+2003,Strategy,PC,T,Activision,88.0,23.0,90.0,713.0,1.54,Activision
+2002,Platform,GC,T,TDK Mediactive,36.0,6.0,56.0,23.0,0.17,Other
+2006,Sports,PS2,E,Sony Computer Entertainment,63.0,24.0,68.0,5.0,0.02,Sony Computer Entertainment
+2009,Action,PC,E10+,Eidos Interactive,74.0,14.0,83.0,78.0,0.02,Eidos Interactive
+2014,Adventure,PSV,M,Marvelous Interactive,60.0,19.0,74.0,58.0,0.18,Other
+2004,Strategy,XB,M,Deep Silver,81.0,50.0,79.0,31.0,0.32,Other
+2011,Strategy,PC,M,Kalypso Media,65.0,35.0,46.0,106.0,0.09,Other
+2007,Simulation,PS2,T,Electronic Arts,71.0,17.0,80.0,15.0,0.37,Electronic Arts
+2002,Shooter,GC,T,BAM! Entertainment,54.0,9.0,59.0,7.0,0.11,Other
+2009,Sports,X360,E,Spike,64.0,29.0,53.0,26.0,0.61,Other
+2016,Action,XOne,M,Stainless Games,52.0,15.0,71.0,12.0,0.02,Other
+2008,Shooter,X360,M,D3Publisher,72.0,71.0,75.0,147.0,0.48,Other
+2010,Simulation,X360,T,505 Games,40.0,11.0,42.0,5.0,0.17,Other
+2008,Action,PC,E10+,Activision,58.0,6.0,80.0,4.0,0.01,Activision
+2010,Action,X360,M,Square Enix,81.0,74.0,80.0,267.0,1.6,Square Enix
+2012,Action,X360,E10+,Warner Bros. Interactive Entertainment,80.0,49.0,85.0,73.0,1.23,Warner Bros. Interactive Entertainment
+2016,Action,3DS,E,Nintendo,72.0,16.0,68.0,5.0,0.11,Nintendo
+2008,Role-Playing,X360,M,Ubisoft,52.0,27.0,70.0,48.0,0.2,Ubisoft
+2005,Racing,PC,E,Atari,84.0,21.0,86.0,44.0,0.02,Atari
+2013,Fighting,PS3,T,Capcom,80.0,33.0,73.0,27.0,0.03,Capcom
+2015,Action,WiiU,E10+,Nippon Ichi Software,45.0,31.0,65.0,81.0,0.12,Other
+2012,Fighting,PS3,T,Atlus,86.0,47.0,77.0,180.0,0.73,Other
+2006,Role-Playing,X360,T,Idea Factory,59.0,16.0,75.0,19.0,0.09,Other
+2005,Fighting,GC,M,Midway Games,77.0,14.0,89.0,15.0,0.11,Midway Games
+2006,Platform,GBA,T,Konami Digital Entertainment,86.0,4.0,84.0,12.0,0.1,Konami Digital Entertainment
+2000,Fighting,PS,M,Midway Games,28.0,7.0,24.0,17.0,0.21,Midway Games
+2014,Platform,PS4,E,Sony Computer Entertainment,79.0,78.0,71.0,506.0,1.91,Sony Computer Entertainment
+2010,Role-Playing,PSP,T,Nippon Ichi Software,65.0,16.0,73.0,11.0,0.09,Other
+2008,Action,PS3,E10+,Warner Bros. Interactive Entertainment,75.0,24.0,77.0,33.0,1.29,Warner Bros. Interactive Entertainment
+2008,Role-Playing,DS,E,Nippon Ichi Software,67.0,24.0,68.0,12.0,0.05,Other
+2010,Simulation,X360,T,Kalypso Media,63.0,33.0,72.0,19.0,0.2,Other
+2006,Role-Playing,PSP,E10+,Global A Entertainment,70.0,18.0,64.0,8.0,0.03,Other
+2011,Action,PS3,M,THQ,82.0,50.0,77.0,384.0,2.47,THQ
+2016,Action,PS4,M,Bethesda Softworks,88.0,56.0,77.0,569.0,0.64,Other
+2011,Action,Wii,E10+,Nintendo,93.0,81.0,80.0,1958.0,3.95,Nintendo
+2002,Shooter,GC,M,Universal Interactive,73.0,17.0,85.0,4.0,0.11,Other
+2003,Misc,GC,T,Midway Games,72.0,11.0,82.0,5.0,0.17,Midway Games
+2003,Action,GBA,T,Electronic Arts,77.0,13.0,82.0,11.0,0.56,Electronic Arts
+2015,Action,PS4,M,Activision,60.0,11.0,57.0,68.0,0.29,Activision
+2005,Strategy,GC,T,Nintendo,76.0,43.0,88.0,18.0,0.4,Nintendo
+2007,Sports,X360,E,Take-Two Interactive,81.0,21.0,69.0,16.0,0.18,Take-Two Interactive
+2009,Simulation,PC,T,Electronic Arts,86.0,75.0,76.0,886.0,8.01,Electronic Arts
+2003,Shooter,XB,M,Ubisoft,86.0,39.0,85.0,31.0,1.55,Ubisoft
+2003,Platform,GBA,E,TDK Mediactive,49.0,10.0,62.0,5.0,1.29,Other
+2002,Puzzle,PS2,E,Capcom,72.0,24.0,72.0,6.0,0.05,Capcom
+2009,Shooter,Wii,T,Sega,69.0,79.0,82.0,258.0,0.57,Sega
+2008,Simulation,DS,E,THQ,82.0,34.0,71.0,15.0,0.55,THQ
+2006,Sports,X360,E,Electronic Arts,80.0,44.0,79.0,21.0,0.48,Electronic Arts
+2004,Strategy,GBA,E,Nintendo,85.0,38.0,91.0,132.0,0.89,Nintendo
+2012,Racing,PSV,E10+,Sony Computer Entertainment,79.0,63.0,82.0,191.0,0.35,Sony Computer Entertainment
+2002,Shooter,PS2,M,Electronic Arts,73.0,20.0,89.0,36.0,1.36,Electronic Arts
+2013,Action,PC,M,Ubisoft,82.0,13.0,74.0,754.0,0.19,Ubisoft
+2004,Platform,GBA,E,Nintendo,74.0,10.0,86.0,12.0,0.33,Nintendo
+2009,Shooter,PS3,M,THQ,72.0,37.0,72.0,57.0,0.19,THQ
+1999,Action,PS,T,Titus,80.0,11.0,75.0,11.0,0.08,Other
+2012,Action,PS3,M,Bethesda Softworks,89.0,35.0,79.0,781.0,1.53,Other
+2004,Shooter,XB,M,Microsoft Game Studios,95.0,91.0,82.0,1218.0,8.49,Microsoft Game Studios
+2006,Simulation,X360,E,Microsoft Game Studios,84.0,65.0,80.0,131.0,1.62,Microsoft Game Studios
+2006,Puzzle,PSP,E,Konami Digital Entertainment,73.0,30.0,70.0,7.0,0.15,Konami Digital Entertainment
+2009,Action,Wii,M,Konami Digital Entertainment,79.0,56.0,80.0,226.0,0.47,Konami Digital Entertainment
+2003,Strategy,PC,T,Microsoft Game Studios,89.0,30.0,90.0,274.0,0.04,Microsoft Game Studios
+2012,Role-Playing,PS3,M,Capcom,78.0,38.0,83.0,444.0,1.74,Capcom
+2001,Action,PS2,M,Capcom,84.0,21.0,84.0,189.0,2.34,Capcom
+2001,Fighting,XB,T,Microsoft Game Studios,87.0,35.0,86.0,44.0,1.77,Microsoft Game Studios
+2004,Sports,XB,E,Electronic Arts,89.0,29.0,80.0,12.0,0.68,Electronic Arts
+2006,Racing,DS,E,Electronic Arts,70.0,6.0,75.0,15.0,0.2,Electronic Arts
+2006,Platform,PS2,E10+,Natsume,57.0,8.0,70.0,7.0,0.02,Other
+2003,Sports,PS2,E,Electronic Arts,94.0,15.0,88.0,81.0,1.67,Electronic Arts
+2010,Action,PS3,M,Ubisoft Annecy,60.0,30.0,69.0,29.0,0.66,Other
+2005,Role-Playing,PS2,T,Atari,64.0,47.0,89.0,9.0,0.15,Atari
+2007,Action,DS,E10+,Sega,43.0,7.0,49.0,8.0,0.6,Sega
+2009,Role-Playing,PSP,T,Nippon Ichi Software,83.0,33.0,71.0,47.0,0.25,Other
+2010,Role-Playing,PSP,M,Square Enix,71.0,56.0,61.0,113.0,0.51,Square Enix
+2012,Action,PS3,M,Konami Digital Entertainment,53.0,19.0,72.0,22.0,0.1,Konami Digital Entertainment
+2002,Platform,GBA,E,Capcom,82.0,17.0,89.0,31.0,0.55,Capcom
+2007,Platform,Wii,E,Metro 3D,19.0,5.0,27.0,28.0,0.07,Other
+2001,Simulation,PS2,T,Atari,73.0,15.0,88.0,32.0,1.14,Atari
+2007,Action,PSP,M,Take-Two Interactive,81.0,36.0,78.0,21.0,0.27,Take-Two Interactive
+2011,Action,PC,M,Electronic Arts,82.0,45.0,45.0,4533.0,0.63,Electronic Arts
+2001,Sports,PS2,E,Electronic Arts,92.0,33.0,89.0,71.0,1.73,Electronic Arts
+2015,Action,PC,T,Square Enix,86.0,14.0,77.0,255.0,0.02,Square Enix
+2004,Shooter,GBA,T,Ignition Entertainment,79.0,32.0,83.0,14.0,0.08,Other
+2012,Action,WiiU,E,Warner Bros. Interactive Entertainment,24.0,8.0,35.0,21.0,0.13,Warner Bros. Interactive Entertainment
+2013,Shooter,PS4,M,Electronic Arts,85.0,18.0,69.0,1580.0,3.59,Electronic Arts
+2010,Role-Playing,DS,T,Nintendo,78.0,41.0,81.0,31.0,1.73,Nintendo
+2006,Sports,PS3,E,Take-Two Interactive,80.0,20.0,74.0,8.0,0.37,Take-Two Interactive
+2009,Action,PS3,T,Sony Computer Entertainment,78.0,74.0,79.0,96.0,0.84,Sony Computer Entertainment
+2010,Adventure,PC,M,Ubisoft,47.0,5.0,55.0,6.0,0.04,Ubisoft
+2006,Role-Playing,PS3,T,Electronic Arts,58.0,40.0,72.0,36.0,0.2,Electronic Arts
+2001,Platform,PS2,E,Universal Interactive,66.0,22.0,71.0,156.0,5.42,Other
+2004,Fighting,PS2,T,Capcom,57.0,33.0,48.0,5.0,0.2,Capcom
+2004,Action,GC,T,Electronic Arts,47.0,24.0,61.0,7.0,0.07,Electronic Arts
+2001,Racing,PS,E,Electronic Arts,69.0,8.0,69.0,10.0,0.42,Electronic Arts
+2003,Sports,PS2,E,Sega,90.0,19.0,70.0,22.0,0.23,Sega
+2012,Action,X360,M,Konami Digital Entertainment,68.0,38.0,73.0,269.0,0.32,Konami Digital Entertainment
+2006,Role-Playing,PC,T,Atari,82.0,46.0,65.0,565.0,0.02,Atari
+2010,Shooter,PS3,T,Namco Bandai Games,58.0,49.0,59.0,15.0,0.54,Namco Bandai Games
+2010,Simulation,PC,T,Electronic Arts,74.0,25.0,73.0,51.0,0.46,Electronic Arts
+2014,Action,PSV,M,Tecmo Koei,67.0,19.0,75.0,61.0,0.13,Tecmo Koei
+2007,Shooter,PSP,T,Vivendi Games,50.0,26.0,77.0,9.0,0.04,Vivendi Games
+2010,Action,PSP,M,Konami Digital Entertainment,73.0,28.0,75.0,43.0,0.3,Konami Digital Entertainment
+2008,Puzzle,PC,E,PopCap Games,76.0,15.0,81.0,24.0,0.02,Other
+2011,Fighting,PS3,T,Capcom,80.0,36.0,62.0,114.0,0.09,Capcom
+2007,Action,PSP,T,Ubisoft,74.0,16.0,82.0,19.0,0.11,Ubisoft
+2001,Platform,PS2,E,Sony Computer Entertainment,91.0,18.0,91.0,72.0,0.33,Sony Computer Entertainment
+2014,Action,PSV,M,Sony Computer Entertainment,82.0,24.0,84.0,125.0,0.22,Sony Computer Entertainment
+2008,Role-Playing,PSP,T,Sega,64.0,38.0,78.0,19.0,0.94,Sega
+2005,Action,XB,T,Activision,77.0,53.0,74.0,20.0,0.39,Activision
+2012,Action,PS3,M,Konami Digital Entertainment,64.0,41.0,69.0,262.0,0.46,Konami Digital Entertainment
+2004,Platform,PS2,E,THQ,71.0,31.0,80.0,10.0,0.62,THQ
+2001,Adventure,PS2,T,3DO,49.0,12.0,45.0,6.0,0.17,Other
+2003,Sports,GC,E,Nintendo,81.0,49.0,80.0,56.0,1.53,Nintendo
+1999,Role-Playing,PS,T,SquareSoft,90.0,24.0,86.0,644.0,7.86,Other
+2008,Sports,PS3,E,Electronic Arts,64.0,12.0,71.0,12.0,0.14,Electronic Arts
+2004,Sports,PS2,T,Midway Games,77.0,30.0,95.0,4.0,0.3,Midway Games
+2007,Shooter,Wii,E,Vivendi Games,80.0,55.0,82.0,26.0,0.12,Vivendi Games
+2007,Sports,PSP,E,Electronic Arts,79.0,7.0,74.0,15.0,1.35,Electronic Arts
+2010,Shooter,PS3,M,Sega,65.0,57.0,73.0,168.0,1.04,Sega
+2005,Sports,PSP,E,Electronic Arts,80.0,15.0,79.0,8.0,0.2,Electronic Arts
+2006,Misc,DS,E,Nintendo,81.0,12.0,78.0,10.0,3.11,Nintendo
+2003,Action,GC,T,Ubisoft,92.0,33.0,84.0,41.0,0.32,Ubisoft
+2002,Fighting,GBA,T,Marvelous Interactive,80.0,10.0,91.0,10.0,0.08,Other
+2012,Shooter,PSV,M,Sony Computer Entertainment,60.0,63.0,68.0,245.0,0.41,Sony Computer Entertainment
+2002,Action,GBA,T,Zoo Digital Publishing,70.0,7.0,70.0,4.0,0.03,Other
+2008,Fighting,X360,T,Midway Games,72.0,61.0,75.0,87.0,1.93,Midway Games
+2002,Fighting,PS2,T,Activision,61.0,19.0,87.0,13.0,0.47,Activision
+2016,Sports,XOne,T,Electronic Arts,76.0,42.0,60.0,77.0,0.41,Electronic Arts
+2002,Sports,XB,E,Sega,89.0,17.0,71.0,14.0,0.12,Sega
+2005,Shooter,XB,M,Ubisoft,85.0,41.0,86.0,25.0,0.31,Ubisoft
+2002,Action,GBA,E,Nintendo,72.0,7.0,93.0,18.0,0.36,Nintendo
+2004,Shooter,GBA,M,Global Star,51.0,9.0,72.0,10.0,0.02,Other
+2006,Sports,PS3,E,Sony Computer Entertainment,63.0,24.0,63.0,10.0,0.27,Sony Computer Entertainment
+2003,Sports,XB,E,3DO,83.0,14.0,84.0,8.0,0.08,Other
+2002,Racing,XB,T,Sega,69.0,33.0,85.0,13.0,0.2,Sega
+2012,Action,PC,M,Square Enix,79.0,26.0,70.0,1327.0,0.24,Square Enix
+2009,Action,DS,E,Electronic Arts,48.0,9.0,43.0,7.0,0.61,Electronic Arts
+2010,Action,X360,M,Ubisoft Annecy,59.0,38.0,73.0,23.0,0.16,Other
+2004,Misc,GC,T,Nintendo,69.0,30.0,60.0,9.0,0.39,Nintendo
+2001,Fighting,PS2,T,Capcom,81.0,22.0,79.0,27.0,0.75,Capcom
+2004,Racing,XB,E,Microsoft Game Studios,87.0,69.0,91.0,33.0,0.27,Microsoft Game Studios
+2003,Role-Playing,GC,T,Nintendo,80.0,55.0,81.0,94.0,1.49,Nintendo
+2016,Action,WiiU,E10+,Warner Bros. Interactive Entertainment,69.0,4.0,68.0,15.0,0.24,Warner Bros. Interactive Entertainment
+2006,Role-Playing,PS2,T,Activision,81.0,29.0,82.0,33.0,0.82,Activision
+2004,Racing,PS2,E,Electronic Arts,82.0,39.0,86.0,132.0,6.9,Electronic Arts
+2005,Fighting,GC,T,Atari,48.0,11.0,66.0,11.0,0.21,Atari
+2003,Role-Playing,GC,E,Ubisoft,79.0,28.0,89.0,148.0,0.79,Ubisoft
+2009,Action,PS3,M,Sega,79.0,77.0,81.0,165.0,1.12,Sega
+2009,Role-Playing,X360,M,DTP Entertainment,62.0,37.0,64.0,36.0,0.24,Other
+2010,Strategy,PC,E10+,Take-Two Interactive,90.0,70.0,79.0,2280.0,1.68,Take-Two Interactive
+2000,Platform,PS2,E,Ubisoft,90.0,16.0,82.0,42.0,0.3,Ubisoft
+2002,Sports,PS2,E,Sega,83.0,17.0,80.0,6.0,0.24,Sega
+2013,Racing,PS4,E10+,Electronic Arts,80.0,53.0,62.0,667.0,1.98,Electronic Arts
+2012,Action,PS3,M,Ubisoft,85.0,41.0,69.0,1307.0,6.45,Ubisoft
+2009,Platform,PS2,E10+,Sony Computer Entertainment,72.0,8.0,46.0,32.0,0.46,Sony Computer Entertainment
+2008,Adventure,Wii,E10+,Konami Digital Entertainment,54.0,11.0,60.0,6.0,0.08,Konami Digital Entertainment
+2003,Platform,GC,E,THQ,71.0,10.0,86.0,34.0,0.95,THQ
+2002,Puzzle,GC,E,Atari,87.0,34.0,85.0,51.0,1.52,Atari
+2006,Role-Playing,X360,T,Activision,82.0,68.0,75.0,120.0,2.5,Activision
+2009,Action,PS3,E10+,Electronic Arts,66.0,35.0,71.0,17.0,0.33,Electronic Arts
+2007,Action,PS3,T,Sony Computer Entertainment,53.0,55.0,64.0,229.0,0.51,Sony Computer Entertainment
+2003,Action,GC,E,Electronic Arts,47.0,5.0,42.0,5.0,0.21,Electronic Arts
+2011,Shooter,X360,M,Square Enix,43.0,42.0,12.0,116.0,0.09,Square Enix
+2010,Sports,Wii,E,Electronic Arts,70.0,19.0,67.0,11.0,0.42,Electronic Arts
+2005,Shooter,XB,M,Midway Games,72.0,43.0,81.0,16.0,0.29,Midway Games
+2006,Action,PSP,T,Konami Digital Entertainment,51.0,24.0,76.0,14.0,0.02,Konami Digital Entertainment
+2008,Action,Wii,E10+,Activision,70.0,20.0,67.0,7.0,0.91,Activision
+2006,Simulation,PS2,E10+,Konami Digital Entertainment,67.0,30.0,89.0,11.0,0.07,Konami Digital Entertainment
+2008,Sports,X360,E,Electronic Arts,83.0,24.0,77.0,26.0,0.71,Electronic Arts
+2003,Platform,GBA,T,Konami Digital Entertainment,91.0,29.0,91.0,127.0,0.28,Konami Digital Entertainment
+2006,Sports,X360,E,Electronic Arts,72.0,49.0,66.0,33.0,0.48,Electronic Arts
+2003,Action,PS2,T,Ubisoft,63.0,21.0,83.0,14.0,0.35,Ubisoft
+2015,Platform,PS4,E,Sony Computer Entertainment,81.0,70.0,81.0,188.0,0.26,Sony Computer Entertainment
+2006,Fighting,XB,T,Electronic Arts,83.0,32.0,90.0,21.0,0.33,Electronic Arts
+2002,Sports,PS2,E,Crave Entertainment,58.0,9.0,70.0,5.0,0.22,Other
+2015,Sports,PS4,E,Konami Digital Entertainment,87.0,54.0,71.0,680.0,0.79,Konami Digital Entertainment
+2006,Racing,PSP,T,THQ,65.0,24.0,82.0,6.0,0.42,THQ
+2011,Racing,PC,T,Ubisoft,80.0,11.0,70.0,332.0,0.18,Ubisoft
+2009,Action,DS,E10+,Electronic Arts,61.0,9.0,78.0,6.0,0.1,Electronic Arts
+2006,Strategy,PS2,E10+,Atari,69.0,32.0,29.0,52.0,0.66,Atari
+1997,Simulation,PS,T,Sony Computer Entertainment,83.0,10.0,82.0,22.0,0.89,Sony Computer Entertainment
+2003,Sports,XB,E,Electronic Arts,89.0,18.0,82.0,14.0,0.62,Electronic Arts
+2007,Sports,GC,E,Electronic Arts,75.0,4.0,70.0,7.0,0.08,Electronic Arts
+2001,Sports,PS2,E,Electronic Arts,70.0,16.0,74.0,8.0,1.86,Electronic Arts
+2004,Misc,PS2,E,Atari,66.0,12.0,43.0,6.0,0.4,Atari
+2001,Misc,GBA,E,Namco Bandai Games,79.0,10.0,73.0,6.0,4.24,Namco Bandai Games
+2009,Racing,PC,E,bitComposer Games,73.0,14.0,82.0,20.0,0.03,Other
+2006,Action,X360,T,Electronic Arts,51.0,48.0,62.0,49.0,0.26,Electronic Arts
+2002,Racing,PS2,E,BAM! Entertainment,59.0,14.0,90.0,17.0,0.26,Other
+2016,Action,XOne,E10+,Warner Bros. Interactive Entertainment,71.0,18.0,51.0,15.0,0.35,Warner Bros. Interactive Entertainment
+2008,Misc,PS3,T,MTV Games,60.0,12.0,53.0,14.0,0.24,Other
+2001,Platform,DC,E,Sega,89.0,18.0,86.0,236.0,0.12,Sega
+2014,Action,PC,M,Warner Bros. Interactive Entertainment,84.0,17.0,80.0,1671.0,0.35,Warner Bros. Interactive Entertainment
+2005,Platform,GBA,E,Atari,48.0,9.0,42.0,5.0,0.03,Atari
+2003,Action,XB,T,Universal Interactive,69.0,25.0,77.0,9.0,0.33,Other
+2006,Sports,PSP,T,Activision,68.0,11.0,76.0,14.0,0.56,Activision
+2007,Role-Playing,DS,T,Rising Star Games,70.0,25.0,70.0,24.0,0.24,Other
+2009,Adventure,DS,T,JoWood Productions,53.0,11.0,65.0,4.0,0.1,Other
+2008,Racing,PS3,T,Electronic Arts,59.0,40.0,59.0,71.0,2.05,Electronic Arts
+2014,Role-Playing,PC,M,Deep Silver,65.0,49.0,57.0,822.0,0.09,Other
+2014,Fighting,PSV,T,Namco Bandai Games,74.0,5.0,79.0,29.0,0.21,Namco Bandai Games
+2010,Action,PS3,T,Disney Interactive Studios,58.0,47.0,62.0,28.0,0.42,Other
+2004,Sports,XB,E,Electronic Arts,78.0,44.0,65.0,11.0,0.48,Electronic Arts
+2003,Shooter,PS2,T,Namco Bandai Games,81.0,29.0,81.0,12.0,0.61,Namco Bandai Games
+2007,Sports,PC,E,Electronic Arts,77.0,7.0,61.0,50.0,0.02,Electronic Arts
+2005,Action,X360,M,Sega,81.0,72.0,82.0,146.0,0.41,Sega
+2006,Racing,Wii,E10+,Electronic Arts,67.0,21.0,73.0,26.0,1.28,Electronic Arts
+2006,Platform,DS,E,Nintendo,71.0,29.0,81.0,41.0,1.94,Nintendo
+2003,Shooter,GC,M,THQ,79.0,12.0,73.0,4.0,0.03,THQ
+2006,Fighting,PSP,T,Capcom,80.0,35.0,80.0,27.0,0.33,Capcom
+2012,Action,PS3,E,Disney Interactive Studios,59.0,36.0,43.0,24.0,0.47,Other
+2005,Sports,XB,E,Electronic Arts,79.0,30.0,64.0,15.0,0.64,Electronic Arts
+2010,Misc,PS3,T,Sony Computer Entertainment,65.0,21.0,39.0,8.0,0.52,Sony Computer Entertainment
+2001,Role-Playing,DC,T,Sega,80.0,10.0,89.0,18.0,0.19,Sega
+2011,Action,X360,M,Capcom,72.0,48.0,75.0,60.0,0.27,Capcom
+2004,Action,GC,T,Capcom,86.0,39.0,83.0,19.0,0.22,Capcom
+2008,Role-Playing,DS,E10+,Success,69.0,23.0,77.0,21.0,0.04,Other
+2006,Sports,PSP,E,Oxygen Interactive,32.0,11.0,46.0,10.0,0.07,Other
+2000,Shooter,PS,M,Atari,37.0,7.0,68.0,20.0,0.08,Atari
+2016,Role-Playing,PS4,T,Namco Bandai Games,75.0,45.0,85.0,289.0,0.11,Namco Bandai Games
+2008,Shooter,X360,M,Midway Games,82.0,47.0,76.0,95.0,0.47,Midway Games
+2009,Misc,X360,T,Activision,84.0,72.0,80.0,42.0,1.06,Activision
+2009,Action,DS,T,Ubisoft,69.0,20.0,73.0,22.0,0.28,Ubisoft
+2009,Action,Wii,E10+,Electronic Arts,60.0,35.0,60.0,8.0,0.75,Electronic Arts
+2010,Role-Playing,X360,T,DTP Entertainment,42.0,14.0,73.0,18.0,0.13,Other
+2005,Misc,DS,E,Nintendo,77.0,58.0,79.0,50.0,20.15,Nintendo
+2008,Action,PS3,T,Namco Bandai Games,54.0,22.0,70.0,28.0,0.49,Namco Bandai Games
+2011,Action,PSP,E,Konami Digital Entertainment,74.0,4.0,63.0,8.0,0.57,Konami Digital Entertainment
+2015,Shooter,PS4,T,Activision,86.0,81.0,60.0,1079.0,1.93,Activision
+2005,Strategy,XB,T,Take-Two Interactive,66.0,17.0,69.0,7.0,0.04,Take-Two Interactive
+2002,Shooter,GBA,E,TDK Mediactive,61.0,8.0,65.0,4.0,0.21,Other
+2006,Action,PC,M,Eidos Interactive,75.0,21.0,73.0,206.0,0.02,Eidos Interactive
+2002,Shooter,PS2,T,Empire Interactive,57.0,12.0,68.0,5.0,0.08,Other
+2009,Shooter,PS3,M,Bethesda Softworks,27.0,24.0,28.0,66.0,0.13,Other
+2014,Platform,PS4,E10+,Ubisoft,90.0,16.0,85.0,525.0,1.01,Ubisoft
+2006,Simulation,DS,E10+,Natsume,46.0,7.0,77.0,6.0,0.02,Other
+2012,Action,PSV,T,Ubisoft,49.0,34.0,64.0,61.0,0.2,Ubisoft
+2008,Shooter,PS3,T,Electronic Arts,72.0,43.0,71.0,73.0,0.87,Electronic Arts
+2003,Racing,XB,T,Codemasters,80.0,17.0,75.0,4.0,0.04,Codemasters
+2003,Sports,PS2,E,Sega,83.0,14.0,85.0,8.0,0.16,Sega
+2010,Shooter,Wii,T,Ubisoft,46.0,21.0,68.0,8.0,0.12,Ubisoft
+2002,Sports,GC,E,Sega,89.0,11.0,70.0,6.0,0.02,Sega
+2000,Sports,XB,E,Microsoft Game Studios,79.0,24.0,85.0,10.0,0.99,Microsoft Game Studios
+2006,Action,Wii,M,Eidos Interactive,37.0,13.0,50.0,25.0,0.06,Eidos Interactive
+2007,Strategy,X360,T,Codemasters,76.0,47.0,83.0,70.0,0.4,Codemasters
+2016,Adventure,XOne,M,Square Enix,85.0,4.0,87.0,123.0,0.13,Square Enix
+2002,Adventure,PS2,M,Vivendi Games,78.0,27.0,74.0,41.0,0.44,Vivendi Games
+2004,Fighting,GBA,T,THQ,55.0,12.0,82.0,5.0,0.13,THQ
+2012,Fighting,PS3,T,Aqua Plus,75.0,13.0,78.0,20.0,0.11,Other
+2005,Shooter,PS2,M,Midway Games,50.0,24.0,70.0,21.0,0.36,Midway Games
+2007,Simulation,DS,E,Electronic Arts,72.0,15.0,76.0,14.0,0.06,Electronic Arts
+2008,Simulation,PS2,E10+,Konami Digital Entertainment,55.0,6.0,62.0,6.0,1.75,Konami Digital Entertainment
+2000,Sports,PS,E,Electronic Arts,88.0,10.0,77.0,7.0,0.63,Electronic Arts
+2001,Shooter,PS2,M,Konami Digital Entertainment,78.0,21.0,74.0,49.0,0.75,Konami Digital Entertainment
+2007,Strategy,DS,T,THQ,57.0,21.0,79.0,16.0,0.06,THQ
+2011,Action,Wii,T,Activision,36.0,10.0,45.0,15.0,0.1,Activision
+2008,Puzzle,DS,E,Square Enix,64.0,25.0,67.0,6.0,0.1,Square Enix
+2009,Role-Playing,PSP,T,Sega,69.0,27.0,81.0,35.0,0.87,Sega
+2008,Action,PSP,T,Tecmo Koei,56.0,14.0,75.0,4.0,0.29,Tecmo Koei
+2005,Adventure,DS,T,Capcom,81.0,53.0,92.0,203.0,0.92,Capcom
+2009,Racing,Wii,E10+,Codemasters,51.0,10.0,55.0,22.0,0.37,Codemasters
+2003,Action,GC,M,Eidos Interactive,83.0,17.0,55.0,8.0,0.13,Eidos Interactive
+2011,Platform,PSV,E10+,Sony Computer Entertainment,57.0,62.0,55.0,53.0,0.3,Sony Computer Entertainment
+2010,Action,PS3,M,Capcom,80.0,54.0,67.0,178.0,1.36,Capcom
+2009,Action,PS3,T,Electronic Arts,43.0,32.0,48.0,13.0,0.21,Electronic Arts
+2016,Action,WiiU,E10+,Warner Bros. Interactive Entertainment,74.0,6.0,80.0,11.0,0.15,Warner Bros. Interactive Entertainment
+2004,Shooter,PS2,M,SCi,58.0,24.0,81.0,21.0,0.53,Other
+2016,Shooter,XOne,M,Capcom,63.0,12.0,63.0,34.0,0.05,Capcom
+2009,Action,DS,M,Take-Two Interactive,93.0,85.0,83.0,280.0,1.32,Take-Two Interactive
+2005,Sports,X360,T,Activision,75.0,43.0,72.0,21.0,0.32,Activision
+2016,Shooter,PS4,E10+,Electronic Arts,81.0,29.0,77.0,111.0,0.49,Electronic Arts
+2005,Sports,XB,E,Konami Digital Entertainment,89.0,19.0,79.0,9.0,0.44,Konami Digital Entertainment
+2007,Sports,Wii,E,RTL,52.0,15.0,68.0,4.0,1.24,Other
+2005,Shooter,XB,T,Codemasters,64.0,24.0,83.0,27.0,0.04,Codemasters
+2010,Puzzle,DS,E10+,Warner Bros. Interactive Entertainment,81.0,53.0,82.0,46.0,1.46,Warner Bros. Interactive Entertainment
+2006,Sports,PS2,E,Electronic Arts,70.0,6.0,78.0,27.0,0.05,Electronic Arts
+2004,Shooter,XB,M,SCi,60.0,40.0,73.0,9.0,0.22,Other
+2012,Sports,X360,E,Electronic Arts,77.0,47.0,56.0,39.0,0.51,Electronic Arts
+2007,Action,PS3,T,Sony Computer Entertainment,88.0,66.0,81.0,2306.0,4.92,Sony Computer Entertainment
+2007,Action,PS2,T,Take-Two Interactive,36.0,7.0,64.0,17.0,0.39,Take-Two Interactive
+2005,Shooter,PS2,M,Sony Computer Entertainment,82.0,59.0,88.0,64.0,1.69,Sony Computer Entertainment
+2011,Role-Playing,Wii,T,Nintendo,73.0,48.0,80.0,99.0,0.31,Nintendo
+2008,Action,PC,T,Ubisoft,52.0,22.0,60.0,38.0,0.02,Ubisoft
+1997,Platform,PS,T,GT Interactive,85.0,10.0,90.0,96.0,1.24,Other
+2001,Sports,PS,E,Electronic Arts,88.0,9.0,80.0,7.0,1.39,Electronic Arts
+2005,Adventure,XB,T,Electronic Arts,88.0,65.0,91.0,58.0,0.26,Electronic Arts
+2013,Action,PS3,T,Tecmo Koei,68.0,26.0,85.0,75.0,0.6,Tecmo Koei
+2002,Fighting,XB,M,Midway Games,81.0,27.0,84.0,24.0,0.96,Midway Games
+2014,Simulation,X360,T,Kalypso Media,71.0,4.0,72.0,9.0,0.06,Other
+2002,Platform,GC,E,Atari,61.0,5.0,70.0,5.0,0.08,Atari
+2014,Role-Playing,PS3,T,Nippon Ichi Software,71.0,18.0,73.0,27.0,0.07,Other
+2010,Racing,PS3,E10+,Electronic Arts,89.0,59.0,72.0,301.0,2.78,Electronic Arts
+2005,Role-Playing,PS2,M,Ubisoft,58.0,34.0,55.0,49.0,0.13,Ubisoft
+2002,Role-Playing,PS2,T,Ubisoft,71.0,19.0,86.0,31.0,0.29,Ubisoft
+2011,Role-Playing,PC,M,Microsoft Game Studios,75.0,39.0,54.0,555.0,0.32,Microsoft Game Studios
+2010,Misc,Wii,T,MTV Games,91.0,10.0,69.0,36.0,0.63,Other
+2001,Platform,PS,E,Infogrames,72.0,12.0,88.0,25.0,0.12,Other
+2003,Role-Playing,PS2,T,Atlus,81.0,19.0,77.0,19.0,0.11,Other
+2002,Misc,GC,T,Take-Two Interactive,79.0,23.0,69.0,11.0,0.08,Take-Two Interactive
+2006,Misc,GC,E10+,Nintendo,62.0,42.0,80.0,17.0,0.11,Nintendo
+2002,Sports,XB,E,Midway Games,79.0,9.0,78.0,5.0,0.2,Midway Games
+2009,Shooter,X360,M,Activision,72.0,66.0,75.0,128.0,0.56,Activision
+2005,Role-Playing,PS2,T,Ghostlight,76.0,42.0,82.0,33.0,0.14,Other
+2014,Role-Playing,PS4,M,Electronic Arts,89.0,43.0,74.0,1984.0,2.01,Electronic Arts
+2005,Shooter,PS2,M,Ubisoft,70.0,15.0,69.0,9.0,0.35,Ubisoft
+2006,Sports,DS,E,Electronic Arts,71.0,7.0,72.0,6.0,0.04,Electronic Arts
+2008,Racing,PS3,T,Sony Computer Entertainment,82.0,63.0,80.0,318.0,1.35,Sony Computer Entertainment
+2011,Misc,PS3,T,Sony Computer Entertainment,66.0,5.0,68.0,8.0,0.12,Sony Computer Entertainment
+2003,Role-Playing,PS2,T,Sony Online Entertainment,77.0,16.0,85.0,17.0,0.19,Other
+2002,Racing,XB,E,THQ,84.0,18.0,84.0,16.0,0.09,THQ
+2009,Role-Playing,PS3,M,Deep Silver,70.0,45.0,71.0,51.0,0.61,Other
+2008,Fighting,X360,T,Ubisoft,85.0,62.0,79.0,157.0,1.58,Ubisoft
+2006,Racing,GC,E,THQ,71.0,21.0,70.0,5.0,0.93,THQ
+2008,Sports,PS3,E10+,Sega,67.0,31.0,74.0,7.0,0.4,Sega
+2002,Sports,PS2,E,Midway Games,73.0,15.0,86.0,5.0,0.44,Midway Games
+2013,Misc,XOne,E,Majesco Entertainment,73.0,5.0,62.0,40.0,0.24,Other
+2002,Simulation,XB,T,Phantagram,74.0,23.0,83.0,14.0,0.05,Other
+2008,Puzzle,Wii,E,The Adventure Company,56.0,7.0,78.0,4.0,0.08,Other
+2008,Action,X360,T,Eidos Interactive,76.0,57.0,66.0,198.0,1.07,Eidos Interactive
+2011,Action,X360,E10+,Activision,78.0,35.0,52.0,53.0,0.97,Activision
+2016,Misc,PSV,T,Sega,83.0,5.0,80.0,22.0,0.12,Sega
+2007,Strategy,PSP,E10+,LucasArts,72.0,7.0,6.0,24.0,0.1,Other
+2015,Action,PS4,E10+,Activision,81.0,51.0,33.0,29.0,0.31,Activision
+2010,Sports,X360,E,Electronic Arts,84.0,47.0,57.0,120.0,2.69,Electronic Arts
+2014,Shooter,XOne,M,Microsoft Game Studios,81.0,89.0,77.0,1137.0,1.14,Microsoft Game Studios
+2009,Action,PS3,M,Ubisoft Annecy,83.0,52.0,77.0,115.0,0.85,Other
+2007,Shooter,PS3,M,Ubisoft,86.0,32.0,76.0,81.0,1.25,Ubisoft
+2007,Sports,PS2,E,Electronic Arts,74.0,21.0,74.0,25.0,0.04,Electronic Arts
+2008,Role-Playing,DS,E,Ignition Entertainment,69.0,46.0,65.0,15.0,0.21,Other
+2010,Misc,X360,T,MTV Games,93.0,57.0,82.0,137.0,0.88,Other
+2010,Fighting,X360,T,Konami Digital Entertainment,49.0,11.0,63.0,12.0,0.05,Konami Digital Entertainment
+2009,Sports,X360,E,Konami Digital Entertainment,78.0,34.0,76.0,29.0,0.81,Konami Digital Entertainment
+2008,Action,X360,T,Disney Interactive Studios,56.0,24.0,75.0,13.0,0.18,Other
+2002,Sports,PS2,E,3DO,84.0,23.0,79.0,7.0,0.37,Other
+2003,Platform,GBA,E,Vivendi Games,75.0,21.0,78.0,30.0,1.36,Vivendi Games
+2003,Role-Playing,GC,T,Nintendo,86.0,60.0,85.0,176.0,1.1,Nintendo
+2013,Action,PS3,T,505 Games,81.0,12.0,79.0,70.0,0.41,Other
+2006,Shooter,X360,T,Capcom,79.0,76.0,71.0,187.0,1.34,Capcom
+2008,Sports,X360,E,Electronic Arts,84.0,41.0,78.0,29.0,0.65,Electronic Arts
+2003,Role-Playing,XB,T,Ubisoft,65.0,30.0,74.0,27.0,0.29,Ubisoft
+2016,Fighting,PS4,T,PQube,85.0,21.0,76.0,39.0,0.08,Other
+2008,Strategy,X360,E10+,505 Games,56.0,24.0,57.0,19.0,0.09,Other
+2004,Platform,PS2,E,Take-Two Interactive,70.0,20.0,86.0,18.0,0.09,Take-Two Interactive
+2009,Role-Playing,X360,T,Square Enix,72.0,56.0,72.0,150.0,0.79,Square Enix
+2009,Sports,PS3,E,Sega,70.0,34.0,63.0,21.0,0.38,Sega
+2010,Shooter,X360,T,Activision,62.0,66.0,71.0,63.0,0.47,Activision
+2011,Racing,X360,T,Codemasters,87.0,81.0,71.0,166.0,0.72,Codemasters
+2002,Sports,PS2,M,Acclaim Entertainment,54.0,14.0,46.0,17.0,0.15,Other
+2007,Shooter,X360,M,Activision,50.0,35.0,56.0,20.0,0.2,Activision
+2013,Shooter,PS4,M,Activision,78.0,49.0,37.0,1564.0,3.83,Activision
+2013,Racing,XOne,E10+,Electronic Arts,75.0,18.0,58.0,175.0,0.69,Electronic Arts
+2008,Role-Playing,X360,T,Microsoft Game Studios,65.0,80.0,70.0,458.0,0.78,Microsoft Game Studios
+2005,Racing,GC,T,Electronic Arts,80.0,18.0,91.0,22.0,0.56,Electronic Arts
+2011,Misc,PS3,E10+,Ubisoft,66.0,11.0,84.0,16.0,0.52,Ubisoft
+2008,Sports,X360,E,Electronic Arts,87.0,51.0,80.0,106.0,1.94,Electronic Arts
+2003,Sports,PS2,E,Sony Computer Entertainment,65.0,25.0,87.0,6.0,0.41,Sony Computer Entertainment
+2011,Action,PS3,M,Bethesda Softworks,57.0,34.0,62.0,70.0,0.25,Other
+2002,Shooter,GBA,M,BAM! Entertainment,57.0,9.0,60.0,7.0,0.17,Other
+2011,Strategy,PC,T,Ubisoft,83.0,33.0,70.0,493.0,1.43,Ubisoft
+2009,Action,X360,M,Playlogic Game Factory,51.0,47.0,62.0,12.0,0.17,Other
+2007,Action,DS,E,Ubisoft,39.0,6.0,56.0,7.0,0.11,Ubisoft
+2005,Strategy,PC,T,Eidos Interactive,69.0,28.0,84.0,73.0,0.04,Eidos Interactive
+2008,Role-Playing,DS,E10+,Square Enix,84.0,46.0,85.0,57.0,1.57,Square Enix
+2000,Platform,PS,E,Virgin Interactive,69.0,15.0,81.0,11.0,0.08,Other
+2009,Strategy,PC,T,Paradox Interactive,67.0,28.0,57.0,49.0,0.02,Other
+2014,Role-Playing,PC,T,Namco Bandai Games,91.0,36.0,71.0,2318.0,0.17,Namco Bandai Games
+2011,Action,PC,M,Warner Bros. Interactive Entertainment,66.0,21.0,71.0,289.0,0.19,Warner Bros. Interactive Entertainment
+2010,Adventure,DS,E10+,Capcom,82.0,48.0,79.0,53.0,0.43,Capcom
+2008,Fighting,DS,T,THQ,58.0,15.0,78.0,6.0,0.18,THQ
+2010,Shooter,PS3,T,Activision,65.0,49.0,74.0,45.0,0.7,Activision
+2013,Action,X360,M,Take-Two Interactive,97.0,58.0,81.0,3711.0,16.27,Take-Two Interactive
+2016,Misc,PS4,T,Sega,78.0,22.0,74.0,41.0,0.05,Sega
+2006,Action,Wii,T,Nintendo,95.0,73.0,90.0,1658.0,7.15,Nintendo
+2004,Role-Playing,GC,T,Nintendo,65.0,31.0,81.0,27.0,0.37,Nintendo
+2006,Role-Playing,X360,T,Namco Bandai Games,75.0,33.0,87.0,49.0,0.16,Namco Bandai Games
+2012,Shooter,PS3,M,Bethesda Softworks,67.0,16.0,64.0,107.0,0.57,Other
+2001,Fighting,GC,T,Nintendo,92.0,38.0,91.0,568.0,7.07,Nintendo
+2007,Sports,PS3,E,Take-Two Interactive,82.0,18.0,52.0,6.0,0.14,Take-Two Interactive
+2008,Simulation,Wii,E,505 Games,62.0,17.0,49.0,12.0,0.87,Other
+2009,Role-Playing,Wii,T,Marvelous Interactive,64.0,26.0,78.0,43.0,0.19,Other
+2013,Racing,X360,E10+,Electronic Arts,76.0,12.0,54.0,107.0,0.79,Electronic Arts
+2003,Sports,XB,E,Electronic Arts,92.0,27.0,87.0,25.0,0.39,Electronic Arts
+2005,Platform,GBA,E,Nintendo,70.0,30.0,50.0,6.0,0.24,Nintendo
+2007,Misc,X360,E10+,Microsoft Game Studios,49.0,47.0,52.0,31.0,0.17,Microsoft Game Studios
+2002,Role-Playing,PS2,T,Ubisoft,78.0,30.0,84.0,38.0,0.62,Ubisoft
+2002,Adventure,PS2,T,Sammy Corporation,50.0,22.0,79.0,11.0,0.07,Other
+2012,Action,X360,T,Microsoft Game Studios,55.0,61.0,35.0,145.0,1.74,Microsoft Game Studios
+2005,Racing,DS,E,Electronic Arts,38.0,12.0,60.0,59.0,0.18,Electronic Arts
+2008,Sports,Wii,E,Ubisoft,46.0,7.0,46.0,7.0,0.53,Ubisoft
+2015,Racing,PS4,E,Slightly Mad Studios,83.0,37.0,66.0,363.0,1.09,Other
+2005,Sports,PS2,E,Electronic Arts,88.0,29.0,80.0,121.0,4.91,Electronic Arts
+2000,Platform,PS,E,Capcom,76.0,10.0,89.0,55.0,0.75,Capcom
+2005,Action,X360,T,Microsoft Game Studios,79.0,76.0,81.0,107.0,0.34,Microsoft Game Studios
+2013,Shooter,PS3,M,Activision,71.0,10.0,26.0,1047.0,9.36,Activision
+2008,Role-Playing,PS3,T,Sega,86.0,60.0,86.0,433.0,1.27,Sega
+2004,Misc,XB,E,Ubisoft,79.0,12.0,90.0,6.0,0.13,Ubisoft
+2004,Platform,PS2,E,Capcom,81.0,26.0,90.0,20.0,0.59,Capcom
+2010,Simulation,PC,T,Just Flight,64.0,7.0,75.0,18.0,0.03,Other
+2004,Adventure,XB,T,Codemasters,75.0,46.0,80.0,6.0,0.07,Codemasters
+2008,Simulation,DS,T,Atlus,79.0,29.0,85.0,11.0,0.11,Other
+2007,Action,X360,M,Electronic Arts,69.0,48.0,63.0,108.0,0.34,Electronic Arts
+2009,Sports,X360,E10+,Electronic Arts,88.0,52.0,84.0,71.0,0.66,Electronic Arts
+2007,Shooter,X360,M,Vivendi Games,70.0,58.0,79.0,63.0,0.41,Vivendi Games
+2007,Platform,DS,E10+,Activision,79.0,21.0,65.0,17.0,0.47,Activision
+2014,Shooter,PS4,M,Ubisoft,85.0,83.0,77.0,1653.0,4.04,Ubisoft
+2010,Racing,PS3,E,Sony Computer Entertainment,82.0,85.0,84.0,201.0,1.12,Sony Computer Entertainment
+2008,Action,X360,T,Activision,68.0,57.0,86.0,87.0,0.4,Activision
+2006,Racing,GC,E10+,Electronic Arts,75.0,12.0,78.0,14.0,0.35,Electronic Arts
+2004,Strategy,XB,T,LucasArts,69.0,32.0,70.0,4.0,0.05,Other
+2008,Shooter,Wii,E10+,Electronic Arts,66.0,13.0,44.0,7.0,1.09,Electronic Arts
+2008,Action,PS2,T,Sega,50.0,4.0,60.0,5.0,0.38,Sega
+2003,Role-Playing,PS2,T,Sony Online Entertainment,74.0,22.0,82.0,33.0,0.43,Other
+2011,Platform,DS,E,Nintendo,83.0,46.0,86.0,55.0,0.99,Nintendo
+2007,Role-Playing,PC,T,Atari,82.0,25.0,88.0,182.0,0.01,Atari
+2014,Misc,PSV,T,Sega,81.0,8.0,84.0,69.0,0.32,Sega
+2003,Simulation,PS2,M,Konami Digital Entertainment,82.0,33.0,89.0,65.0,0.41,Konami Digital Entertainment
+2003,Fighting,PS2,T,Capcom,65.0,33.0,69.0,7.0,0.12,Capcom
+2006,Sports,Wii,E,Nintendo,76.0,51.0,80.0,322.0,82.53,Nintendo
+2005,Action,XB,M,Ubisoft,85.0,46.0,84.0,28.0,0.58,Ubisoft
+2009,Shooter,X360,M,THQ,71.0,54.0,64.0,64.0,0.21,THQ
+2000,Simulation,PS2,E,Sony Computer Entertainment,79.0,18.0,84.0,9.0,0.32,Sony Computer Entertainment
+2005,Sports,XB,T,Activision,77.0,40.0,77.0,15.0,0.62,Activision
+2007,Role-Playing,DS,E,Disney Interactive Studios,63.0,37.0,79.0,31.0,0.74,Other
+2012,Misc,X360,E10+,Ubisoft,77.0,23.0,77.0,36.0,1.18,Ubisoft
+2011,Shooter,PS3,M,Sony Computer Entertainment,84.0,85.0,79.0,942.0,2.77,Sony Computer Entertainment
+2014,Action,PSV,M,Sony Computer Entertainment,73.0,28.0,74.0,133.0,0.2,Sony Computer Entertainment
+2002,Fighting,GC,T,Capcom,68.0,20.0,89.0,27.0,0.11,Capcom
+2004,Fighting,XB,M,Midway Games,81.0,53.0,88.0,24.0,0.76,Midway Games
+2000,Racing,PS2,E,Namco Bandai Games,77.0,16.0,60.0,5.0,0.27,Namco Bandai Games
+2007,Action,GC,E,THQ,60.0,7.0,56.0,7.0,0.14,THQ
+2001,Racing,PS2,E,Sony Computer Entertainment,95.0,54.0,84.0,314.0,14.98,Sony Computer Entertainment
+2010,Simulation,PC,T,Electronic Arts,74.0,17.0,53.0,77.0,1.7,Electronic Arts
+2015,Action,XOne,M,Ubisoft,78.0,22.0,61.0,402.0,1.3,Ubisoft
+2014,Racing,PS4,E10+,Ubisoft,79.0,51.0,72.0,244.0,0.42,Ubisoft
+2003,Shooter,GC,T,Ubisoft,36.0,11.0,34.0,5.0,0.03,Ubisoft
+2008,Simulation,PC,E,Sega,83.0,29.0,81.0,30.0,1.15,Sega
+2010,Action,PS3,T,Warner Bros. Interactive Entertainment,58.0,12.0,60.0,8.0,0.17,Warner Bros. Interactive Entertainment
+2005,Role-Playing,PS2,T,Activision,82.0,44.0,73.0,41.0,0.63,Activision
+2010,Fighting,Wii,T,Sega,45.0,38.0,69.0,11.0,0.06,Sega
+2001,Sports,XB,E,Electronic Arts,89.0,17.0,88.0,5.0,0.27,Electronic Arts
+2012,Fighting,X360,T,Namco Bandai Games,74.0,35.0,72.0,47.0,0.44,Namco Bandai Games
+2002,Adventure,PS2,E,Sony Computer Entertainment,52.0,15.0,72.0,10.0,0.32,Sony Computer Entertainment
+2006,Sports,PS2,E,Electronic Arts,87.0,18.0,86.0,23.0,1.7,Electronic Arts
+2005,Action,PS2,M,Sega,74.0,33.0,84.0,65.0,0.22,Sega
+2010,Sports,Wii,E,Ubisoft,51.0,8.0,86.0,15.0,0.24,Ubisoft
+2010,Action,Wii,T,Warner Bros. Interactive Entertainment,58.0,21.0,78.0,5.0,0.23,Warner Bros. Interactive Entertainment
+2011,Action,PS3,T,Electronic Arts,43.0,21.0,57.0,27.0,0.32,Electronic Arts
+2015,Action,XOne,T,Tecmo Koei,48.0,6.0,71.0,8.0,0.05,Tecmo Koei
+2002,Action,GC,M,Virgin Interactive,70.0,13.0,76.0,7.0,0.1,Other
+2006,Simulation,PC,T,Ubisoft,71.0,33.0,72.0,54.0,0.03,Ubisoft
+2012,Fighting,PC,T,Capcom,79.0,8.0,64.0,134.0,0.02,Capcom
+2001,Misc,PS2,E,Sony Computer Entertainment,83.0,26.0,90.0,29.0,0.19,Sony Computer Entertainment
+2000,Role-Playing,PS2,T,Konami Digital Entertainment,48.0,16.0,63.0,39.0,0.08,Konami Digital Entertainment
+2011,Racing,3DS,E,Codemasters,59.0,15.0,68.0,13.0,0.16,Codemasters
+2003,Racing,XB,E,Jaleco,24.0,7.0,28.0,17.0,0.02,Other
+2007,Misc,Wii,E10+,Electronic Arts,57.0,37.0,53.0,54.0,0.49,Electronic Arts
+2008,Shooter,PS3,T,Activision,60.0,30.0,64.0,14.0,0.35,Activision
+2009,Sports,Wii,E,Ubisoft,64.0,20.0,68.0,14.0,0.12,Ubisoft
+2006,Sports,XB,E10+,Electronic Arts,65.0,17.0,85.0,10.0,0.15,Electronic Arts
+2013,Role-Playing,PSV,T,Nippon Ichi Software,77.0,20.0,75.0,132.0,0.23,Other
+2009,Action,Wii,E10+,Konami Digital Entertainment,71.0,7.0,82.0,5.0,0.1,Konami Digital Entertainment
+2015,Sports,PS4,T,Take-Two Interactive,73.0,47.0,74.0,237.0,1.21,Take-Two Interactive
+2011,Sports,X360,E,505 Games,55.0,14.0,39.0,13.0,0.28,Other
+2004,Shooter,XB,M,Gathering of Developers,57.0,32.0,84.0,11.0,0.08,Other
+2005,Action,PS2,T,Capcom,64.0,27.0,74.0,12.0,0.25,Capcom
+2005,Sports,GC,E,Electronic Arts,86.0,21.0,85.0,11.0,0.57,Electronic Arts
+2010,Shooter,PS3,M,Tecmo Koei,43.0,34.0,53.0,21.0,0.19,Tecmo Koei
+2009,Fighting,PS3,T,Namco Bandai Games,57.0,26.0,72.0,58.0,0.77,Namco Bandai Games
+2013,Action,WiiU,E10+,Warner Bros. Interactive Entertainment,77.0,7.0,73.0,31.0,0.12,Warner Bros. Interactive Entertainment
+2010,Adventure,DS,T,Capcom,83.0,60.0,90.0,127.0,0.38,Capcom
+2013,Platform,WiiU,E10+,Activision,89.0,7.0,60.0,96.0,0.58,Activision
+2007,Racing,PS3,T,THQ,71.0,10.0,64.0,5.0,0.25,THQ
+2015,Shooter,PS4,M,Electronic Arts,73.0,46.0,50.0,845.0,2.1,Electronic Arts
+2007,Puzzle,DS,E10+,Crave Entertainment,45.0,9.0,73.0,4.0,0.03,Other
+2004,Sports,PS2,E,Electronic Arts,75.0,21.0,83.0,23.0,0.45,Electronic Arts
+2009,Action,X360,E10+,Majesco Entertainment,50.0,15.0,71.0,8.0,0.11,Other
+2006,Action,GBA,E10+,Activision,55.0,9.0,93.0,6.0,0.07,Activision
+2007,Action,PS3,E10+,Sega,40.0,17.0,48.0,16.0,0.28,Sega
+2007,Simulation,Wii,E,Electronic Arts,68.0,38.0,72.0,56.0,1.65,Electronic Arts
+2006,Action,PSP,T,Eidos Interactive,67.0,28.0,79.0,30.0,0.46,Eidos Interactive
+2003,Shooter,XB,T,THQ,70.0,19.0,93.0,9.0,0.05,THQ
+2008,Action,PC,E10+,Activision,71.0,11.0,78.0,12.0,0.02,Activision
+2012,Action,X360,M,Konami Digital Entertainment,52.0,23.0,65.0,30.0,0.1,Konami Digital Entertainment
+2008,Sports,PS3,E,Electronic Arts,81.0,20.0,73.0,25.0,0.58,Electronic Arts
+2005,Racing,PSP,E10+,Take-Two Interactive,74.0,34.0,84.0,31.0,3.65,Take-Two Interactive
+2009,Shooter,PS3,M,Activision,71.0,58.0,74.0,77.0,0.63,Activision
+2015,Sports,XOne,E,Electronic Arts,84.0,23.0,61.0,124.0,2.42,Electronic Arts
+2005,Action,XB,M,Ubisoft,94.0,70.0,90.0,160.0,1.11,Ubisoft
+2000,Racing,DC,E,Sega,84.0,25.0,77.0,11.0,0.13,Sega
+2010,Action,Wii,E10+,Warner Bros. Interactive Entertainment,79.0,13.0,80.0,34.0,2.43,Warner Bros. Interactive Entertainment
+2010,Fighting,PSP,T,THQ,74.0,27.0,70.0,13.0,0.21,THQ
+1999,Strategy,PS,E,Tecmo Koei,73.0,9.0,71.0,9.0,0.05,Tecmo Koei
+2009,Action,X360,E10+,Activision,71.0,41.0,74.0,25.0,1.02,Activision
+2002,Racing,PS2,E,Sony Computer Entertainment,83.0,21.0,85.0,43.0,0.25,Sony Computer Entertainment
+2010,Sports,X360,E,Electronic Arts,86.0,29.0,71.0,70.0,0.92,Electronic Arts
+2008,Action,Wii,T,Take-Two Interactive,83.0,34.0,84.0,60.0,0.5,Take-Two Interactive
+2009,Shooter,PS3,M,Eidos Interactive,35.0,18.0,48.0,27.0,0.08,Eidos Interactive
+2012,Action,PS3,E,Sony Computer Entertainment,73.0,69.0,69.0,159.0,0.87,Sony Computer Entertainment
+2004,Sports,PS2,E,Midway Games,83.0,44.0,92.0,19.0,1.66,Midway Games
+2000,Role-Playing,PC,M,Havas Interactive,88.0,34.0,88.0,1056.0,0.13,Other
+2009,Action,PC,E10+,Nobilis,80.0,50.0,82.0,488.0,0.01,Other
+2003,Shooter,XB,M,THQ,74.0,20.0,58.0,11.0,0.12,THQ
+2001,Strategy,PS2,T,Natsume,63.0,5.0,71.0,16.0,0.09,Other
+1998,Adventure,PS,M,Human Entertainment,49.0,5.0,57.0,7.0,0.17,Other
+2005,Platform,GC,E,THQ,75.0,17.0,93.0,4.0,0.15,THQ
+2003,Platform,XB,E,THQ,70.0,8.0,89.0,17.0,0.57,THQ
+2005,Action,PS2,M,Capcom,48.0,33.0,81.0,12.0,0.17,Capcom
+2004,Fighting,PS2,T,Electronic Arts,85.0,43.0,90.0,25.0,1.48,Electronic Arts
+2002,Sports,PS2,T,Konami Digital Entertainment,44.0,14.0,67.0,9.0,0.26,Konami Digital Entertainment
+2006,Action,PSP,M,Activision,73.0,41.0,76.0,9.0,0.06,Activision
+2005,Fighting,PS2,T,Electronic Arts,53.0,30.0,63.0,46.0,0.77,Electronic Arts
+2009,Puzzle,DS,E10+,Warner Bros. Interactive Entertainment,79.0,72.0,76.0,110.0,2.16,Warner Bros. Interactive Entertainment
+2009,Adventure,PC,T,HMH Interactive,82.0,32.0,82.0,144.0,0.1,Other
+2002,Action,GBA,T,Ubisoft,66.0,20.0,88.0,13.0,0.14,Ubisoft
+2005,Action,PS2,M,Ubisoft,85.0,46.0,85.0,111.0,0.68,Ubisoft
+2007,Action,Wii,T,Tecmo Koei,53.0,30.0,68.0,6.0,0.15,Tecmo Koei
+2016,Simulation,PC,T,Electronic Arts,77.0,10.0,57.0,30.0,0.1,Electronic Arts
+2011,Action,PS3,E10+,LucasArts,76.0,36.0,73.0,34.0,1.16,Other
+2008,Sports,PS3,E,Electronic Arts,82.0,34.0,72.0,9.0,0.65,Electronic Arts
+2013,Action,X360,M,Activision,62.0,49.0,74.0,368.0,0.43,Activision
+2015,Action,PS4,T,Tecmo Koei,58.0,33.0,65.0,21.0,0.17,Tecmo Koei
+2004,Misc,XB,M,Gathering of Developers,47.0,20.0,54.0,7.0,0.07,Other
+2013,Platform,PC,T,Focus Home Interactive,62.0,24.0,77.0,169.0,0.01,Other
+2014,Action,PS3,M,Konami Digital Entertainment,63.0,55.0,78.0,528.0,0.2,Konami Digital Entertainment
+2009,Strategy,Wii,T,Rising Star Games,87.0,50.0,88.0,86.0,0.29,Other
+2009,Action,X360,E10+,Eidos Interactive,73.0,44.0,84.0,38.0,0.29,Eidos Interactive
+2005,Sports,XB,E,Electronic Arts,89.0,41.0,89.0,10.0,0.32,Electronic Arts
+2008,Role-Playing,PS2,M,Atlus,79.0,23.0,87.0,26.0,0.13,Other
+2006,Sports,X360,E,Electronic Arts,80.0,54.0,60.0,148.0,1.8,Electronic Arts
+2015,Action,PC,M,Ubisoft,74.0,14.0,59.0,544.0,0.21,Ubisoft
+2010,Role-Playing,PS3,T,Ubisoft Annecy,55.0,34.0,62.0,33.0,0.14,Other
+2016,Shooter,PC,T,Activision,91.0,62.0,68.0,4052.0,0.53,Activision
+2007,Action,PS2,E10+,Vivendi Games,70.0,12.0,59.0,48.0,0.41,Vivendi Games
+2007,Simulation,PC,E,Lighthouse Interactive,62.0,9.0,66.0,8.0,0.01,Other
+2008,Adventure,DS,T,Rising Star Games,48.0,33.0,62.0,18.0,0.04,Other
+2003,Action,XB,M,Activision,77.0,39.0,78.0,28.0,1.38,Activision
+2014,Shooter,PS4,T,Activision,76.0,95.0,61.0,5380.0,5.64,Activision
+2009,Action,PS3,M,Ubisoft,91.0,70.0,86.0,1202.0,5.55,Ubisoft
+2012,Role-Playing,PC,M,Electronic Arts,89.0,23.0,55.0,5926.0,0.97,Electronic Arts
+2007,Shooter,PS3,M,Vivendi Games,70.0,16.0,63.0,27.0,0.16,Vivendi Games
+2008,Action,Wii,T,Activision,63.0,20.0,69.0,13.0,0.25,Activision
+2011,Action,X360,M,Electronic Arts,79.0,75.0,45.0,2380.0,1.11,Electronic Arts
+2001,Strategy,PC,E,Virgin Interactive,75.0,8.0,76.0,68.0,0.02,Other
+2012,Action,3DS,E10+,Square Enix,75.0,54.0,82.0,267.0,1.58,Square Enix
+2008,Action,DS,T,LucasArts,61.0,8.0,55.0,18.0,0.88,Other
+2006,Sports,X360,E,Activision,41.0,4.0,80.0,6.0,0.03,Activision
+2005,Sports,GC,E,Electronic Arts,80.0,27.0,75.0,14.0,0.17,Electronic Arts
+2011,Racing,PC,E,Codemasters,83.0,10.0,72.0,83.0,0.19,Codemasters
+2005,Fighting,GC,T,Electronic Arts,87.0,32.0,79.0,7.0,0.17,Electronic Arts
+2006,Action,XB,T,Activision,53.0,38.0,81.0,7.0,0.1,Activision
+2005,Misc,GC,E,Nintendo,69.0,28.0,84.0,19.0,0.47,Nintendo
+2013,Action,XOne,M,Microsoft Game Studios,60.0,77.0,61.0,1409.0,1.38,Microsoft Game Studios
+2015,Action,PSV,T,Tecmo Koei,70.0,15.0,74.0,9.0,0.02,Tecmo Koei
+2002,Action,PS2,M,Konami Digital Entertainment,87.0,17.0,90.0,126.0,0.52,Konami Digital Entertainment
+2008,Sports,PC,E10+,Electronic Arts,62.0,6.0,41.0,30.0,0.02,Electronic Arts
+2003,Sports,XB,E,Electronic Arts,88.0,13.0,88.0,19.0,0.43,Electronic Arts
+2009,Sports,PS3,T,Electronic Arts,84.0,50.0,78.0,53.0,0.84,Electronic Arts
+2008,Misc,X360,T,Electronic Arts,92.0,69.0,83.0,156.0,2.2,Electronic Arts
+2002,Sports,XB,E,Electronic Arts,88.0,11.0,77.0,11.0,0.63,Electronic Arts
+2010,Role-Playing,PS3,M,Bethesda Softworks,82.0,57.0,78.0,492.0,3.11,Other
+2012,Racing,PS3,T,Namco Bandai Games,72.0,20.0,60.0,29.0,0.17,Namco Bandai Games
+2008,Racing,PS3,E,Disney Interactive Studios,83.0,43.0,78.0,30.0,0.89,Other
+2002,Simulation,GC,E,Titus,59.0,10.0,71.0,7.0,0.15,Other
+2016,Misc,PS4,M,Sony Computer Entertainment,59.0,48.0,71.0,73.0,0.25,Sony Computer Entertainment
+2016,Misc,XOne,E10+,Ubisoft,75.0,5.0,80.0,6.0,0.04,Ubisoft
+2010,Simulation,PSP,T,Namco Bandai Games,71.0,30.0,72.0,12.0,0.29,Namco Bandai Games
+2010,Misc,Wii,T,Activision,77.0,26.0,75.0,17.0,0.96,Activision
+2009,Platform,Wii,E,Ubisoft,68.0,4.0,53.0,4.0,0.11,Ubisoft
+2001,Sports,PS2,E,Electronic Arts,92.0,22.0,85.0,26.0,1.2,Electronic Arts
+2011,Sports,PS3,E,Take-Two Interactive,72.0,13.0,63.0,9.0,0.2,Take-Two Interactive
+2009,Shooter,PSP,T,DHM Interactive,67.0,22.0,61.0,9.0,0.04,Other
+2009,Fighting,PS3,T,THQ,84.0,58.0,81.0,47.0,1.76,THQ
+2011,Action,PC,M,DTP Entertainment,55.0,7.0,60.0,33.0,0.03,Other
+2002,Puzzle,GC,E,THQ,47.0,10.0,56.0,8.0,0.22,THQ
+2011,Shooter,X360,T,Microsoft Game Studios,77.0,60.0,81.0,40.0,0.4,Microsoft Game Studios
+2007,Shooter,PC,M,Take-Two Interactive,96.0,44.0,85.0,3606.0,0.41,Take-Two Interactive
+2009,Sports,PS3,E,Electronic Arts,80.0,20.0,69.0,14.0,0.81,Electronic Arts
+2013,Action,PS3,M,Electronic Arts,76.0,37.0,64.0,522.0,0.96,Electronic Arts
+2002,Sports,XB,E,Electronic Arts,80.0,12.0,79.0,12.0,0.21,Electronic Arts
+2007,Racing,X360,E,THQ,78.0,20.0,73.0,11.0,0.25,THQ
+2007,Action,PS2,E10+,Sega,46.0,10.0,52.0,6.0,0.52,Sega
+2009,Action,PC,T,Codemasters,79.0,32.0,81.0,159.0,0.03,Codemasters
+2002,Racing,PS2,E,THQ,82.0,26.0,89.0,28.0,2.18,THQ
+2004,Platform,XB,E,Vivendi Games,64.0,17.0,91.0,10.0,0.14,Vivendi Games
+2010,Strategy,PSP,E,Sony Computer Entertainment,86.0,27.0,79.0,32.0,0.12,Sony Computer Entertainment
+2003,Racing,PS2,T,Take-Two Interactive,85.0,41.0,85.0,47.0,1.78,Take-Two Interactive
+2004,Action,XB,T,SCi,67.0,40.0,70.0,10.0,0.03,Other
+2002,Sports,XB,E,Electronic Arts,79.0,17.0,90.0,4.0,0.19,Electronic Arts
+2001,Shooter,PS2,T,Sony Computer Entertainment,65.0,18.0,80.0,5.0,0.14,Sony Computer Entertainment
+2001,Platform,GBA,E,Sega,87.0,22.0,81.0,48.0,2.24,Sega
+2009,Fighting,PS3,T,Ignition Entertainment,57.0,48.0,53.0,46.0,0.16,Other
+2003,Fighting,GBA,T,Atari,40.0,23.0,61.0,22.0,1.08,Atari
+2009,Sports,X360,E,Electronic Arts,83.0,26.0,67.0,37.0,0.94,Electronic Arts
+2007,Racing,PSP,T,Deep Silver,58.0,7.0,53.0,6.0,0.02,Other
+2007,Role-Playing,PS2,E10+,Sega,64.0,24.0,73.0,17.0,0.1,Sega
+2015,Action,PC,M,Square Enix,74.0,50.0,53.0,529.0,0.14,Square Enix
+2009,Shooter,PC,M,Activision,86.0,40.0,42.0,6430.0,0.88,Activision
+2001,Sports,PS2,T,Acclaim Entertainment,81.0,21.0,81.0,18.0,1.38,Other
+2003,Action,GBA,E,THQ,39.0,13.0,58.0,11.0,0.35,THQ
+1999,Role-Playing,PS,T,Sony Computer Entertainment,74.0,12.0,84.0,248.0,1.86,Sony Computer Entertainment
+2007,Simulation,DS,E10+,Square Enix,85.0,52.0,77.0,164.0,1.21,Square Enix
+2011,Action,3DS,E10+,Electronic Arts,65.0,9.0,60.0,26.0,0.19,Electronic Arts
+2016,Shooter,PS4,T,CCP,73.0,26.0,63.0,37.0,0.1,Other
+2010,Action,PS2,M,Konami Digital Entertainment,77.0,8.0,68.0,82.0,0.59,Konami Digital Entertainment
+2003,Action,PS2,M,Konami Digital Entertainment,79.0,45.0,84.0,74.0,0.94,Konami Digital Entertainment
+2010,Shooter,X360,M,Electronic Arts,74.0,71.0,67.0,288.0,2.61,Electronic Arts
+2010,Action,Wii,E10+,Activision,59.0,11.0,70.0,4.0,0.42,Activision
+2007,Shooter,DS,M,Eidos Interactive,56.0,31.0,56.0,5.0,0.22,Eidos Interactive
+2008,Action,DS,T,Atari,78.0,18.0,75.0,15.0,0.12,Atari
+2011,Action,DS,E10+,Activision,33.0,6.0,56.0,7.0,0.06,Activision
+2000,Racing,PS,E,Electronic Arts,73.0,8.0,61.0,9.0,0.81,Electronic Arts
+2007,Role-Playing,PSP,T,Square Enix,83.0,67.0,80.0,463.0,3.18,Square Enix
+2002,Simulation,PC,T,Electronic Arts,75.0,18.0,78.0,22.0,3.07,Electronic Arts
+2001,Action,PS,M,Eidos Interactive,84.0,15.0,89.0,17.0,0.18,Eidos Interactive
+2013,Shooter,X360,M,Sega,48.0,47.0,38.0,449.0,0.77,Sega
+2001,Role-Playing,PS2,T,Virgin Interactive,87.0,29.0,83.0,90.0,1.24,Other
+2016,Role-Playing,3DS,T,Namco Bandai Games,68.0,12.0,76.0,16.0,0.21,Namco Bandai Games
+2003,Platform,PS2,E,THQ,71.0,9.0,90.0,85.0,1.67,THQ
+2016,Role-Playing,PS4,T,Namco Bandai Games,69.0,32.0,77.0,52.0,0.19,Namco Bandai Games
+2002,Sports,GC,M,Acclaim Entertainment,60.0,15.0,50.0,7.0,0.06,Other
+2015,Role-Playing,PS4,T,Nippon Ichi Software,78.0,33.0,81.0,63.0,0.07,Other
+2012,Action,WiiU,M,Ubisoft,77.0,70.0,77.0,758.0,1.01,Ubisoft
+2016,Misc,3DS,E,Nintendo,68.0,37.0,68.0,16.0,0.3,Nintendo
+2014,Sports,PSV,E,Sony Computer Entertainment America,68.0,6.0,70.0,25.0,0.11,Other
+2013,Adventure,PSV,E10+,Warner Bros. Interactive Entertainment,64.0,5.0,66.0,8.0,0.13,Warner Bros. Interactive Entertainment
+2002,Sports,GC,E,Sega,58.0,20.0,60.0,5.0,0.05,Sega
+2000,Simulation,PC,T,Electronic Arts,92.0,38.0,79.0,451.0,0.05,Electronic Arts
+2009,Adventure,DS,E,DreamCatcher Interactive,39.0,8.0,22.0,5.0,0.02,Other
+2012,Shooter,X360,M,Konami Digital Entertainment,52.0,46.0,55.0,65.0,0.1,Konami Digital Entertainment
+2008,Racing,X360,E,THQ,65.0,35.0,71.0,18.0,0.2,THQ
+2009,Action,PS3,M,Electronic Arts,67.0,53.0,72.0,50.0,0.74,Electronic Arts
+2004,Fighting,PS2,M,Midway Games,81.0,43.0,85.0,90.0,1.88,Midway Games
+2004,Role-Playing,XB,T,Ubisoft,75.0,50.0,88.0,4.0,0.1,Ubisoft
+2013,Shooter,PS3,M,Sega,43.0,25.0,36.0,295.0,0.6,Sega
+2011,Shooter,X360,T,505 Games,37.0,12.0,45.0,14.0,0.12,Other
+2006,Fighting,PS2,T,THQ,80.0,27.0,86.0,57.0,2.58,THQ
+2016,Racing,PS4,E,505 Games,73.0,35.0,62.0,70.0,0.06,Other
+2004,Shooter,XB,T,Electronic Arts,61.0,55.0,72.0,20.0,0.49,Electronic Arts
+2009,Puzzle,DS,E10+,Nintendo,83.0,58.0,87.0,52.0,2.67,Nintendo
+2004,Action,PS2,E,THQ,49.0,6.0,62.0,5.0,0.71,THQ
+2004,Misc,PS2,E,Konami Digital Entertainment,82.0,25.0,78.0,10.0,0.32,Konami Digital Entertainment
+2002,Puzzle,PS2,E,THQ,44.0,7.0,62.0,11.0,2.08,THQ
+2005,Sports,PS2,E,Sony Computer Entertainment,63.0,26.0,63.0,27.0,0.53,Sony Computer Entertainment
+2011,Fighting,Wii,T,THQ,68.0,11.0,70.0,8.0,0.19,THQ
+2007,Action,X360,E10+,Sega,41.0,25.0,41.0,14.0,0.46,Sega
+2014,Role-Playing,PSV,T,Aksys Games,63.0,12.0,70.0,16.0,0.07,Other
+2010,Sports,X360,T,Ubisoft,40.0,30.0,44.0,9.0,0.69,Ubisoft
+2003,Racing,PS2,T,Midway Games,57.0,30.0,64.0,8.0,0.49,Midway Games
+2011,Platform,X360,E10+,THQ,77.0,54.0,75.0,23.0,0.15,THQ
+2002,Sports,XB,T,Activision,90.0,25.0,85.0,21.0,0.93,Activision
+2008,Racing,X360,T,Electronic Arts,64.0,62.0,59.0,104.0,1.68,Electronic Arts
+2004,Sports,XB,E,Electronic Arts,74.0,21.0,81.0,9.0,0.05,Electronic Arts
+2007,Racing,PS3,E,THQ,67.0,33.0,61.0,8.0,0.46,THQ
+2004,Shooter,XB,T,Electronic Arts,83.0,51.0,74.0,27.0,0.64,Electronic Arts
+2010,Misc,X360,T,Konami Digital Entertainment,74.0,36.0,54.0,9.0,0.29,Konami Digital Entertainment
+2010,Action,PSP,M,Electronic Arts,70.0,14.0,81.0,46.0,0.19,Electronic Arts
+2006,Shooter,PS2,M,Eidos Interactive,39.0,23.0,49.0,46.0,0.42,Eidos Interactive
+2002,Fighting,GC,M,Midway Games,81.0,20.0,87.0,43.0,0.41,Midway Games
+2007,Sports,DS,E,Electronic Arts,81.0,10.0,76.0,8.0,0.06,Electronic Arts
+2006,Role-Playing,PC,T,JoWood Productions,63.0,39.0,73.0,519.0,0.06,Other
+2013,Fighting,XOne,T,Ubisoft,23.0,39.0,30.0,211.0,0.19,Ubisoft
+2011,Platform,Wii,E10+,Ubisoft,92.0,13.0,83.0,127.0,0.55,Ubisoft
+2002,Sports,XB,E,Sega,80.0,15.0,85.0,10.0,0.05,Sega
+2010,Misc,PS3,E,Sony Computer Entertainment,56.0,17.0,49.0,8.0,0.25,Sony Computer Entertainment
+2007,Shooter,DS,T,Activision,75.0,22.0,69.0,36.0,1.05,Activision
+2010,Puzzle,DS,E,Nintendo,79.0,51.0,77.0,18.0,2.67,Nintendo
+2010,Racing,X360,E10+,Activision,82.0,78.0,83.0,169.0,0.59,Activision
+2004,Action,PS2,T,Namco Bandai Games,48.0,9.0,87.0,7.0,0.03,Namco Bandai Games
+2011,Racing,Wii,T,Ubisoft,64.0,7.0,62.0,10.0,0.16,Ubisoft
+2009,Action,X360,E10+,Electronic Arts,64.0,38.0,68.0,11.0,0.31,Electronic Arts
+2001,Action,PS2,T,Acclaim Entertainment,64.0,15.0,73.0,37.0,0.14,Other
+2007,Simulation,DS,E,Eidos Interactive,67.0,8.0,66.0,12.0,0.04,Eidos Interactive
+2008,Platform,Wii,E10+,Namco Bandai Games,77.0,37.0,86.0,39.0,0.16,Namco Bandai Games
+2006,Sports,GC,E,Electronic Arts,76.0,17.0,62.0,5.0,0.13,Electronic Arts
+2002,Platform,GC,E,Electronic Arts,69.0,12.0,87.0,15.0,0.27,Electronic Arts
+2002,Shooter,PS2,T,Eidos Interactive,90.0,33.0,88.0,127.0,0.7,Eidos Interactive
+2007,Fighting,Wii,T,Game Factory,37.0,14.0,48.0,5.0,0.06,Other
+2008,Adventure,DS,E,Game Factory,51.0,11.0,63.0,4.0,0.08,Other
+2004,Racing,XB,T,Zoo Digital Publishing,44.0,6.0,59.0,9.0,0.15,Other
+2012,Action,X360,T,505 Games,54.0,8.0,35.0,16.0,0.06,Other
+2012,Action,PS3,M,Capcom,74.0,27.0,88.0,158.0,0.82,Capcom
+2007,Action,X360,E10+,Activision,60.0,51.0,63.0,26.0,0.29,Activision
+2003,Sports,XB,M,Microsoft Game Studios,73.0,42.0,78.0,47.0,0.59,Microsoft Game Studios
+2008,Fighting,PS2,T,Namco Bandai Games,48.0,17.0,79.0,37.0,0.36,Namco Bandai Games
+2011,Shooter,PS3,T,Bethesda Softworks,72.0,39.0,58.0,168.0,0.73,Other
+2010,Role-Playing,X360,T,JoWood Productions,64.0,21.0,52.0,52.0,0.09,Other
+2011,Fighting,PSP,T,PQube,77.0,8.0,68.0,10.0,0.13,Other
+2015,Platform,WiiU,E,Nintendo,88.0,85.0,87.0,691.0,3.21,Nintendo
+2008,Simulation,PC,E,Electronic Arts,70.0,12.0,64.0,8.0,0.03,Electronic Arts
+2002,Platform,GC,E,Universal Interactive,48.0,13.0,51.0,24.0,0.71,Other
+2007,Racing,PS2,E,THQ,53.0,13.0,82.0,5.0,0.38,THQ
+2008,Fighting,Wii,T,THQ,79.0,18.0,85.0,18.0,0.83,THQ
+2009,Shooter,PS3,T,D3Publisher,51.0,38.0,65.0,21.0,0.13,Other
+2007,Action,X360,E10+,Warner Bros. Interactive Entertainment,40.0,15.0,68.0,13.0,0.08,Warner Bros. Interactive Entertainment
+2008,Racing,Wii,E,Nintendo,82.0,73.0,83.0,709.0,35.52,Nintendo
+2008,Sports,Wii,E10+,Take-Two Interactive,65.0,11.0,54.0,19.0,0.06,Take-Two Interactive
+2009,Role-Playing,DS,T,Aspyr,45.0,10.0,81.0,31.0,0.09,Other
+2004,Adventure,XB,T,Ubisoft,71.0,7.0,87.0,6.0,0.03,Ubisoft
+2005,Adventure,GC,M,Nintendo,66.0,43.0,85.0,23.0,0.15,Nintendo
+2008,Shooter,PS3,T,Activision,36.0,7.0,24.0,15.0,0.07,Activision
+2016,Platform,XOne,T,Electronic Arts,72.0,46.0,44.0,266.0,0.16,Electronic Arts
+2008,Action,PS3,T,Eidos Interactive,75.0,42.0,72.0,166.0,1.26,Eidos Interactive
+2016,Adventure,PC,M,Square Enix,86.0,45.0,79.0,915.0,0.12,Square Enix
+2007,Action,DS,E10+,Game Factory,63.0,11.0,68.0,13.0,0.05,Other
+2008,Misc,PS3,T,Activision,70.0,39.0,50.0,26.0,0.99,Activision
+2003,Action,GC,M,Capcom,59.0,15.0,85.0,31.0,0.06,Capcom
+2005,Platform,DS,E,Sega,82.0,43.0,85.0,101.0,3.12,Sega
+2014,Shooter,X360,M,Take-Two Interactive,74.0,16.0,64.0,161.0,0.72,Take-Two Interactive
+2011,Shooter,PC,T,Bethesda Softworks,70.0,38.0,60.0,547.0,0.18,Other
+2008,Adventure,DS,T,Rising Star Games,54.0,37.0,71.0,15.0,0.07,Other
+2014,Role-Playing,PSV,M,Nippon Ichi Software,60.0,7.0,75.0,29.0,0.07,Other
+2012,Action,PS3,T,THQ,76.0,24.0,81.0,99.0,1.35,THQ
+2008,Sports,PS3,T,Ubisoft,63.0,30.0,63.0,26.0,0.65,Ubisoft
+2006,Simulation,X360,T,Ubisoft,66.0,58.0,79.0,53.0,0.42,Ubisoft
+2011,Shooter,PC,T,Destineer,61.0,12.0,58.0,43.0,0.01,Other
+2008,Misc,DS,E,AQ Interactive,82.0,11.0,82.0,13.0,0.22,Other
+2006,Action,PS2,T,Tecmo Koei,58.0,26.0,88.0,13.0,0.61,Tecmo Koei
+2012,Fighting,PS3,T,Namco Bandai Games,82.0,50.0,82.0,193.0,0.85,Namco Bandai Games
+2013,Role-Playing,PSV,M,Sony Computer Entertainment,77.0,71.0,82.0,298.0,0.51,Sony Computer Entertainment
+2016,Action,XOne,M,Take-Two Interactive,67.0,20.0,46.0,274.0,0.62,Take-Two Interactive
+2006,Sports,XB,E,Take-Two Interactive,71.0,21.0,57.0,12.0,0.33,Take-Two Interactive
+2004,Fighting,XB,T,Atari,63.0,22.0,82.0,6.0,0.14,Atari
+2003,Shooter,GBA,T,Electronic Arts,80.0,19.0,72.0,12.0,0.15,Electronic Arts
+2015,Platform,WiiU,E,Nintendo,78.0,83.0,85.0,376.0,1.3,Nintendo
+2004,Platform,GC,E,Take-Two Interactive,69.0,11.0,73.0,8.0,0.04,Take-Two Interactive
+2003,Sports,PS2,E,Sony Computer Entertainment,61.0,21.0,79.0,9.0,0.66,Sony Computer Entertainment
+2004,Puzzle,PS2,E,Namco Bandai Games,86.0,55.0,90.0,86.0,0.73,Namco Bandai Games
+2007,Sports,PS2,E,Sony Computer Entertainment,83.0,25.0,86.0,19.0,0.93,Sony Computer Entertainment
+2001,Simulation,GBA,E,Konami Digital Entertainment,65.0,5.0,80.0,5.0,0.06,Konami Digital Entertainment
+2007,Racing,X360,T,THQ,75.0,38.0,73.0,31.0,0.64,THQ
+2003,Action,GBA,E,Unknown,71.0,16.0,88.0,8.0,0.93,Other
+2005,Action,PS2,M,THQ,68.0,44.0,82.0,56.0,0.52,THQ
+2003,Misc,PS2,E,Ubisoft,64.0,28.0,81.0,12.0,0.06,Ubisoft
+2010,Shooter,PS3,T,Square Enix,58.0,42.0,60.0,30.0,0.29,Square Enix
+2008,Action,X360,E,Take-Two Interactive,78.0,47.0,76.0,36.0,0.56,Take-Two Interactive
+2007,Role-Playing,PS3,T,Ubisoft,64.0,23.0,59.0,40.0,0.2,Ubisoft
+2000,Strategy,PS,T,Infogrames,62.0,10.0,88.0,31.0,0.02,Other
+2009,Action,PS3,M,Capcom,84.0,76.0,75.0,667.0,5.09,Capcom
+2013,Fighting,PS3,T,Warner Bros. Interactive Entertainment,78.0,37.0,79.0,282.0,1.18,Warner Bros. Interactive Entertainment
+2002,Misc,GBA,E,THQ,53.0,14.0,74.0,5.0,0.22,THQ
+2010,Role-Playing,PS3,T,Nippon Ichi Software,74.0,19.0,67.0,109.0,0.42,Other
+2004,Sports,PS2,E,Konami Digital Entertainment,91.0,26.0,91.0,38.0,3.85,Konami Digital Entertainment
+2009,Strategy,PC,T,Electronic Arts,75.0,37.0,70.0,112.0,0.01,Electronic Arts
+2010,Action,X360,E10+,Warner Bros. Interactive Entertainment,79.0,58.0,80.0,62.0,1.55,Warner Bros. Interactive Entertainment
+2011,Racing,PS3,T,Codemasters,87.0,52.0,71.0,122.0,1.06,Codemasters
+2006,Shooter,PSP,T,Electronic Arts,71.0,24.0,79.0,47.0,2.65,Electronic Arts
+2004,Adventure,PS2,M,Vivendi Games,60.0,44.0,63.0,18.0,0.34,Vivendi Games
+2016,Action,PS4,E,Ubisoft,81.0,52.0,79.0,110.0,0.35,Ubisoft
+2003,Shooter,XB,M,Vivendi Games,69.0,22.0,63.0,7.0,0.17,Vivendi Games
+2001,Racing,PS2,E,LucasArts,71.0,21.0,49.0,8.0,0.16,Other
+2009,Role-Playing,DS,E10+,Activision,65.0,7.0,67.0,9.0,0.2,Activision
+2006,Action,X360,M,Eidos Interactive,73.0,57.0,72.0,52.0,0.14,Eidos Interactive
+2016,Role-Playing,PS4,M,Namco Bandai Games,89.0,69.0,88.0,1940.0,1.65,Namco Bandai Games
+2015,Sports,XOne,T,Take-Two Interactive,72.0,18.0,57.0,75.0,0.59,Take-Two Interactive
+2002,Shooter,XB,T,Eidos Interactive,88.0,20.0,77.0,34.0,0.64,Eidos Interactive
+2007,Action,X360,T,Ubisoft,78.0,35.0,86.0,84.0,0.33,Ubisoft
+2009,Shooter,X360,T,Evolved Games,38.0,22.0,35.0,37.0,0.09,Other
+2003,Strategy,XB,T,Activision,79.0,31.0,85.0,22.0,0.14,Activision
+2003,Misc,GBA,E,Telegames,80.0,9.0,83.0,7.0,0.08,Other
+2005,Action,PS2,M,Capcom,84.0,60.0,90.0,212.0,2.09,Capcom
+2008,Puzzle,DS,E,Deep Silver,67.0,19.0,68.0,6.0,0.55,Other
+2003,Racing,GBA,T,Zoo Digital Publishing,78.0,15.0,93.0,23.0,0.1,Other
+2006,Strategy,PSP,E10+,THQ,70.0,22.0,66.0,18.0,0.77,THQ
+2011,Simulation,3DS,T,Namco Bandai Games,71.0,37.0,78.0,26.0,0.24,Namco Bandai Games
+2006,Racing,Wii,E,Ubisoft,41.0,15.0,40.0,21.0,0.52,Ubisoft
+2001,Role-Playing,PS2,T,Eidos Interactive,67.0,21.0,84.0,43.0,0.26,Eidos Interactive
+2006,Shooter,PSP,M,Sony Computer Entertainment,87.0,58.0,90.0,118.0,0.29,Sony Computer Entertainment
+2005,Sports,XB,M,Global Star,66.0,45.0,77.0,6.0,0.04,Other
+2005,Action,XB,T,Global Star,53.0,34.0,80.0,8.0,0.11,Other
+2006,Sports,X360,E,Take-Two Interactive,82.0,22.0,82.0,12.0,0.21,Take-Two Interactive
+2011,Shooter,PS3,M,Codemasters,67.0,36.0,63.0,18.0,0.32,Codemasters
+2008,Action,X360,E10+,Activision,77.0,60.0,75.0,66.0,3.76,Activision
+2004,Action,PS2,M,Ubisoft,83.0,51.0,85.0,120.0,1.64,Ubisoft
+2007,Action,X360,M,Microsoft Game Studios,38.0,45.0,29.0,44.0,0.21,Microsoft Game Studios
+2007,Role-Playing,PS2,M,Tecmo Koei,89.0,25.0,83.0,296.0,0.63,Tecmo Koei
+2003,Strategy,PC,T,Eidos Interactive,78.0,23.0,82.0,38.0,0.04,Eidos Interactive
+2011,Shooter,PC,M,Tripwire Interactive,76.0,49.0,73.0,729.0,0.14,Other
+2005,Role-Playing,PS2,E10+,Tecmo Koei,68.0,34.0,78.0,14.0,0.06,Tecmo Koei
+2004,Platform,GC,E,THQ,73.0,9.0,78.0,13.0,0.94,THQ
+2007,Action,DS,E,THQ,73.0,34.0,82.0,30.0,0.78,THQ
+2008,Simulation,Wii,E,Rising Star Games,69.0,14.0,88.0,17.0,0.29,Other
+2007,Shooter,PSP,T,Sony Computer Entertainment,85.0,41.0,88.0,47.0,0.46,Sony Computer Entertainment
+2002,Action,PC,M,Take-Two Interactive,93.0,20.0,84.0,805.0,0.01,Take-Two Interactive
+2010,Fighting,PS3,T,Electronic Arts,77.0,47.0,69.0,38.0,0.37,Electronic Arts
+2005,Action,PS2,M,Konami Digital Entertainment,94.0,53.0,93.0,439.0,0.55,Konami Digital Entertainment
+2011,Simulation,PC,E,Paradox Interactive,70.0,20.0,77.0,105.0,0.05,Other
+2013,Platform,WiiU,E10+,Namco Bandai Games,58.0,9.0,65.0,16.0,0.05,Namco Bandai Games
+2002,Role-Playing,PS2,T,Atari,70.0,23.0,87.0,19.0,0.46,Atari
+2005,Sports,PS2,E,Electronic Arts,89.0,36.0,87.0,37.0,1.06,Electronic Arts
+2010,Action,X360,M,Namco Bandai Games,62.0,51.0,76.0,60.0,0.18,Namco Bandai Games
+2009,Platform,Wii,E,Majesco Entertainment,80.0,43.0,87.0,35.0,0.21,Other
+2015,Misc,WiiU,T,Activision,84.0,4.0,61.0,36.0,0.19,Activision
+2010,Misc,Wii,E,Nintendo,68.0,42.0,74.0,54.0,8.38,Nintendo
+2014,Racing,PS4,E,Milestone S.r.l.,73.0,28.0,64.0,26.0,0.18,Other
+2010,Strategy,PC,E10+,Ubisoft,79.0,33.0,52.0,213.0,0.31,Ubisoft
+2015,Action,XOne,E10+,Activision,76.0,15.0,55.0,17.0,0.24,Activision
+2005,Platform,DS,E,Nintendo,86.0,48.0,82.0,87.0,0.72,Nintendo
+2002,Action,XB,M,Activision,53.0,20.0,40.0,4.0,0.13,Activision
+2011,Shooter,PS3,M,Ubisoft,45.0,42.0,55.0,74.0,0.29,Ubisoft
+2016,Action,XOne,M,Microsoft Game Studios,77.0,106.0,68.0,1659.0,0.56,Microsoft Game Studios
+2007,Action,Wii,T,D3Publisher,51.0,19.0,75.0,17.0,0.18,Other
+2004,Strategy,PC,T,Electronic Arts,82.0,42.0,86.0,199.0,0.07,Electronic Arts
+2007,Shooter,PS3,M,Take-Two Interactive,80.0,35.0,77.0,107.0,0.66,Take-Two Interactive
+2007,Action,PS3,M,Ubisoft,51.0,18.0,52.0,17.0,0.16,Ubisoft
+2003,Action,PS2,T,SCi,57.0,19.0,80.0,21.0,0.2,Other
+2012,Platform,PSV,E,Sony Computer Entertainment,88.0,71.0,86.0,348.0,1.25,Sony Computer Entertainment
+2004,Platform,XB,E,Activision,72.0,31.0,84.0,5.0,0.55,Activision
+2007,Action,DS,E,Nintendo,90.0,57.0,80.0,416.0,5.08,Nintendo
+2008,Shooter,PS3,E10+,Activision Value,45.0,9.0,74.0,10.0,0.16,Other
+2016,Shooter,XOne,M,Microsoft Game Studios,84.0,96.0,62.0,815.0,1.35,Microsoft Game Studios
+2010,Action,PS3,T,Electronic Arts,38.0,27.0,28.0,23.0,0.39,Electronic Arts
+2005,Shooter,PS2,M,Eidos Interactive,62.0,15.0,85.0,10.0,0.19,Eidos Interactive
+2010,Action,PC,T,Capcom,57.0,22.0,51.0,67.0,0.02,Capcom
+2004,Shooter,PS2,T,Electronic Arts,60.0,38.0,70.0,32.0,0.64,Electronic Arts
+2007,Racing,X360,E,Microsoft Game Studios,90.0,66.0,83.0,381.0,4.05,Microsoft Game Studios
+2014,Role-Playing,PS3,M,Deep Silver,36.0,8.0,37.0,77.0,0.08,Other
+2008,Misc,DS,E10+,Activision,71.0,70.0,88.0,29.0,3.46,Activision
+2005,Simulation,XB,T,Electronic Arts,75.0,31.0,71.0,8.0,0.25,Electronic Arts
+2014,Role-Playing,3DS,E10+,Nintendo,57.0,25.0,48.0,19.0,0.36,Nintendo
+2006,Role-Playing,PS2,E10+,Namco Bandai Games,43.0,12.0,80.0,20.0,0.24,Namco Bandai Games
+2016,Adventure,PS4,M,Sony Computer Entertainment,72.0,49.0,80.0,68.0,0.39,Sony Computer Entertainment
+2003,Action,XB,E,Electronic Arts,59.0,11.0,60.0,5.0,0.07,Electronic Arts
+2002,Role-Playing,XB,T,Xicat Interactive,44.0,14.0,72.0,5.0,0.03,Other
+2005,Action,GC,M,Sega,73.0,24.0,83.0,15.0,0.07,Sega
+2005,Fighting,PS2,T,Namco Bandai Games,86.0,57.0,84.0,96.0,1.07,Namco Bandai Games
+2009,Racing,X360,E,Atari,72.0,54.0,70.0,60.0,0.17,Atari
+2009,Shooter,X360,M,Phantom EFX,44.0,25.0,48.0,76.0,0.1,Other
+2012,Adventure,PC,M,Focus Home Interactive,73.0,18.0,80.0,128.0,0.07,Other
+2010,Platform,Wii,E,Nintendo,97.0,87.0,91.0,1854.0,7.51,Nintendo
+2015,Misc,WiiU,E,Nintendo,66.0,66.0,65.0,279.0,1.58,Nintendo
+1996,Fighting,PS,T,Sony Computer Entertainment,89.0,8.0,89.0,102.0,5.74,Sony Computer Entertainment
+2015,Action,XOne,E10+,Warner Bros. Interactive Entertainment,80.0,12.0,69.0,27.0,0.41,Warner Bros. Interactive Entertainment
+2005,Action,PSP,T,Sony Computer Entertainment,79.0,45.0,82.0,38.0,0.77,Sony Computer Entertainment
+2006,Shooter,PSP,M,Activision,63.0,36.0,70.0,12.0,0.06,Activision
+2002,Action,XB,M,Interplay,79.0,28.0,89.0,20.0,0.38,Other
+2010,Shooter,X360,M,City Interactive,45.0,39.0,58.0,89.0,1.16,Other
+2014,Role-Playing,PSV,T,Nippon Ichi Software,80.0,23.0,73.0,73.0,0.19,Other
+2007,Sports,PC,E,Russel,86.0,15.0,80.0,19.0,1.12,Other
+2013,Shooter,PS3,M,Take-Two Interactive,69.0,22.0,67.0,79.0,0.25,Take-Two Interactive
+2004,Sports,XB,E,Global Star,88.0,32.0,85.0,14.0,0.42,Other
+2009,Action,Wii,E10+,Activision,75.0,12.0,83.0,6.0,0.27,Activision
+2015,Action,PSV,M,Marvelous Interactive,71.0,4.0,74.0,34.0,0.18,Other
+2007,Fighting,X360,T,Sega,89.0,36.0,76.0,62.0,0.28,Sega
+2008,Sports,Wii,E,Electronic Arts,82.0,19.0,72.0,22.0,0.83,Electronic Arts
+1999,Strategy,PC,T,Microsoft Game Studios,92.0,21.0,90.0,801.0,0.09,Microsoft Game Studios
+2006,Strategy,DS,E10+,THQ,80.0,38.0,79.0,59.0,0.22,THQ
+2002,Sports,GC,E,Electronic Arts,91.0,11.0,81.0,9.0,0.21,Electronic Arts
+2010,Action,PC,M,Square Enix,84.0,33.0,77.0,838.0,0.12,Square Enix
+2015,Sports,XOne,E,Bigben Interactive,20.0,4.0,31.0,30.0,0.09,Other
+2003,Simulation,XB,T,Electronic Arts,81.0,26.0,89.0,12.0,0.56,Electronic Arts
+2007,Action,DS,E,Electronic Arts,51.0,15.0,49.0,19.0,0.84,Electronic Arts
+2016,Adventure,PS4,E10+,Ubisoft,72.0,31.0,78.0,22.0,0.07,Ubisoft
+2006,Platform,DS,E,Nintendo,81.0,42.0,74.0,67.0,2.76,Nintendo
+2009,Racing,DS,E,Electronic Arts,67.0,11.0,73.0,4.0,0.61,Electronic Arts
+2004,Sports,PS2,E,Sega,90.0,37.0,82.0,84.0,2.62,Sega
+2007,Strategy,DS,E,LucasArts,59.0,6.0,62.0,5.0,0.04,Other
+2000,Shooter,PS2,T,Midas Interactive Entertainment,66.0,11.0,77.0,20.0,0.29,Other
+2002,Sports,XB,E,Midway Games,81.0,19.0,85.0,13.0,0.11,Midway Games
+2013,Role-Playing,PSV,T,Square Enix,86.0,14.0,85.0,223.0,0.8,Square Enix
+2006,Simulation,PC,T,Electronic Arts,76.0,23.0,77.0,40.0,0.04,Electronic Arts
+2008,Fighting,PSP,T,Ignition Entertainment,61.0,16.0,70.0,9.0,0.07,Other
+2009,Action,PS3,M,Sony Computer Entertainment,91.0,50.0,87.0,529.0,2.6,Sony Computer Entertainment
+2016,Adventure,PS4,T,Nippon Ichi Software,72.0,26.0,83.0,19.0,0.04,Other
+2010,Action,PS3,T,Capcom,59.0,50.0,60.0,36.0,0.35,Capcom
+2014,Action,X360,E10+,Warner Bros. Interactive Entertainment,70.0,4.0,87.0,11.0,0.45,Warner Bros. Interactive Entertainment
+2007,Sports,PS3,E,Electronic Arts,81.0,28.0,71.0,47.0,1.75,Electronic Arts
+2011,Simulation,X360,T,Deep Silver,45.0,5.0,45.0,8.0,0.09,Other
+2005,Action,PS2,M,Konami Digital Entertainment,70.0,30.0,75.0,46.0,0.42,Konami Digital Entertainment
+2003,Racing,PS2,E,Electronic Arts,85.0,33.0,86.0,171.0,7.2,Electronic Arts
+2016,Adventure,PSV,M,PQube,78.0,6.0,78.0,6.0,0.05,Other
+2012,Action,PSV,T,Sony Computer Entertainment,83.0,73.0,85.0,625.0,0.56,Sony Computer Entertainment
+2006,Action,DS,T,Eidos Interactive,58.0,15.0,80.0,7.0,0.07,Eidos Interactive
+2015,Fighting,PS4,T,Namco Bandai Games,61.0,35.0,74.0,44.0,0.03,Namco Bandai Games
+2003,Shooter,PS2,T,Atari,73.0,17.0,90.0,5.0,0.03,Atari
+2011,Platform,PC,E10+,Focus Home Interactive,84.0,55.0,84.0,667.0,0.04,Other
+2009,Racing,Wii,E,Codemasters,69.0,29.0,72.0,30.0,0.87,Codemasters
+2004,Role-Playing,XB,T,Acclaim Entertainment,77.0,44.0,79.0,16.0,0.26,Other
+2007,Shooter,Wii,T,PQube,67.0,9.0,76.0,9.0,0.04,Other
+2010,Action,Wii,E,Nintendo,48.0,26.0,68.0,13.0,0.47,Nintendo
+2003,Misc,GC,E,Nintendo,69.0,33.0,82.0,57.0,2.08,Nintendo
+2007,Shooter,PS3,M,Electronic Arts,89.0,21.0,84.0,188.0,1.06,Electronic Arts
+2016,Role-Playing,PSV,E10+,Square Enix,77.0,5.0,86.0,46.0,0.21,Square Enix
+2008,Adventure,Wii,T,Koch Media,65.0,12.0,76.0,8.0,0.06,Other
+2011,Strategy,PC,M,Kalypso Media,72.0,6.0,56.0,16.0,0.02,Other
+2009,Misc,Wii,E,Zoo Games,56.0,4.0,50.0,5.0,1.29,Other
+2007,Shooter,PC,M,THQ,82.0,44.0,84.0,1088.0,0.06,THQ
+2003,Action,GC,M,Electronic Arts,61.0,19.0,72.0,9.0,0.07,Electronic Arts
+2008,Adventure,PC,M,Atari,55.0,19.0,57.0,148.0,0.01,Atari
+2000,Action,PS,E,Take-Two Interactive,68.0,10.0,53.0,4.0,0.18,Take-Two Interactive
+2012,Role-Playing,X360,M,Deep Silver,60.0,18.0,60.0,58.0,0.14,Other
+2015,Misc,3DS,E10+,Sega,80.0,32.0,85.0,71.0,0.32,Sega
+2012,Action,X360,M,Bethesda Softworks,88.0,56.0,79.0,815.0,1.71,Other
+2000,Misc,PS,E,Sony Computer Entertainment,68.0,12.0,82.0,99.0,3.39,Sony Computer Entertainment
+2007,Sports,PS3,T,Electronic Arts,85.0,31.0,82.0,57.0,0.37,Electronic Arts
+2010,Sports,X360,E,Electronic Arts,75.0,30.0,70.0,24.0,0.39,Electronic Arts
+2010,Role-Playing,PSP,T,Marvelous Interactive,58.0,10.0,81.0,39.0,0.31,Other
+2012,Action,PSV,E,Electronic Arts,57.0,9.0,41.0,89.0,0.44,Electronic Arts
+2002,Racing,PS2,E,Codemasters,86.0,25.0,77.0,24.0,1.4,Codemasters
+2002,Sports,PS2,E,Konami Digital Entertainment,93.0,24.0,91.0,65.0,2.99,Konami Digital Entertainment
+2010,Action,X360,E10+,Warner Bros. Interactive Entertainment,60.0,13.0,80.0,5.0,0.07,Warner Bros. Interactive Entertainment
+2002,Shooter,XB,M,Electronic Arts,73.0,39.0,89.0,16.0,0.72,Electronic Arts
+2016,Role-Playing,PS4,T,Kalypso Media,61.0,9.0,79.0,14.0,0.01,Other
+2011,Misc,PS3,T,Ubisoft,80.0,27.0,83.0,52.0,1.12,Ubisoft
+2004,Action,PS2,T,Acclaim Entertainment,64.0,31.0,80.0,10.0,0.11,Other
+2015,Racing,XOne,E,Milestone S.r.l.,54.0,9.0,53.0,17.0,0.1,Other
+2012,Role-Playing,X360,M,Capcom,75.0,59.0,78.0,320.0,0.79,Capcom
+2006,Puzzle,PSP,E,D3Publisher,74.0,19.0,78.0,6.0,0.05,Other
+2005,Role-Playing,PS2,T,Sony Computer Entertainment,83.0,59.0,84.0,89.0,0.84,Sony Computer Entertainment
+2009,Shooter,Wii,T,Nintendo,91.0,48.0,93.0,316.0,0.61,Nintendo
+2005,Adventure,XB,E10+,Take-Two Interactive,48.0,15.0,55.0,4.0,0.02,Take-Two Interactive
+2006,Racing,XB,E,Sega,56.0,33.0,81.0,7.0,0.13,Sega
+2012,Action,PSV,E10+,GungHo,76.0,26.0,80.0,18.0,0.01,Other
+2015,Action,XOne,M,Square Enix,71.0,24.0,70.0,186.0,0.9,Square Enix
+2009,Shooter,Wii,T,Majesco Entertainment,31.0,6.0,50.0,11.0,0.08,Other
+2005,Platform,PS2,E,Konami Digital Entertainment,54.0,17.0,40.0,5.0,0.1,Konami Digital Entertainment
+2004,Sports,XB,M,Midway Games,78.0,30.0,77.0,14.0,0.53,Midway Games
+2000,Shooter,PS2,M,Infogrames,77.0,23.0,68.0,13.0,0.58,Other
+2002,Shooter,PS2,T,Gotham Games,55.0,10.0,86.0,45.0,1.57,Other
+2007,Action,PS2,T,Tecmo Koei,50.0,11.0,80.0,9.0,0.09,Tecmo Koei
+2009,Misc,PSP,E,Take-Two Interactive,80.0,44.0,78.0,12.0,0.09,Take-Two Interactive
+2007,Role-Playing,X360,T,Atari,79.0,56.0,79.0,97.0,0.32,Atari
+2003,Shooter,XB,M,Activision,84.0,38.0,88.0,33.0,0.67,Activision
+2006,Simulation,PC,E10+,Ubisoft,56.0,25.0,40.0,35.0,0.02,Ubisoft
+2010,Shooter,PS3,T,Capcom,68.0,56.0,69.0,62.0,0.95,Capcom
+2005,Role-Playing,PS2,T,Namco Bandai Games,72.0,37.0,77.0,38.0,0.49,Namco Bandai Games
+2003,Simulation,GC,T,Electronic Arts,81.0,30.0,90.0,15.0,0.66,Electronic Arts
+2009,Action,PS3,E,Activision,63.0,10.0,82.0,5.0,0.23,Activision
+2009,Simulation,X360,T,Ubisoft,62.0,39.0,81.0,9.0,0.14,Ubisoft
+2009,Role-Playing,DS,E,Nintendo,54.0,26.0,90.0,133.0,1.56,Nintendo
+2016,Fighting,WiiU,E10+,Namco Bandai Games,76.0,74.0,80.0,273.0,1.01,Namco Bandai Games
+2005,Sports,DS,E,Rising Star Games,63.0,14.0,65.0,4.0,0.02,Other
+2010,Shooter,DS,M,SouthPeak Games,75.0,25.0,83.0,31.0,0.11,Other
+2003,Platform,GC,E,Warner Bros. Interactive Entertainment,64.0,6.0,50.0,4.0,0.17,Warner Bros. Interactive Entertainment
+2004,Shooter,PS2,T,Ubisoft,70.0,31.0,63.0,24.0,1.16,Ubisoft
+2007,Sports,PS2,E,Spike,32.0,7.0,40.0,4.0,0.03,Other
+2003,Racing,XB,E,Capcom,57.0,17.0,60.0,5.0,0.02,Capcom
+2003,Platform,GBA,E,THQ,79.0,28.0,92.0,19.0,0.55,THQ
+2004,Action,PS2,T,Capcom,90.0,34.0,85.0,35.0,0.28,Capcom
+1997,Fighting,PS,T,Sony Computer Entertainment,83.0,13.0,79.0,16.0,1.16,Sony Computer Entertainment
+2007,Action,Wii,M,Capcom,75.0,47.0,76.0,122.0,1.52,Capcom
+2003,Platform,XB,T,Activision,58.0,27.0,64.0,9.0,0.21,Activision
+2009,Action,PS3,T,Eidos Interactive,91.0,70.0,89.0,1122.0,4.23,Eidos Interactive
+2005,Shooter,PSP,M,THQ,74.0,49.0,83.0,30.0,0.15,THQ
+2009,Shooter,PS3,M,Bethesda Softworks,70.0,61.0,64.0,55.0,0.61,Other
+2013,Action,PS3,E10+,Warner Bros. Interactive Entertainment,82.0,22.0,79.0,76.0,1.84,Warner Bros. Interactive Entertainment
+2005,Role-Playing,PSP,E,Ignition Entertainment,66.0,41.0,74.0,17.0,0.06,Other
+2005,Adventure,GC,E,Global Star,39.0,16.0,32.0,6.0,0.18,Other
+2012,Action,PS3,T,Sony Computer Entertainment,77.0,71.0,78.0,188.0,0.29,Sony Computer Entertainment
+2006,Strategy,PS2,E10+,Tecmo Koei,76.0,8.0,80.0,7.0,0.09,Tecmo Koei
+2002,Action,XB,T,Microsoft Game Studios,61.0,27.0,57.0,7.0,0.13,Microsoft Game Studios
+2002,Shooter,GC,T,TDK Mediactive,74.0,11.0,84.0,5.0,0.16,Other
+2001,Misc,PS2,E,Sony Computer Entertainment,67.0,26.0,66.0,26.0,0.14,Sony Computer Entertainment
+2010,Misc,DS,E10+,MTV Games,79.0,8.0,55.0,6.0,0.09,Other
+2003,Fighting,XB,T,Metro 3D,26.0,8.0,37.0,6.0,0.02,Other
+2007,Shooter,X360,T,Ubisoft,86.0,58.0,81.0,89.0,1.02,Ubisoft
+2006,Action,DS,E10+,D3Publisher,56.0,23.0,65.0,13.0,0.42,Other
+2008,Platform,DS,T,Ubisoft,58.0,30.0,63.0,30.0,0.05,Ubisoft
+2001,Role-Playing,GBA,E,Ubisoft,81.0,16.0,88.0,16.0,0.19,Ubisoft
+2014,Action,PSV,T,Tecmo Koei,76.0,5.0,86.0,18.0,0.11,Tecmo Koei
+2006,Role-Playing,PS2,T,Namco Bandai Games,81.0,34.0,90.0,59.0,0.37,Namco Bandai Games
+2016,Action,PS4,E10+,Warner Bros. Interactive Entertainment,73.0,16.0,81.0,7.0,0.15,Warner Bros. Interactive Entertainment
+2008,Shooter,X360,M,Eidos Interactive,52.0,35.0,49.0,22.0,0.19,Eidos Interactive
+2003,Sports,XB,E,Sega,91.0,25.0,89.0,45.0,0.36,Sega
+2006,Fighting,X360,M,Konami Digital Entertainment,62.0,54.0,66.0,28.0,0.13,Konami Digital Entertainment
+2014,Shooter,XOne,M,Microsoft Game Studios,85.0,69.0,72.0,1267.0,3.23,Microsoft Game Studios
+2010,Sports,PC,E,Electronic Arts,83.0,16.0,77.0,102.0,0.18,Electronic Arts
+2013,Role-Playing,PSV,M,Xseed Games,48.0,19.0,68.0,56.0,0.18,Other
+2014,Adventure,PS3,E10+,Namco Bandai Games,59.0,11.0,63.0,4.0,0.09,Namco Bandai Games
+2005,Role-Playing,PS2,T,505 Games,74.0,35.0,82.0,17.0,0.04,Other
+2011,Action,X360,T,Kalypso Media,52.0,21.0,63.0,26.0,0.1,Other
+2008,Action,PS3,T,Disney Interactive Studios,56.0,16.0,56.0,8.0,0.17,Other
+2000,Action,PS,T,Electronic Arts,61.0,11.0,67.0,44.0,0.92,Electronic Arts
+2006,Puzzle,DS,E,Nintendo,84.0,56.0,87.0,44.0,2.1,Nintendo
+2001,Racing,PS2,E,Electronic Arts,85.0,17.0,85.0,22.0,1.16,Electronic Arts
+2004,Platform,GBA,E,Capcom,77.0,21.0,90.0,22.0,0.22,Capcom
+2008,Sports,PS3,E,Sony Computer Entertainment,85.0,33.0,87.0,76.0,0.7,Sony Computer Entertainment
+2006,Role-Playing,X360,T,Microsoft Game Studios,79.0,56.0,78.0,161.0,0.92,Microsoft Game Studios
+2007,Misc,DS,E,Nintendo,59.0,22.0,40.0,4.0,3.83,Nintendo
+2005,Simulation,PSP,T,Electronic Arts,65.0,17.0,69.0,32.0,1.37,Electronic Arts
+2007,Shooter,X360,T,Electronic Arts,73.0,54.0,67.0,77.0,1.1,Electronic Arts
+2011,Action,3DS,T,Activision,50.0,7.0,64.0,12.0,0.12,Activision
+2001,Role-Playing,GBA,E,Capcom,79.0,10.0,89.0,24.0,0.42,Capcom
+2007,Action,PS2,T,Tecmo Koei,55.0,14.0,82.0,16.0,0.87,Tecmo Koei
+2012,Sports,WiiU,E,Take-Two Interactive,85.0,17.0,70.0,43.0,0.13,Take-Two Interactive
+2008,Action,X360,T,Sega,66.0,44.0,83.0,57.0,0.1,Sega
+2016,Fighting,PS4,T,Namco Bandai Games,79.0,60.0,82.0,201.0,1.14,Namco Bandai Games
+2016,Action,PC,E,Insomniac Games,73.0,12.0,63.0,15.0,0.03,Other
+2009,Shooter,X360,M,Microsoft Game Studios,83.0,94.0,71.0,1163.0,6.34,Microsoft Game Studios
+2001,Shooter,PS2,M,Vivendi Games,87.0,24.0,86.0,94.0,0.6,Vivendi Games
+2003,Simulation,PS2,E,Tecmo Koei,77.0,21.0,91.0,18.0,0.34,Tecmo Koei
+2014,Fighting,X360,T,Atlus,85.0,15.0,74.0,35.0,0.08,Other
+2011,Action,3DS,E10+,Nintendo,58.0,55.0,63.0,29.0,0.49,Nintendo
+2006,Action,XB,E10+,LucasArts,85.0,27.0,86.0,15.0,0.44,Other
+2012,Shooter,X360,M,Activision,83.0,73.0,48.0,2256.0,13.67,Activision
+2009,Action,PC,M,Electronic Arts,76.0,20.0,80.0,236.0,0.06,Electronic Arts
+2011,Misc,3DS,E10+,Crave Entertainment,67.0,5.0,73.0,8.0,0.1,Other
+2015,Action,PS4,T,Activision,77.0,50.0,75.0,160.0,0.23,Activision
+2001,Sports,PS2,E,Acclaim Entertainment,67.0,12.0,78.0,6.0,0.22,Other
+2008,Platform,X360,E10+,Sega,60.0,50.0,78.0,238.0,0.95,Sega
+2003,Action,GC,E,Atari,66.0,7.0,73.0,8.0,0.08,Atari
+2004,Adventure,GBA,E,Nintendo,73.0,8.0,75.0,39.0,0.7,Nintendo
+2002,Platform,GBA,E,Nintendo,81.0,24.0,89.0,54.0,2.27,Nintendo
+1998,Platform,PS,E,Sony Computer Entertainment,91.0,12.0,89.0,432.0,7.13,Sony Computer Entertainment
+2008,Misc,DS,E,Ubisoft,68.0,7.0,70.0,4.0,0.45,Ubisoft
+2009,Action,X360,M,Gamebridge,55.0,22.0,68.0,16.0,0.21,Other
+2010,Puzzle,Wii,E,Rising Star Games,74.0,30.0,72.0,12.0,0.06,Other
+2005,Role-Playing,PS2,T,Tecmo Koei,77.0,41.0,73.0,12.0,0.12,Tecmo Koei
+2008,Misc,X360,E,Disney Interactive Studios,53.0,10.0,52.0,6.0,0.43,Other
+2010,Action,PS3,M,Electronic Arts,75.0,69.0,75.0,265.0,1.08,Electronic Arts
+2001,Racing,PS2,E,Acclaim Entertainment,61.0,11.0,57.0,18.0,0.4,Other
+2009,Adventure,DS,T,Konami Digital Entertainment,56.0,14.0,88.0,4.0,0.1,Konami Digital Entertainment
+2006,Simulation,Wii,T,Nintendo,80.0,49.0,80.0,47.0,0.34,Nintendo
+2006,Misc,Wii,E,Sega,74.0,53.0,57.0,72.0,2.24,Sega
+2009,Action,PS2,T,Electronic Arts,50.0,4.0,23.0,6.0,0.14,Electronic Arts
+2007,Shooter,Wii,T,Electronic Arts,73.0,37.0,76.0,82.0,0.41,Electronic Arts
+2016,Racing,PC,E,Namco Bandai Games,72.0,4.0,62.0,14.0,0.01,Namco Bandai Games
+2010,Strategy,PC,E10+,Square Enix,77.0,54.0,62.0,803.0,0.19,Square Enix
+2002,Action,XB,T,Tecmo Koei,77.0,17.0,86.0,16.0,0.06,Tecmo Koei
+2006,Racing,PS2,T,Midway Games,51.0,21.0,60.0,6.0,0.02,Midway Games
+2007,Action,PSP,T,Disney Interactive Studios,61.0,5.0,70.0,11.0,0.42,Other
+2009,Racing,PS3,E,Codemasters,67.0,44.0,74.0,36.0,0.24,Codemasters
+1999,Role-Playing,PS,T,Square EA,80.0,14.0,81.0,28.0,0.8,Other
+2005,Racing,X360,E,Namco Bandai Games,74.0,65.0,71.0,28.0,0.2,Namco Bandai Games
+2004,Action,GBA,E10+,Namco Bandai Games,75.0,7.0,85.0,11.0,0.04,Namco Bandai Games
+2010,Action,X360,E,Electronic Arts,60.0,19.0,58.0,10.0,0.14,Electronic Arts
+2005,Action,X360,E,Take-Two Interactive,81.0,33.0,86.0,31.0,0.23,Take-Two Interactive
+2013,Platform,PS4,E10+,System 3,38.0,8.0,29.0,52.0,0.16,Other
+2005,Fighting,PS2,T,Ignition Entertainment,66.0,21.0,88.0,6.0,0.33,Other
+2001,Sports,PS2,E,Electronic Arts,82.0,17.0,58.0,28.0,0.63,Electronic Arts
+2002,Racing,PS2,T,Play It,63.0,9.0,88.0,10.0,1.06,Other
+2002,Role-Playing,GBA,E,Taito,76.0,12.0,83.0,8.0,0.05,Other
+2007,Role-Playing,PC,M,Atari,81.0,50.0,88.0,1116.0,0.06,Atari
+2002,Adventure,PS2,E,Capcom,59.0,21.0,75.0,4.0,0.03,Capcom
+1997,Shooter,PC,M,Vivendi Games,96.0,24.0,91.0,3161.0,4.12,Vivendi Games
+2011,Sports,PS3,E,THQ,65.0,8.0,24.0,5.0,0.19,THQ
+2009,Action,X360,T,Electronic Arts,55.0,58.0,70.0,110.0,0.63,Electronic Arts
+2014,Shooter,PC,M,Take-Two Interactive,75.0,55.0,62.0,703.0,0.29,Take-Two Interactive
+2012,Action,3DS,M,Konami Digital Entertainment,78.0,46.0,78.0,167.0,0.38,Konami Digital Entertainment
+2005,Shooter,XB,M,Ubisoft,88.0,64.0,80.0,69.0,0.66,Ubisoft
+2006,Action,PSP,T,Electronic Arts,61.0,33.0,69.0,12.0,0.08,Electronic Arts
+2015,Action,3DS,E10+,Nippon Ichi Software,45.0,7.0,56.0,37.0,0.04,Other
+2008,Sports,Wii,E,Konami Digital Entertainment,83.0,19.0,84.0,43.0,1.19,Konami Digital Entertainment
+2005,Fighting,XB,T,Atari,51.0,11.0,61.0,8.0,0.24,Atari
+2009,Shooter,PC,M,Vivendi Games,80.0,26.0,80.0,136.0,0.01,Vivendi Games
+2007,Fighting,DS,T,THQ,61.0,12.0,66.0,13.0,0.12,THQ
+2005,Shooter,XB,M,Kemco,33.0,9.0,28.0,4.0,0.02,Other
+2004,Shooter,PC,M,Activision,87.0,83.0,76.0,896.0,0.1,Activision
+2004,Platform,GBA,E,THQ,79.0,30.0,84.0,34.0,1.4,THQ
+2016,Sports,PC,E,505 Games,86.0,20.0,82.0,580.0,0.06,Other
+2013,Action,PS3,M,Deep Silver,64.0,39.0,79.0,215.0,0.23,Other
+2006,Shooter,X360,T,Ubisoft,90.0,78.0,80.0,215.0,1.54,Ubisoft
+2002,Action,PS2,M,Sony Computer Entertainment,72.0,49.0,68.0,88.0,3.54,Sony Computer Entertainment
+2002,Shooter,GC,T,Eidos Interactive,88.0,18.0,90.0,65.0,0.44,Eidos Interactive
+2012,Action,PS3,E10+,Warner Bros. Interactive Entertainment,81.0,28.0,75.0,81.0,1.19,Warner Bros. Interactive Entertainment
+2003,Adventure,PS2,T,Atari,69.0,25.0,89.0,28.0,0.16,Atari
+2005,Shooter,GC,M,Electronic Arts,82.0,32.0,91.0,41.0,0.08,Electronic Arts
+2005,Shooter,XB,M,Activision,77.0,41.0,79.0,16.0,0.71,Activision
+2008,Misc,PS3,T,MTV Games,91.0,24.0,79.0,88.0,1.49,Other
+2007,Puzzle,DS,E,Disney Interactive Studios,74.0,36.0,66.0,5.0,0.04,Other
+2004,Sports,GBA,E,Nintendo,84.0,38.0,86.0,14.0,0.45,Nintendo
+2006,Sports,XB,E,Electronic Arts,81.0,21.0,68.0,6.0,0.19,Electronic Arts
+2013,Sports,X360,E,Take-Two Interactive,87.0,23.0,49.0,150.0,2.52,Take-Two Interactive
+2009,Sports,X360,E10+,Activision,46.0,43.0,30.0,67.0,0.61,Activision
+2002,Action,PS2,M,Eidos Interactive,67.0,18.0,88.0,19.0,0.39,Eidos Interactive
+2010,Role-Playing,PSP,E10+,Square Enix,82.0,62.0,86.0,208.0,2.06,Square Enix
+2005,Adventure,PS2,E10+,Sony Computer Entertainment,61.0,18.0,85.0,30.0,0.3,Sony Computer Entertainment
+2012,Sports,PS3,E,Electronic Arts,73.0,36.0,52.0,17.0,0.23,Electronic Arts
+2010,Fighting,PS3,T,Sony Computer Entertainment,48.0,39.0,75.0,77.0,0.59,Sony Computer Entertainment
+2011,Misc,PSP,E,Sony Computer Entertainment,74.0,41.0,72.0,35.0,0.27,Sony Computer Entertainment
+2003,Fighting,PS2,T,Ignition Entertainment,71.0,31.0,86.0,17.0,0.11,Other
+2004,Strategy,PC,E10+,Sunflowers,77.0,26.0,91.0,89.0,0.03,Other
+2007,Action,X360,T,Tecmo Koei,53.0,27.0,74.0,13.0,0.2,Tecmo Koei
+2006,Sports,X360,E,Take-Two Interactive,75.0,52.0,68.0,25.0,0.17,Take-Two Interactive
+2001,Strategy,PS2,T,THQ,71.0,15.0,83.0,22.0,0.46,THQ
+2005,Fighting,XB,T,Electronic Arts,58.0,34.0,75.0,20.0,0.28,Electronic Arts
+2016,Sports,PS4,E,Take-Two Interactive,88.0,47.0,67.0,162.0,1.88,Take-Two Interactive
+2007,Misc,Wii,E,Midway Games,25.0,8.0,43.0,26.0,2.48,Midway Games
+2010,Simulation,DS,E,Nintendo,87.0,4.0,56.0,9.0,0.26,Nintendo
+2001,Platform,XB,T,Atari,80.0,30.0,87.0,32.0,0.73,Atari
+2014,Action,XOne,M,Warner Bros. Interactive Entertainment,87.0,12.0,80.0,585.0,1.35,Warner Bros. Interactive Entertainment
+2016,Action,PS4,M,Warner Bros. Interactive Entertainment,75.0,59.0,73.0,89.0,0.3,Warner Bros. Interactive Entertainment
+2005,Action,PS2,M,Capcom,96.0,38.0,89.0,1013.0,3.62,Capcom
+2008,Action,X360,T,Sega,55.0,42.0,64.0,24.0,0.26,Sega
+2009,Action,X360,T,Electronic Arts,42.0,59.0,47.0,22.0,0.24,Electronic Arts
+2003,Sports,GC,E,Electronic Arts,68.0,16.0,85.0,10.0,0.4,Electronic Arts
+2008,Action,Wii,T,LucasArts,56.0,24.0,67.0,18.0,1.65,Other
+2006,Fighting,PSP,T,Namco Bandai Games,70.0,11.0,66.0,11.0,0.26,Namco Bandai Games
+2001,Simulation,PS2,E,Sony Computer Entertainment Europe,89.0,22.0,91.0,95.0,3.17,Other
+2016,Action,PS4,M,Telltale Games,45.0,16.0,59.0,140.0,0.14,Other
+2011,Sports,X360,E,Ubisoft,41.0,8.0,74.0,7.0,0.27,Ubisoft
+2006,Adventure,DS,E,Zoo Digital Publishing,34.0,8.0,17.0,6.0,0.05,Other
+2003,Racing,XB,E,Codemasters,71.0,8.0,78.0,5.0,0.05,Codemasters
+2012,Action,PS3,E,Electronic Arts,88.0,37.0,66.0,348.0,8.16,Electronic Arts
+2007,Misc,DS,E10+,Ubisoft,57.0,8.0,70.0,15.0,0.8,Ubisoft
+2012,Sports,PC,E,Take-Two Interactive,90.0,5.0,68.0,130.0,0.03,Take-Two Interactive
+2010,Misc,PS3,T,Activision,86.0,46.0,78.0,22.0,0.75,Activision
+2004,Sports,PS2,E,Zoo Digital Publishing,70.0,15.0,87.0,12.0,0.06,Other
+2002,Sports,PS2,E,Sega,89.0,25.0,78.0,17.0,0.21,Sega
+2011,Action,3DS,E10+,Disney Interactive Studios,71.0,16.0,73.0,20.0,0.62,Other
+2007,Simulation,X360,E10+,Konami Digital Entertainment,74.0,26.0,88.0,5.0,0.32,Konami Digital Entertainment
+2006,Platform,GC,E10+,Vivendi Games,67.0,13.0,73.0,11.0,0.19,Vivendi Games
+2004,Action,PS2,T,Sega,59.0,21.0,84.0,10.0,0.06,Sega
+2005,Role-Playing,PS2,T,505 Games,69.0,38.0,73.0,17.0,0.14,Other
+2003,Action,PS2,T,Atari,62.0,30.0,81.0,137.0,3.18,Atari
+2009,Adventure,Wii,M,Deep Silver,67.0,51.0,76.0,33.0,0.21,Other
+2001,Role-Playing,PS2,M,Midway Games,73.0,24.0,88.0,55.0,0.28,Midway Games
+2012,Action,PS3,M,Capcom,52.0,36.0,49.0,222.0,1.17,Capcom
+2013,Misc,PS4,E10+,Ubisoft,75.0,4.0,55.0,51.0,0.41,Ubisoft
+2007,Puzzle,PS2,E10+,D3Publisher,78.0,11.0,70.0,6.0,0.12,Other
+2008,Sports,PS3,E,Midway Games,54.0,23.0,65.0,4.0,0.14,Midway Games
+2005,Puzzle,DS,E,Nintendo,88.0,49.0,75.0,164.0,0.23,Nintendo
+2005,Shooter,XB,T,Activision,83.0,40.0,89.0,106.0,1.67,Activision
+2002,Shooter,GC,T,Electronic Arts,80.0,16.0,79.0,16.0,0.59,Electronic Arts
+2004,Strategy,PC,T,Activision,92.0,58.0,91.0,1050.0,0.1,Activision
+2012,Fighting,X360,T,Atlus,83.0,21.0,73.0,60.0,0.13,Other
+2002,Fighting,PS2,T,Sega,94.0,36.0,80.0,84.0,1.81,Sega
+2002,Fighting,PS2,T,Ubisoft,68.0,19.0,80.0,8.0,0.32,Ubisoft
+2009,Action,PS3,E10+,Activision,67.0,23.0,73.0,7.0,0.19,Activision
+2001,Action,PS,E,BAM! Entertainment,30.0,6.0,63.0,4.0,0.25,Other
+2010,Action,PC,E,Take-Two Interactive,82.0,6.0,86.0,37.0,0.19,Take-Two Interactive
+2011,Action,PS3,M,Electronic Arts,77.0,56.0,81.0,124.0,0.27,Electronic Arts
+2009,Fighting,X360,T,THQ,80.0,59.0,84.0,36.0,1.04,THQ
+2010,Action,PS3,E10+,Activision,51.0,18.0,70.0,6.0,0.18,Activision
+2005,Racing,XB,T,THQ,68.0,39.0,91.0,15.0,0.18,THQ
+2004,Action,GBA,E,Disney Interactive Studios,57.0,6.0,50.0,5.0,0.83,Other
+2002,Action,PS2,E,Electronic Arts,71.0,16.0,76.0,49.0,2.61,Electronic Arts
+2008,Action,PC,T,Eidos Interactive,80.0,20.0,77.0,272.0,0.08,Eidos Interactive
+2008,Shooter,Wii,E10+,Zoo Games,50.0,7.0,83.0,6.0,0.04,Other
+2013,Simulation,PS3,T,From Software,66.0,18.0,74.0,28.0,0.12,Other
+2013,Action,X360,M,Deep Silver,81.0,42.0,65.0,325.0,1.66,Other
+2006,Puzzle,Wii,E,Nintendo,69.0,39.0,87.0,21.0,0.13,Nintendo
+2010,Misc,PS3,E,Electronic Arts,64.0,11.0,61.0,9.0,0.39,Electronic Arts
+2009,Action,X360,T,Tecmo Koei,59.0,18.0,57.0,12.0,0.23,Tecmo Koei
+2007,Shooter,PSP,T,Ubisoft,60.0,20.0,71.0,31.0,0.74,Ubisoft
+1998,Platform,PS,E,ESP,69.0,8.0,75.0,4.0,0.05,Other
+2002,Platform,GC,E,THQ,66.0,4.0,83.0,10.0,0.2,THQ
+2006,Simulation,PSP,E,Rising Star Games,67.0,22.0,78.0,23.0,0.16,Other
+2004,Racing,PS2,E,Electronic Arts,87.0,19.0,84.0,15.0,1.41,Electronic Arts
+2009,Action,Wii,E,Activision,62.0,12.0,72.0,11.0,0.66,Activision
+2005,Adventure,PC,M,Atari,85.0,41.0,83.0,375.0,0.02,Atari
+2009,Strategy,PSP,T,Deep Silver,68.0,16.0,88.0,4.0,0.12,Other
+2005,Action,XB,T,Deep Silver,73.0,20.0,74.0,5.0,0.02,Other
+2007,Shooter,DS,T,Konami Digital Entertainment,83.0,38.0,84.0,45.0,0.3,Konami Digital Entertainment
+2015,Action,PS4,M,Deep Silver,64.0,45.0,57.0,98.0,0.05,Other
+2003,Sports,PS2,E,Midway Games,73.0,20.0,85.0,14.0,0.23,Midway Games
+2006,Action,X360,M,THQ,81.0,74.0,75.0,211.0,2.18,THQ
+2006,Adventure,PS2,M,Sega,77.0,34.0,81.0,52.0,1.09,Sega
+2010,Platform,PS3,E10+,Activision,57.0,11.0,45.0,6.0,0.19,Activision
+2011,Action,Wii,E10+,Disney Interactive Studios,73.0,14.0,70.0,13.0,1.55,Other
+2016,Sports,PS4,T,FuRyu Corporation,49.0,15.0,60.0,29.0,0.02,Other
+2011,Platform,Wii,E10+,Nintendo,77.0,49.0,85.0,156.0,1.65,Nintendo
+2002,Shooter,GBA,T,Acclaim Entertainment,72.0,8.0,70.0,5.0,0.12,Other
+2014,Role-Playing,3DS,T,Nintendo,86.0,80.0,87.0,348.0,3.89,Nintendo
+2012,Shooter,X360,M,Namco Bandai Games,53.0,51.0,65.0,72.0,0.06,Namco Bandai Games
+2007,Action,PS3,T,Disney Interactive Studios,55.0,24.0,69.0,19.0,0.73,Other
+2002,Fighting,GC,T,Acclaim Entertainment,50.0,18.0,68.0,4.0,0.13,Other
+2013,Sports,PS4,E,Electronic Arts,87.0,26.0,63.0,616.0,3.01,Electronic Arts
+2008,Strategy,X360,M,Deep Silver,55.0,30.0,67.0,20.0,0.11,Other
+2009,Racing,X360,E,Electronic Arts,83.0,75.0,65.0,134.0,1.91,Electronic Arts
+2001,Shooter,PS,M,Sony Computer Entertainment,73.0,19.0,85.0,36.0,0.52,Sony Computer Entertainment
+2003,Sports,XB,E,Electronic Arts,85.0,21.0,65.0,31.0,0.18,Electronic Arts
+2002,Adventure,PS2,M,Capcom,84.0,31.0,90.0,52.0,2.25,Capcom
+2008,Shooter,X360,T,Activision,69.0,54.0,73.0,26.0,0.45,Activision
+2016,Platform,PS4,E10+,Activision,80.0,47.0,55.0,17.0,0.14,Activision
+2009,Action,PS3,T,Tecmo Koei,64.0,27.0,73.0,15.0,0.29,Tecmo Koei
+2012,Role-Playing,PS3,T,Tecmo Koei,70.0,17.0,66.0,120.0,0.26,Tecmo Koei
+2006,Sports,XB,E,Electronic Arts,88.0,20.0,69.0,10.0,0.56,Electronic Arts
+2012,Shooter,X360,M,Microsoft Game Studios,87.0,87.0,70.0,3260.0,9.71,Microsoft Game Studios
+2011,Fighting,PS3,T,Namco Bandai Games,58.0,26.0,54.0,77.0,0.61,Namco Bandai Games
+2007,Simulation,Wii,E,505 Games,61.0,37.0,53.0,23.0,2.89,Other
+2010,Strategy,PC,T,Activision,93.0,82.0,82.0,3052.0,4.84,Activision
+2005,Sports,PSP,T,Deep Silver,51.0,11.0,53.0,4.0,0.07,Other
+2007,Strategy,X360,T,Takara Tomy,46.0,17.0,73.0,7.0,0.09,Other
+2009,Fighting,Wii,T,PQube,76.0,10.0,73.0,9.0,0.03,Other
+2000,Sports,PS2,E,Electronic Arts,91.0,25.0,77.0,7.0,1.5,Electronic Arts
+2015,Sports,PS4,E,Ubisoft,25.0,6.0,19.0,39.0,0.06,Ubisoft
+2005,Action,PS2,M,Sony Computer Entertainment,74.0,49.0,83.0,19.0,0.23,Sony Computer Entertainment
+2005,Racing,PSP,E,Ubisoft,70.0,37.0,87.0,22.0,0.09,Ubisoft
+2009,Sports,PC,T,Focus Home Interactive,72.0,34.0,65.0,57.0,0.04,Other
+2013,Role-Playing,PSV,T,GungHo,59.0,13.0,60.0,72.0,0.1,Other
+2008,Racing,PSP,T,Empire Interactive,74.0,28.0,82.0,21.0,0.29,Other
+2006,Action,PS2,T,Namco Bandai Games,52.0,22.0,69.0,17.0,0.58,Namco Bandai Games
+2016,Action,PS4,T,Rebellion Developments,66.0,39.0,70.0,31.0,0.04,Other
+2010,Action,PC,T,Ubisoft,75.0,16.0,66.0,218.0,0.03,Ubisoft
+2000,Racing,PS,E,Sony Computer Entertainment,69.0,9.0,73.0,14.0,0.14,Sony Computer Entertainment
+2011,Simulation,PS3,T,505 Games,49.0,25.0,44.0,5.0,0.07,Other
+2011,Shooter,X360,M,Electronic Arts,84.0,83.0,76.0,439.0,1.02,Electronic Arts
+2016,Action,PS4,M,Ubisoft,83.0,88.0,78.0,621.0,1.13,Ubisoft
+2009,Action,X360,T,Tecmo Koei,59.0,24.0,73.0,28.0,0.24,Tecmo Koei
+2009,Action,Wii,T,LucasArts,48.0,10.0,64.0,5.0,0.79,Other
+2008,Strategy,DS,E10+,THQ,78.0,28.0,69.0,20.0,0.21,THQ
+2007,Strategy,PC,T,Paradox Interactive,62.0,15.0,33.0,86.0,0.03,Other
+2013,Shooter,X360,M,Electronic Arts,76.0,45.0,67.0,344.0,0.9,Electronic Arts
+2006,Role-Playing,PSP,E10+,Konami Digital Entertainment,64.0,29.0,73.0,13.0,0.05,Konami Digital Entertainment
+2003,Sports,PS2,E,3DO,83.0,17.0,81.0,12.0,0.36,Other
+2011,Adventure,PSP,M,5pb,67.0,23.0,82.0,50.0,0.04,Other
+2003,Role-Playing,GC,T,Nintendo,80.0,48.0,90.0,59.0,0.27,Nintendo
+2005,Shooter,XB,T,Ubisoft,70.0,19.0,74.0,21.0,0.25,Ubisoft
+2009,Sports,Wii,E,Playlogic Game Factory,62.0,5.0,53.0,4.0,0.05,Other
+2012,Shooter,X360,M,505 Games,67.0,37.0,68.0,131.0,0.84,Other
+2011,Fighting,PS3,M,Electronic Arts,84.0,52.0,73.0,95.0,1.11,Electronic Arts
+2004,Fighting,PS2,M,Electronic Arts,83.0,46.0,89.0,73.0,1.76,Electronic Arts
+2015,Fighting,PS4,M,Warner Bros. Interactive Entertainment,83.0,81.0,77.0,836.0,2.78,Warner Bros. Interactive Entertainment
+2004,Adventure,GC,T,Codemasters,77.0,34.0,85.0,13.0,0.05,Codemasters
+2011,Action,PS3,T,Warner Bros. Interactive Entertainment,96.0,42.0,86.0,2162.0,5.48,Warner Bros. Interactive Entertainment
+2011,Platform,PS3,E,Sony Computer Entertainment,91.0,86.0,84.0,657.0,3.39,Sony Computer Entertainment
+2014,Action,PSV,T,Idea Factory International,71.0,20.0,68.0,44.0,0.11,Other
+2007,Fighting,DS,E10+,505 Games,71.0,23.0,75.0,4.0,0.1,Other
+2005,Action,PS2,T,Disney Interactive Studios,68.0,36.0,84.0,17.0,0.43,Other
+2007,Shooter,PSP,T,Electronic Arts,69.0,20.0,73.0,30.0,1.15,Electronic Arts
+2003,Platform,XB,T,Acclaim Entertainment,70.0,21.0,85.0,10.0,0.1,Other
+2009,Action,X360,E10+,Konami Digital Entertainment,62.0,12.0,80.0,6.0,0.08,Konami Digital Entertainment
+2001,Platform,PS,E,Sony Computer Entertainment,65.0,10.0,69.0,8.0,0.56,Sony Computer Entertainment
+2001,Role-Playing,PS2,T,Ubisoft,76.0,16.0,78.0,22.0,0.1,Ubisoft
+2012,Action,3DS,E10+,Warner Bros. Interactive Entertainment,72.0,6.0,52.0,25.0,0.75,Warner Bros. Interactive Entertainment
+2000,Fighting,PS,E,Acclaim Entertainment,26.0,7.0,40.0,5.0,0.21,Other
+2001,Action,PS2,T,Wanadoo,74.0,22.0,89.0,72.0,0.14,Other
+2014,Role-Playing,PC,M,Paradox Interactive,89.0,71.0,83.0,2191.0,0.02,Other
+2013,Simulation,WiiU,E,Disney Interactive Studios,51.0,10.0,53.0,9.0,0.2,Other
+2006,Platform,DS,E,Nintendo,89.0,65.0,85.0,431.0,29.8,Nintendo
+2005,Action,PS2,T,Activision,64.0,42.0,78.0,19.0,0.5,Activision
+2008,Misc,PS3,T,Activision,84.0,43.0,75.0,80.0,1.92,Activision
+2005,Platform,DS,E,Ubisoft,58.0,20.0,76.0,19.0,0.26,Ubisoft
+2002,Role-Playing,PS2,E,Enterbrain,65.0,9.0,88.0,77.0,0.13,Other
+2010,Role-Playing,PC,M,Bethesda Softworks,84.0,39.0,86.0,2754.0,1.17,Other
+2009,Action,Wii,E10+,D3Publisher,65.0,5.0,40.0,6.0,0.44,Other
+2006,Adventure,DS,E,THQ,64.0,9.0,64.0,7.0,0.33,THQ
+2002,Racing,XB,E,Sega,82.0,24.0,82.0,24.0,0.19,Sega
+2014,Shooter,PC,M,Sega,81.0,41.0,84.0,1588.0,0.14,Sega
+2008,Role-Playing,DS,E10+,Sting,60.0,16.0,70.0,8.0,0.05,Other
+2006,Shooter,X360,T,Activision,82.0,71.0,65.0,233.0,2.7,Activision
+2011,Shooter,PS3,M,THQ,71.0,52.0,73.0,58.0,0.45,THQ
+2010,Strategy,X360,E10+,PopCap Games,89.0,27.0,82.0,160.0,0.26,Other
+2010,Action,PS3,T,Activision,74.0,57.0,75.0,96.0,0.44,Activision
+2008,Racing,Wii,E,THQ,70.0,7.0,83.0,9.0,0.33,THQ
+2007,Racing,X360,E,Sega,77.0,42.0,72.0,30.0,0.45,Sega
+2015,Platform,3DS,E10+,Rising Star Games,82.0,18.0,85.0,86.0,0.04,Other
+2008,Action,Wii,E10+,THQ,63.0,5.0,80.0,5.0,0.16,THQ
+2010,Role-Playing,X360,M,Microsoft Game Studios,80.0,88.0,65.0,604.0,5.1,Microsoft Game Studios
+2015,Action,3DS,E,Nintendo,73.0,73.0,76.0,179.0,1.12,Nintendo
+2009,Simulation,Wii,E10+,Electronic Arts,61.0,23.0,71.0,36.0,0.4,Electronic Arts
+2012,Action,X360,M,Electronic Arts,53.0,43.0,54.0,437.0,1.15,Electronic Arts
+2011,Shooter,X360,M,Microsoft Game Studios,82.0,73.0,81.0,487.0,2.4,Microsoft Game Studios
+2012,Role-Playing,PS3,M,Electronic Arts,81.0,34.0,76.0,376.0,0.85,Electronic Arts
+2001,Sports,PS,E,Sony Computer Entertainment,76.0,5.0,81.0,8.0,0.43,Sony Computer Entertainment
+2001,Fighting,GBA,T,Ubisoft,84.0,17.0,74.0,10.0,0.25,Ubisoft
+2014,Action,PS4,M,Ubisoft,70.0,40.0,49.0,2050.0,3.96,Ubisoft
+2003,Shooter,XB,T,LucasArts,79.0,41.0,72.0,15.0,0.13,Other
+2002,Strategy,PC,T,Microsoft Game Studios,89.0,31.0,89.0,484.0,0.09,Microsoft Game Studios
+2010,Misc,X360,E,Microsoft Game Studios,61.0,45.0,63.0,106.0,21.81,Microsoft Game Studios
+2006,Sports,DS,E,Activision,76.0,34.0,70.0,7.0,0.22,Activision
+2003,Strategy,PC,E,Gathering of Developers,80.0,19.0,77.0,57.0,0.04,Other
+2009,Shooter,X360,T,SouthPeak Games,69.0,49.0,73.0,59.0,0.27,Other
+2005,Shooter,PC,T,Electronic Arts,91.0,55.0,84.0,837.0,0.08,Electronic Arts
+2007,Sports,X360,E,Electronic Arts,73.0,37.0,53.0,19.0,0.52,Electronic Arts
+2002,Sports,PS2,E,Electronic Arts,83.0,22.0,83.0,28.0,1.66,Electronic Arts
+2003,Shooter,GBA,T,Electronic Arts,73.0,17.0,83.0,11.0,0.17,Electronic Arts
+2006,Shooter,XB,M,Electronic Arts,77.0,65.0,80.0,51.0,0.42,Electronic Arts
+2008,Action,PSP,T,LucasArts,70.0,10.0,81.0,49.0,1.08,Other
+1999,Racing,PS,E,Electronic Arts,86.0,14.0,85.0,28.0,2.31,Electronic Arts
+2002,Sports,GBA,E,Activision,90.0,20.0,80.0,6.0,0.52,Activision
+2012,Shooter,X360,M,Ubisoft,91.0,39.0,86.0,1247.0,3.0,Ubisoft
+2010,Shooter,PC,M,Electronic Arts,87.0,46.0,83.0,1467.0,0.72,Electronic Arts
+2014,Shooter,X360,M,Electronic Arts,83.0,21.0,59.0,371.0,1.36,Electronic Arts
+2014,Misc,3DS,E,Nintendo,76.0,22.0,77.0,19.0,0.49,Nintendo
+1997,Platform,PS,T,Konami Digital Entertainment,93.0,12.0,94.0,358.0,1.27,Konami Digital Entertainment
+2006,Role-Playing,PSP,T,Tecmo Koei,87.0,37.0,82.0,69.0,0.23,Tecmo Koei
+2010,Action,DS,T,LucasArts,43.0,5.0,40.0,5.0,0.21,Other
+2011,Action,Wii,E10+,Activision,81.0,11.0,56.0,31.0,2.78,Activision
+2007,Sports,PS3,E10+,Take-Two Interactive,73.0,23.0,73.0,21.0,0.15,Take-Two Interactive
+2008,Shooter,PS3,M,Activision,85.0,45.0,76.0,409.0,5.39,Activision
+2009,Racing,PC,T,Codemasters,89.0,22.0,82.0,352.0,0.05,Codemasters
+2011,Action,Wii,T,Sega,56.0,14.0,80.0,9.0,0.15,Sega
+2006,Fighting,PS3,T,Electronic Arts,83.0,37.0,79.0,24.0,1.67,Electronic Arts
+2011,Sports,PC,E,Take-Two Interactive,86.0,5.0,71.0,66.0,0.16,Take-Two Interactive
+2007,Action,Wii,T,Codemasters,62.0,25.0,62.0,32.0,0.1,Codemasters
+2009,Sports,PSP,E,Electronic Arts,64.0,4.0,42.0,10.0,0.24,Electronic Arts
+2002,Role-Playing,PS2,T,Capcom,78.0,28.0,69.0,35.0,0.19,Capcom
+2009,Sports,Wii,E,Electronic Arts,88.0,44.0,88.0,57.0,1.07,Electronic Arts
+2009,Action,X360,E10+,THQ,61.0,18.0,68.0,6.0,0.29,THQ
+2002,Racing,PS2,E,Empire Interactive,31.0,5.0,50.0,8.0,0.04,Other
+2010,Simulation,X360,E,Microsoft Game Studios,74.0,50.0,31.0,69.0,1.62,Microsoft Game Studios
+2008,Action,X360,M,Touchstone,69.0,63.0,71.0,120.0,0.75,Other
+2009,Action,Wii,T,Nintendo,55.0,26.0,72.0,22.0,0.44,Nintendo
+2001,Fighting,GBA,T,Infogrames,82.0,14.0,82.0,13.0,0.45,Other
+2011,Adventure,3DS,E10+,Konami Digital Entertainment,53.0,19.0,61.0,8.0,0.16,Konami Digital Entertainment
+2011,Role-Playing,PS3,T,Square Enix,79.0,53.0,66.0,707.0,2.63,Square Enix
+2002,Sports,GBA,E,Activision,85.0,13.0,88.0,4.0,0.57,Activision
+2002,Sports,XB,T,TDK Mediactive,72.0,23.0,69.0,9.0,0.29,Other
+2008,Shooter,PC,M,Ubisoft,78.0,20.0,73.0,185.0,0.02,Ubisoft
+2008,Action,DS,E10+,Square Enix,70.0,21.0,63.0,4.0,0.07,Square Enix
+2008,Simulation,PS3,T,Ubisoft,62.0,22.0,76.0,31.0,0.19,Ubisoft
+2008,Shooter,PS3,T,Electronic Arts,84.0,50.0,81.0,203.0,1.34,Electronic Arts
+2009,Racing,PC,E10+,Electronic Arts,87.0,26.0,75.0,435.0,0.09,Electronic Arts
+2007,Sports,PS3,E,Electronic Arts,77.0,13.0,79.0,28.0,0.38,Electronic Arts
+2013,Action,PS3,M,Capcom,72.0,37.0,74.0,424.0,0.32,Capcom
+2006,Action,GC,T,Eidos Interactive,78.0,6.0,78.0,8.0,0.08,Eidos Interactive
+2003,Misc,PS2,T,Agetec,79.0,16.0,86.0,10.0,0.08,Other
+2004,Simulation,PS2,T,Electronic Arts,70.0,25.0,82.0,24.0,1.76,Electronic Arts
+2012,Action,PS3,M,Square Enix,83.0,40.0,77.0,645.0,1.04,Square Enix
+2015,Shooter,XOne,T,Activision,89.0,11.0,52.0,393.0,1.19,Activision
+2006,Strategy,PS2,M,THQ,71.0,26.0,80.0,5.0,0.07,THQ
+2013,Racing,PS3,M,Deep Silver,13.0,4.0,10.0,218.0,0.04,Other
+2007,Puzzle,DS,E,Nintendo,83.0,33.0,87.0,36.0,0.5,Nintendo
+2003,Sports,XB,E,Microsoft Game Studios,80.0,41.0,90.0,9.0,0.29,Microsoft Game Studios
+2000,Action,PS,T,3DO,35.0,4.0,12.0,6.0,0.17,Other
+2003,Simulation,PC,E,Ubisoft,76.0,20.0,75.0,549.0,0.03,Ubisoft
+2011,Sports,X360,E,Ubisoft,77.0,13.0,76.0,21.0,1.16,Ubisoft
+2010,Platform,Wii,E,Nintendo,87.0,77.0,86.0,368.0,6.44,Nintendo
+2008,Strategy,PSP,T,Ubisoft,68.0,7.0,59.0,8.0,0.11,Ubisoft
+2004,Action,PS2,T,Konami Digital Entertainment,59.0,22.0,80.0,10.0,0.13,Konami Digital Entertainment
+2004,Sports,PS2,E,Sony Computer Entertainment,56.0,20.0,60.0,7.0,0.17,Sony Computer Entertainment
+2011,Action,PC,M,THQ,84.0,22.0,81.0,1263.0,0.38,THQ
+2013,Action,PC,M,Ubisoft,84.0,10.0,77.0,1470.0,0.64,Ubisoft
+2007,Adventure,DS,T,Capcom,78.0,48.0,81.0,84.0,0.99,Capcom
+2002,Action,PS2,T,Wanadoo,83.0,30.0,84.0,14.0,0.46,Other
+2005,Shooter,XB,M,Ubisoft,74.0,39.0,66.0,28.0,0.41,Ubisoft
+2008,Sports,PS3,E,Take-Two Interactive,82.0,30.0,70.0,37.0,0.61,Take-Two Interactive
+2008,Sports,DS,E,Electronic Arts,72.0,13.0,78.0,12.0,0.17,Electronic Arts
+2010,Action,Wii,T,Activision,41.0,15.0,65.0,8.0,0.27,Activision
+2014,Action,PS4,M,Warner Bros. Interactive Entertainment,84.0,85.0,81.0,1886.0,2.96,Warner Bros. Interactive Entertainment
+2009,Action,PS3,T,Electronic Arts,54.0,45.0,71.0,57.0,0.74,Electronic Arts
+2007,Shooter,PS3,M,Vivendi Games,72.0,31.0,74.0,64.0,0.54,Vivendi Games
+2002,Action,PS2,M,Eidos Interactive,74.0,22.0,82.0,19.0,0.51,Eidos Interactive
+2016,Shooter,XOne,M,Electronic Arts,87.0,37.0,82.0,440.0,2.25,Electronic Arts
+2005,Action,PS2,M,Take-Two Interactive,78.0,46.0,89.0,58.0,0.08,Take-Two Interactive

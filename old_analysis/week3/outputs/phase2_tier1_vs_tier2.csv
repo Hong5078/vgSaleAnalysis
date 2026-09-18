@@ -1,0 +1,5 @@
+feature_set,model,ROC_AUC,Avg_Precision
+Tier 1 (announcement only),Logistic Regression,0.8072789091188554,0.4853412107619655
+Tier 1 (announcement only),Random Forest,0.8332327452804341,0.5414283463221387
+Tier 2 (+ Critic_Score),Logistic Regression,0.8598741665860399,0.6001375745734865
+Tier 2 (+ Critic_Score),Random Forest,0.8768060902234456,0.6481293074302209
