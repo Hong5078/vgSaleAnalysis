@@ -35,6 +35,17 @@ automatically by notebook 01 with `kagglehub`; not stored in git.
 |---|---|---|
 | [`04_modification_remove_popular_games`](notebooks/04_modification_remove_popular_games.ipynb) | Exclude the most popular games (10M+, 1M+, 100k+ owners); everything else identical to the baseline | Excluding the 86 games with 10M+ owners raises Random Forest CV R² from 0.01 to 0.23; kept as a diagnostic, not adopted, since popularity is unknown before release |
 
+## Experiments
+
+[`experiments/`](experiments/) contains a shared evaluation harness, one function per experiment,
+an append-only results log and the write-ups:
+- [`EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md): protocol, hypothesis, result and interpretation of each experiment
+- [`RESEARCH_SUMMARY.md`](experiments/RESEARCH_SUMMARY.md): best model, comparison with the baseline, blockbuster analysis, limitations
+
+Best model so far on all games: HistGradientBoosting on log1p(owners). It reaches cross-validated
+R² 0.437 on the log scale (test 0.426), against −0.119 for the baseline Random Forest. On the
+original owner scale, R² is 0.088 with the smearing correction and MAE falls from 0.155M to 0.104M.
+
 ## How to run
 
 ```

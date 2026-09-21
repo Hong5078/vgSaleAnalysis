@@ -1,0 +1,142 @@
+{
+ "row": {
+  "exp_id": "E00",
+  "label": "LinReg",
+  "population": "A_all_games",
+  "n_train": 61381,
+  "target": "raw",
+  "feature_set": "base42",
+  "n_features": 42,
+  "model": "LinearRegression",
+  "params": "sklearn defaults",
+  "cv_R2_log_mean": -24.19800317567224,
+  "cv_R2_log_sd": 0.6834968856115472,
+  "cv_R2_orig_mean": 0.0435999121330668,
+  "cv_R2_orig_sd": 0.019128706947269127,
+  "cv_MAE_orig": 0.23270015204114572,
+  "cv_RMSE_orig": 1.4673013009622224,
+  "cv_MAE_log": 4.9442638168521835,
+  "train_R2_log": -24.130931257976567,
+  "train_R2_orig": 0.04297864676795906,
+  "seconds": 0.5,
+  "timestamp": "2026-09-21T02:30:23"
+ },
+ "folds_validation": {
+  "R2_log": [
+   -24.94811879427648,
+   -23.329745274969557,
+   -24.636932493777973,
+   -23.6451713570224,
+   -24.430047958314802
+  ],
+  "MAE_log": [
+   4.954406492288035,
+   4.860598198604437,
+   5.030502967708426,
+   4.887930398820489,
+   4.987881026839527
+  ],
+  "R2_orig": [
+   0.02322205345051398,
+   0.037048009080116406,
+   0.06912562773832343,
+   0.05758533329258375,
+   0.03101853710379643
+  ],
+  "MAE_orig": [
+   0.2322014886654315,
+   0.23325439293889885,
+   0.23481252903919964,
+   0.23135503730605178,
+   0.23187731225614686
+  ],
+  "RMSE_orig": [
+   1.6649675352260978,
+   1.7155464528637039,
+   1.1691996873964206,
+   1.1379562743214402,
+   1.6488365550034492
+  ]
+ },
+ "folds_training": {
+  "R2_log": [
+   -24.280527541131264,
+   -23.631772815200527,
+   -24.269344240459322,
+   -24.1693456544566,
+   -24.30366603863513
+  ],
+  "MAE_log": [
+   4.985032025918978,
+   4.849962426981834,
+   4.951919369826933,
+   4.939510390809103,
+   4.958858367669236
+  ],
+  "R2_orig": [
+   0.04804624276590186,
+   0.043529777439361594,
+   0.038013347438520806,
+   0.0399967107862258,
+   0.04530715540978525
+  ],
+  "MAE_orig": [
+   0.23537671430978505,
+   0.22365948766826485,
+   0.23386239582728063,
+   0.23517870975693858,
+   0.23417007119185532
+  ],
+  "RMSE_orig": [
+   1.439313777918728,
+   1.4245171545683855,
+   1.5565438016367115,
+   1.5622107565810934,
+   1.4440649499356542
+  ]
+ },
+ "features": [
+  "price",
+  "release_year",
+  "required_age",
+  "n_languages",
+  "n_audio_languages",
+  "mac",
+  "linux",
+  "n_screenshots",
+  "description_length",
+  "genre_Indie",
+  "genre_Casual",
+  "genre_Action",
+  "genre_Adventure",
+  "genre_Simulation",
+  "genre_Strategy",
+  "genre_RPG",
+  "genre_Free_To_Play",
+  "genre_Sports",
+  "genre_Racing",
+  "genre_Massively_Multiplayer",
+  "genre_Violent",
+  "genre_Gore",
+  "genre_Education",
+  "genre_Nudity",
+  "cat_Single_player",
+  "cat_Steam_Cloud",
+  "cat_Full_controller_support",
+  "cat_Multi_player",
+  "cat_Partial_Controller_Support",
+  "cat_PvP",
+  "cat_Co_op",
+  "cat_Steam_Leaderboards",
+  "cat_Online_PvP",
+  "cat_Shared_Split_Screen",
+  "cat_Tracked_Controller_Support",
+  "cat_VR_Only",
+  "cat_Online_Co_op",
+  "cat_Shared_Split_Screen_PvP",
+  "cat_Stats",
+  "cat_Shared_Split_Screen_Co_op",
+  "cat_Includes_level_editor",
+  "cat_Captions_available"
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "row": {
+  "exp_id": "E01",
+  "label": "DecTree",
+  "population": "B_below_1M",
+  "n_train": 60349,
+  "target": "log1p",
+  "feature_set": "base42",
+  "n_features": 42,
+  "model": "DecisionTreeRegressor",
+  "params": "sklearn defaults",
+  "cv_R2_log_mean": -0.35301843436810787,
+  "cv_R2_log_sd": 0.023222595554063804,
+  "cv_R2_orig_mean": -0.4587834262822133,
+  "cv_R2_orig_sd": 0.044654385110730985,
+  "cv_MAE_orig": 0.05103249733286387,
+  "cv_RMSE_orig": 0.1314329847881445,
+  "cv_MAE_log": 0.7220374971540184,
+  "train_R2_log": 0.9992067615127549,
+  "train_R2_orig": 0.9983930945017361,
+  "seconds": 2.7,
+  "timestamp": "2026-09-21T02:31:44"
+ },
+ "folds_validation": {
+  "R2_log": [
+   -0.3205343404933716,
+   -0.35002152727079316,
+   -0.3847833561556828,
+   -0.34866990116876106,
+   -0.3610830467519306
+  ],
+  "MAE_log": [
+   0.7121504912768829,
+   0.7284702679908454,
+   0.7375082632206216,
+   0.7182596933271402,
+   0.7137987699546015
+  ],
+  "R2_orig": [
+   -0.38585900679877794,
+   -0.4683480474023105,
+   -0.4822590300562839,
+   -0.4540260798307987,
+   -0.5034249673228952
+  ],
+  "MAE_orig": [
+   0.05018622757244388,
+   0.05227945870765115,
+   0.052441450801608495,
+   0.05017662764286444,
+   0.0500787219397514
+  ],
+  "RMSE_orig": [
+   0.13012097311665025,
+   0.13312951067389023,
+   0.1345248582646442,
+   0.1301582374318462,
+   0.12923134445369155
+  ]
+ },
+ "folds_training": {
+  "R2_log": [
+   0.9991202745093942,
+   0.9992349302965061,
+   0.9993925884899133,
+   0.9992560266331041,
+   0.9990299876348575
+  ],
+  "MAE_log": [
+   0.0006564332547133671,
+   0.0006385492621206842,
+   0.0005097400758616074,
+   0.0005948292748043962,
+   0.0007292151945547282
+  ],
+  "R2_orig": [
+   0.9979621590506856,
+   0.999138544793398,
+   0.9983031210812577,
+   0.9986857679546097,
+   0.9978758796287294
+  ],
+  "MAE_orig": [
+   6.166856486399651e-05,
+   4.90922177274624e-05,
+   5.347426232211638e-05,
+   4.7860652962253514e-05,
+   7.532485316175564e-05
+  ],
+  "RMSE_orig": [
+   0.004895511744529561,
+   0.003187915225616238,
+   0.00446761850115244,
+   0.003955005489224865,
+   0.005056533278827369
+  ]
+ },
+ "features": [
+  "price",
+  "release_year",
+  "required_age",
+  "n_languages",
+  "n_audio_languages",
+  "mac",
+  "linux",
+  "n_screenshots",
+  "description_length",
+  "genre_Indie",
+  "genre_Casual",
+  "genre_Action",
+  "genre_Adventure",
+  "genre_Simulation",
+  "genre_Strategy",
+  "genre_RPG",
+  "genre_Free_To_Play",
+  "genre_Sports",
+  "genre_Racing",
+  "genre_Massively_Multiplayer",
+  "genre_Violent",
+  "genre_Gore",
+  "genre_Education",
+  "genre_Nudity",
+  "cat_Single_player",
+  "cat_Steam_Cloud",
+  "cat_Full_controller_support",
+  "cat_Multi_player",
+  "cat_Partial_Controller_Support",
+  "cat_PvP",
+  "cat_Co_op",
+  "cat_Steam_Leaderboards",
+  "cat_Online_PvP",
+  "cat_Shared_Split_Screen",
+  "cat_Tracked_Controller_Support",
+  "cat_VR_Only",
+  "cat_Online_Co_op",
+  "cat_Shared_Split_Screen_PvP",
+  "cat_Stats",
+  "cat_Shared_Split_Screen_Co_op",
+  "cat_Includes_level_editor",
+  "cat_Captions_available"
+ ]
+}
