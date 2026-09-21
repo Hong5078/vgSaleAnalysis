@@ -41,6 +41,7 @@ automatically by notebook 01 with `kagglehub`; not stored in git.
 an append-only results log and the write-ups:
 - [`EXPERIMENT_LOG.md`](experiments/EXPERIMENT_LOG.md): protocol, hypothesis, result and interpretation of each experiment
 - [`RESEARCH_SUMMARY.md`](experiments/RESEARCH_SUMMARY.md): best model, comparison with the baseline, blockbuster analysis, limitations
+- [`interpretation/INTERPRETATION_SUMMARY.md`](experiments/interpretation/INTERPRETATION_SUMMARY.md): permutation importance, test-set error analysis, error patterns and blockbuster diagnostics for the best model (`interpret_best_model.py`)
 
 Best model so far on all games: HistGradientBoosting on log1p(owners). It reaches cross-validated
 R² 0.437 on the log scale (test 0.426), against −0.119 for the baseline Random Forest. On the

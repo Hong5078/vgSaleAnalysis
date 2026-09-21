@@ -1,0 +1,3 @@
+subset,games,R2_log,MAE_log
+all test games,15346,0.4254809639057703,0.653135838381278
+test games with consistent labels,15343,0.43021639969962744,0.652074448868139
