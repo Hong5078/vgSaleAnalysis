@@ -1,0 +1,19 @@
+Scenario,Model,Training data,R2,MAE
+Excluding games with 10M+ owners,Linear Regression,Trained on all games,-0.0947828586732784,0.19231510303187635
+Excluding games with 10M+ owners,Linear Regression,Trained without popular games,0.1426014828879857,0.12678900849540356
+Excluding games with 10M+ owners,Decision Tree,Trained on all games,-15.226864105611302,0.13272559702466397
+Excluding games with 10M+ owners,Decision Tree,Trained without popular games,-0.8538231191297778,0.11245389099134367
+Excluding games with 10M+ owners,Random Forest,Trained on all games,-3.010264290815438,0.12162809647986485
+Excluding games with 10M+ owners,Random Forest,Trained without popular games,0.24674065184457905,0.09064082826284521
+Excluding games with 1M+ owners,Linear Regression,Trained on all games,-5.274714407292158,0.1695813047932547
+Excluding games with 1M+ owners,Linear Regression,Trained without popular games,0.15887257972824032,0.05000638971372387
+Excluding games with 1M+ owners,Decision Tree,Trained on all games,-173.05601586100732,0.10184199191571135
+Excluding games with 1M+ owners,Decision Tree,Trained without popular games,-0.5502323186004132,0.05234521679588275
+Excluding games with 1M+ owners,Random Forest,Trained on all games,-38.8525560727721,0.09796848001908681
+Excluding games with 1M+ owners,Random Forest,Trained without popular games,0.21200105778782408,0.044440566760068266
+Excluding games with 100k+ owners,Linear Regression,Trained on all games,-187.31137633789652,0.15668966920334923
+Excluding games with 100k+ owners,Linear Regression,Trained without popular games,0.09413943751361786,0.011726637094140558
+Excluding games with 100k+ owners,Decision Tree,Trained on all games,-5991.44657542175,0.06552873521338871
+Excluding games with 100k+ owners,Decision Tree,Trained without popular games,-0.8154213885026278,0.012676407005270956
+Excluding games with 100k+ owners,Random Forest,Trained on all games,-623.1423760644714,0.06379163299501135
+Excluding games with 100k+ owners,Random Forest,Trained without popular games,0.09898802912763838,0.011600944495338031

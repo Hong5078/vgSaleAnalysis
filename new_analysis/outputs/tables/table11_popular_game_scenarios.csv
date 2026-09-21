@@ -1,0 +1,5 @@
+Scenario,Games excluded,Share of games excluded,Share of all owners excluded,Games kept,Max owners kept (M),Target skewness
+All games (baseline),0,0.0,0.0,76727,150.0,59.76052468434959
+Excluding games with 10M+ owners,86,0.0011208570646578128,0.29777792303530115,76641,7.5,11.729722622904141
+Excluding games with 1M+ owners,1287,0.01677375630482099,0.6399112684042578,75440,0.75,4.685078826443256
+Excluding games with 100k+ owners,8194,0.10679421846286183,0.8695686007187134,68533,0.075,2.2591528277411093

@@ -29,6 +29,12 @@ automatically by notebook 01 with `kagglehub`; not stored in git.
 | 5. Validation | 03 | 5-fold cross-validation, held-out test set, error analysis |
 | 6. Decision making | 03 | Model comparison, important variables, issues and next steps |
 
+## Modifications
+
+| Notebook | Modification | Result |
+|---|---|---|
+| [`04_modification_remove_popular_games`](notebooks/04_modification_remove_popular_games.ipynb) | Exclude the most popular games (10M+, 1M+, 100k+ owners); everything else identical to the baseline | Excluding the 86 games with 10M+ owners raises Random Forest CV R² from 0.01 to 0.23; kept as a diagnostic, not adopted, since popularity is unknown before release |
+
 ## How to run
 
 ```
