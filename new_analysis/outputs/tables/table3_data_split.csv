@@ -1,0 +1,3 @@
+,Games,Mean owners (millions),Median owners (millions),Max owners (millions)
+Training set (80%),61381,0.12456810739479643,0.01,150.0
+Test set (20%),15346,0.12980190277596765,0.01,150.0

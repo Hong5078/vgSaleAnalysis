@@ -1,0 +1,12 @@
+Variable,Decision,Reason
+List price,Used,Set before release. The current price is not used because it includes later discounts.
+"Release year, required age",Used,Known at release.
+"Supported languages, audio languages, platforms",Used,Declared on the store page at release.
+"Screenshots, description length",Used,Store-page content prepared for release.
+"Genres, feature categories",Used,"Chosen by the developer, except the entries listed below."
+Genre 'Early Access',Excluded,Reflects status at the data snapshot; games that complete Early Access lose the label.
+Categories added after release,Excluded,"Trading Cards and Family Sharing (granted or applied by Valve after release); Achievements, Workshop, In-App Purchases, Remote Play, Cross-Platform Multiplayer and recent accessibility labels (commonly added in later updates)."
+Metacritic score,Excluded,Available for only about 5% of games.
+"Reviews, recommendations, user score",Excluded,Accumulate after release (equivalent to the parent paper's User_Count).
+"Peak players, playtime, user tags, DLC count",Excluded,Measured or created after release.
+"Developer, publisher",Excluded,Thousands of distinct values; not used in the parent paper either.
