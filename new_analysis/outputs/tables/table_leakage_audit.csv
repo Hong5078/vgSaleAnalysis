@@ -1,0 +1,18 @@
+Variable,Available,Decision,Reason
+Price (list price at launch),Pre-release,Used,Set by the publisher before launch. The current price is not used because it reflects later discounts.
+"Languages, audio languages, platforms",Pre-release,Used,Declared on the store page before launch.
+Genres (excluding Early Access),Pre-release,Used,Chosen by the developer.
+Categories describing game design,Pre-release,Used,"Single/multi-player, co-op, controller and VR support, cloud saves, etc."
+"Screenshots, description, website, support email, required age",Pre-release,Used,Store-page content prepared for launch.
+"Developer, publisher, prior release counts",Pre-release,Used,Counts use only games released strictly earlier.
+"Store-page lead time, title features",Pre-release,Used,Derived from AppID order and the title (Section 3.2).
+"Release quarter, launch-week competition",Release day,Used,Known on the release date.
+Metacritic score,Release day,Side analysis,Published around launch but available for only ~5% of games.
+Genre: Early Access,Changes after launch,Excluded,Describes status at the data snapshot; successful games leave Early Access and lose the label.
+"Categories: Achievements, In-App Purchases, Cross-Platform Multiplayer, Workshop, Remote Play",Changes after launch,Excluded,Commonly added or changed in post-launch updates.
+"Categories: accessibility labels, Steam Timeline, DualShock/DualSense support",Changes after launch,Excluded,Recently introduced store labels (see check below); on older games they were added after launch.
+"Categories: Trading Cards, Family Sharing",Post-release,Excluded,Granted by Valve after release or applied platform-wide retroactively.
+"Achievement count, DLC count",Post-release,Excluded,Grow with post-launch updates and content.
+"Current price, discount",Post-release,Excluded,Reflect price changes after launch.
+"Reviews, recommendations, user score",Post-release,Excluded,Accumulate with the number of buyers (equivalent to the parent paper's User_Count).
+"Peak players, playtime, user tags",Post-release,Excluded,Measured on players after release.

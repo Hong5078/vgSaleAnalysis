@@ -1,0 +1,16 @@
+Indicator group,Tier,Columns,Examples
+Price,Pre-release,2,"log_price, is_free"
+Localisation,Pre-release,3,"log_n_languages, log_n_audio_languages, has_english"
+Platforms,Pre-release,3,"n_platforms, mac, linux"
+Required age,Pre-release,1,required_age
+Screenshots,Pre-release,1,log_n_screenshots
+Description length,Pre-release,2,"log_short_desc_len, log_detailed_desc_len"
+Website / support email,Pre-release,2,"has_website, has_support_email"
+Publishing structure,Pre-release,2,"self_published, n_developers"
+Studio experience,Pre-release,3,"log_dev_prior_releases, log_pub_prior_releases, is_debut"
+Store-page lead time,Pre-release,2,"log_lead_days, lead_missing"
+Title,Pre-release,3,"title_words, has_sequel_marker, has_subtitle"
+Genres,Pre-release,15,"genre_Indie, genre_Casual, genre_Action ..."
+Design categories,Pre-release,18,"cat_Single_player, cat_Steam_Cloud, cat_Full_controller_support ..."
+Release quarter,Release day,3,"release_q2, release_q3, release_q4"
+Launch competition,Release day,2,"log_same_week_releases, log_same_genre_month_releases"
