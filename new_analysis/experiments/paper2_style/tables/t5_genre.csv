@@ -1,0 +1,21 @@
+grouping,level,n,mean owners,median owners,share ≥100k owners
+paid: genre (inclusion-based),Action,28922,152198.49941221214,10000.0,0.11593250812530254
+paid: genre (inclusion-based),Adventure,28064,108898.05444697833,10000.0,0.10461801596351197
+paid: genre (inclusion-based),RPG,12393,167389.25199709513,10000.0,0.1347534898733156
+paid: genre (inclusion-based),Simulation,14141,98100.55865921787,10000.0,0.10699384767696768
+paid: genre (inclusion-based),Strategy,13373,104138.18888805802,10000.0,0.12869214088087938
+paid: genre (inclusion-based),Sports,3080,59131.493506493505,10000.0,0.0724025974025974
+paid: genre (inclusion-based),Casual,29806,43495.60491176273,10000.0,0.05404952023082601
+paid: genre (inclusion-based),Indie,49250,71022.43654822336,10000.0,0.08353299492385786
+paid: genre (inclusion-based),Massively_Multiplayer,868,486866.3594470046,10000.0,0.1532258064516129
+paid: genre (inclusion-based),Racing,2536,67712.93375394322,10000.0,0.08990536277602523
+free-to-play: genre (inclusion-based),Action,3573,494023.2297788973,10000.0,0.18191995521970333
+free-to-play: genre (inclusion-based),Adventure,2921,330094.1458404656,10000.0,0.15919205751454982
+free-to-play: genre (inclusion-based),RPG,1511,243808.7359364659,35000.0,0.22303110522832562
+free-to-play: genre (inclusion-based),Simulation,1476,290325.2032520325,10000.0,0.19444444444444445
+free-to-play: genre (inclusion-based),Strategy,1629,310552.4861878453,10000.0,0.21792510742786986
+free-to-play: genre (inclusion-based),Sports,370,555513.5135135135,10000.0,0.21621621621621623
+free-to-play: genre (inclusion-based),Casual,3292,160191.3730255164,10000.0,0.1391251518833536
+free-to-play: genre (inclusion-based),Indie,5755,134446.56820156384,10000.0,0.14300608166811468
+free-to-play: genre (inclusion-based),Massively_Multiplayer,723,1032925.3112033195,75000.0,0.4066390041493776
+free-to-play: genre (inclusion-based),Racing,264,258333.33333333334,10000.0,0.1856060606060606

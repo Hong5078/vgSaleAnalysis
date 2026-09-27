@@ -1,0 +1,6 @@
+rating_category,grouping,n,mean owners,median owners,share ≥100k owners
+Negative (0–39),Free-to-play: Steam rating category (POST-RELEASE diagnostic),186,67043.01075268818,35000.0,0.15053763440860216
+Mixed (40–69),Free-to-play: Steam rating category (POST-RELEASE diagnostic),2022,361449.0603363007,35000.0,0.20079129574678536
+Mostly Positive (70–79),Free-to-play: Steam rating category (POST-RELEASE diagnostic),1342,268874.8137108793,35000.0,0.21162444113263784
+Very Positive (80–94),Free-to-play: Steam rating category (POST-RELEASE diagnostic),2623,461071.29241326725,35000.0,0.2161646969119329
+Overwhelmingly Positive (95–100),Free-to-play: Steam rating category (POST-RELEASE diagnostic),458,138176.8558951965,10000.0,0.1943231441048035

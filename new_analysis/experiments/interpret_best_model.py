@@ -154,7 +154,7 @@ plt.savefig(os.path.join(FIG, "fig_a_permutation_importance.png"), dpi=150, bbox
 plt.close()
 
 # =============================================================== Part 2: test-set predictions
-raw_path = kagglehub.dataset_download("fronkongames/steam-games-dataset")
+raw_path = kagglehub.dataset_download("fronkongames/steam-games-dataset/versions/49")
 with open(os.path.join(raw_path, "games.json"), encoding="utf-8") as f:
     raw = json.load(f)
 diag = pd.DataFrame([{

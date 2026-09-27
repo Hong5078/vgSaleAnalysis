@@ -1,0 +1,6 @@
+rating_category,grouping,n,mean owners,median owners,share ≥100k owners
+Negative (0–39),Paid games: Steam rating category (POST-RELEASE diagnostic),2139,35635.811126694716,10000.0,0.0584385226741468
+Mixed (40–69),Paid games: Steam rating category (POST-RELEASE diagnostic),10640,82964.28571428571,10000.0,0.11259398496240601
+Mostly Positive (70–79),Paid games: Steam rating category (POST-RELEASE diagnostic),7686,135096.27894873798,10000.0,0.16510538641686182
+Very Positive (80–94),Paid games: Steam rating category (POST-RELEASE diagnostic),16849,207847.05323758087,10000.0,0.1976378420084278
+Overwhelmingly Positive (95–100),Paid games: Steam rating category (POST-RELEASE diagnostic),5282,256180.4240817872,10000.0,0.12836046951912156

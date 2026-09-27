@@ -165,3 +165,52 @@ Team Fortress 2), viral hits (Among Us, Fall Guys, Unturned), major franchises (
 Hogwarts Legacy) and one non-game utility that passed the software filter (Wallpaper Engine). Their
 store-page features do not distinguish them from ordinary releases; what sets them apart (franchise
 strength, marketing budget, network effects, virality) is not in the dataset.
+
+---
+
+## Second parent paper: approach applied (E04, E05)
+
+Source: Bondarenko, Cabrera & Fitzek, IEEE SmartNets 2026. Three devices borrowed: separate paid and
+free-to-play models, price bands, and percentage-change reporting from a log-linear outcome. Its own
+variables (wishlists, 30-day rating) are unavailable or post-release, so only the approach is used.
+Full write-up and tables: `paper2_style/PAPER2_STYLE_ANALYSIS.md`; script `paper2_style_analysis.py`.
+Same protocol as every other experiment (training portion, 5-fold KFold, seed 42, log1p owners).
+
+### E04 — Separate models for paid and free-to-play games
+
+- **Hypothesis:** price does not apply to free-to-play games, and the earlier error analysis found they
+  behave differently (MAE_log 0.94 against 0.63 for paid games). Fitting one model per segment lets
+  every coefficient differ, which should help if the segments follow different relationships.
+- **Change:** segmentation only (paid: price > 0, n = 68,380; free: price = 0, n = 8,347). Features,
+  folds and models unchanged; predictions from the two models are pooled for the overall metric.
+- **Result (CV R²_log, all games):** Linear Regression 0.291 → 0.297; HistGradientBoosting 0.437 → 0.433.
+  On free-to-play games alone: Linear Regression 0.283 → 0.314 (MAE 0.943 → 0.921);
+  HistGradientBoosting 0.400 → 0.376.
+- **Interpretation:** separation helps the linear model, where it acts as a manual interaction, but not
+  gradient boosting, which already models interactions and loses training data when split (the
+  free-to-play model sees 8,347 games instead of 61,381). Useful for interpretation, not for accuracy.
+
+### E05 — Price bands instead of a continuous price
+
+- **Hypothesis:** the descriptive tables show a non-monotone price–sales relationship (rising to the
+  $40–59.99 band, reversing above $80), which a single linear slope cannot represent.
+- **Change:** the `price` column replaced by six band dummies (paper's bands plus $80+).
+- **Result (CV R²_log, all games):** Linear Regression 0.291 → 0.309 (+0.018); with separate models as
+  well, 0.315 (+0.023 over the pooled continuous-price baseline). HistGradientBoosting 0.437 → 0.429 (−0.008).
+- **Interpretation:** banding supplies the non-linearity a linear model lacks; a tree-based model finds
+  its own thresholds and is slightly hurt by the coarser encoding.
+
+**Reported effects (log-linear OLS, percentage changes).** Paid games, relative to $0.99–9.99:
++38% ($10–19.99), +142% ($20–29.99), +212% ($30–39.99), +257% ($40–59.99), −49% ($80+), all p < 0.001;
+online co-op +69%, full controller support +21%, each supported language +1.8%, VR-only −27%.
+Free-to-play: massively multiplayer +34%, online PvP +32%, each supported language +7.2%, Indie −19%.
+With a continuous price, +$10 is associated with **+9.8% owners**, the opposite sign to the paper's
+−15% per $10 on wishlist conversion; the outcomes differ (total owners versus conversion of existing
+wishlisters), so both can hold.
+
+## Data version pinning (2026-09-27)
+
+The Kaggle dataset was re-scraped (version 51 appeared). All results in this project use **version 49**,
+so `kagglehub.dataset_download(...)` is now pinned to `fronkongames/steam-games-dataset/versions/49`
+in notebook 01 and in the analysis scripts. Notebook 01 was re-run after pinning and the modeling table
+is byte-identical (76,727 × 47, checksum edd5c72d781c2c3563c337409ef686e5).
