@@ -1,0 +1,7 @@
+scored,model,R2_log,MAE_log
+random folds,single regression (E08),0.4599688288590489,0.6339239181188855
+random folds,"two-stage, expected value",0.46107301431909764,0.631651781259107
+random folds,"two-stage, cut at 50%",0.3079676846953796,0.5304767024165326
+"one year ahead, mean of 2022-2024 and 5 seeds",single regression (E08),0.25033500397032465,0.5563810861190837
+"one year ahead, mean of 2022-2024 and 5 seeds","two-stage, expected value",0.26536100591503703,0.5521724417573727
+"one year ahead, mean of 2022-2024 and 5 seeds","two-stage, cut at 50%",0.02723245633413761,0.3995927649245494
