@@ -1,0 +1,9 @@
+Group,Variable,Built from,Known before release?
+A,Earlier releases by the developer / publisher (log),"Developer, publisher, release dates",Counts only games dated strictly before this game's release.
+A,Developer's first game; self-published; number of developers,"Developer, publisher",Fixed when the store page is created.
+B,Sequel marker; subtitle; words in title,Title,The title is public before release.
+B,Earlier games with the same title stem (log),"Title, developer, publisher, release dates",Counts only games dated strictly before this game's release.
+C,Store-page lead time in days (log); missing flag,"AppID order, release date","The page exists before release. Its creation date is estimated, not observed."
+D,Website; support contact; English supported,Store-page fields,"Entered for release, but read at the 2025 snapshot and may have been edited since."
+D,Games released in the same week (log),Release dates,Release schedules are public.
+Past sales,Mean and best log owners of the developer's / publisher's earlier games,Owner estimates of earlier games,Only partly: the owner counts are a 2025 snapshot and include sales made after this game's release. Used in the sensitivity experiment only (Section 12.5).

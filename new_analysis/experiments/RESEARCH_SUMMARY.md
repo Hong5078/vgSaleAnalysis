@@ -124,3 +124,22 @@ be compared with Track A.
 4. **Blockbuster identification as its own task:** a classifier for the probability of reaching 1M+
    owners, evaluated with ROC-AUC and precision at the top of the ranking, rather than forcing one
    regression to fit both typical games and outliers.
+
+## 8. Update: new pre-release variables (E06–E10, notebook 07)
+
+Sections 1–7 describe the model with the original 42 variables. Items 1 and 2 of Section 7 have since
+been carried out.
+
+- **New reference model:** the same HistGradientBoosting on log1p(owners) with 49 variables: the original
+  42, studio experience (5) and store-page lead time (2). CV R²_log 0.460 ± 0.009 (was 0.437), test 0.446
+  (was 0.426), CV MAE 0.103 M owners. Grouped folds by title: 0.455.
+- **Not adopted:** franchise and title variables (+0.001) and store-page extras (−0.001).
+- **Chronological validation:** fitted on releases up to 2021 and scored on 2022 to June 2024, R²_log is
+  0.161 with 42 variables and 0.165 with 49. Random folds overstate forecasting accuracy, mainly because
+  release year cannot be learned for years with no training games.
+- **Past sales of a studio's earlier games (E10, sensitivity only):** chronological R²_log 0.165 → 0.252.
+  Not adopted, because the owner counts are a 2025 snapshot and include sales made after the predicted
+  game's release.
+- **Next:** reduce the dependence on release year (for example a target relative to the release-year
+  cohort), find past-sales information dated before each release, then tune with nested cross-validation.
+

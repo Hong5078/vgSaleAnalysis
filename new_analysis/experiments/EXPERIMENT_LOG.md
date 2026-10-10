@@ -41,6 +41,11 @@ never compared with each other; every experiment reports both.
 | E02 | 〃 | B | HistGB | 0.343 ± 0.008 | 0.190 ± 0.006 | 0.034 | 0.098 | — |
 | E03 | Back-transform: Duan smearing | A | HistGB | 0.437 ± 0.011 (unchanged) | **0.088 ± 0.044** | 0.115 | **1.435** | +0.030 R²_orig |
 | E03 | 〃 | B | HistGB | 0.343 ± 0.008 | 0.263 ± 0.019 | 0.039 | 0.093 | +0.008 R²_orig vs E00-B (below the 0.01 threshold) |
+| E06 | Features: + studio experience (5) | A | HistGB | 0.450 ± 0.008 | 0.067 ± 0.038 | 0.104 | 1.451 | +0.013 R²_log (adopted) |
+| E07 | Features: + franchise and title (4) | A | HistGB | 0.451 ± 0.008 | 0.078 ± 0.046 | 0.103 | 1.443 | +0.001 vs E06 (not adopted) |
+| E08 | Features: + store-page lead time (2) | A | HistGB | **0.460 ± 0.009** | 0.086 ± 0.042 | 0.103 | 1.436 | +0.010 vs E06 (adopted; new best) |
+| E09 | Features: + store-page extras (4) | A | HistGB | 0.459 ± 0.011 | 0.090 ± 0.048 | 0.103 | 1.434 | −0.001 vs E08 (not adopted) |
+| E08 | 〃 | B | HistGB | 0.366 ± 0.006 | 0.205 ± 0.009 | 0.033 | 0.097 | +0.023 R²_log vs E02-B |
 
 ---
 
@@ -214,3 +219,81 @@ The Kaggle dataset was re-scraped (version 51 appeared). All results in this pro
 so `kagglehub.dataset_download(...)` is now pinned to `fronkongames/steam-games-dataset/versions/49`
 in notebook 01 and in the analysis scripts. Notebook 01 was re-run after pinning and the modeling table
 is byte-identical (76,727 × 47, checksum edd5c72d781c2c3563c337409ef686e5).
+
+---
+
+## New pre-release variables (E06–E09) and past sales (E10)
+
+Notebook: `notebooks/07_modification_new_prerelease_variables.ipynb`, which builds the variables from the
+raw `games.json` (version 49) and writes `data/processed/engineered_features.csv.gz`. Run it before
+`python experiments.py E06` … `E10`. Same protocol as every other experiment; model and target as in E02.
+
+**Rules fixed in advance.** One group per experiment, in the order A, B, C, D. A group is adopted only if
+it raises CV R²_log by at least 0.01 over the last adopted set. All variables must be known at release.
+
+| Group | Variables |
+|---|---|
+| A. Studio experience | log earlier releases by the developer and by the publisher, developer's first game, self-published, number of developers |
+| B. Franchise and title | sequel marker, subtitle, words in title, log earlier games with the same title stem by the same developer or publisher |
+| C. Store-page lead time | log days between the estimated store-page creation (from AppID order) and release, missing flag |
+| D. Store-page extras | website listed, support contact listed, English supported, log releases in the same week |
+
+### E06 — Studio experience
+
+- **Hypothesis:** the largest errors are games from established studios; release history is public before launch.
+- **Result (Track A):** HistGB R²_log 0.437 → 0.450 (+0.013), higher in 5 of 5 folds. Linear Regression 0.291 → 0.302.
+- **Outcome:** adopted.
+
+### E07 — Franchise and title
+
+- **Hypothesis:** sequels and series entries inherit an audience.
+- **Result:** 0.450 → 0.451 (+0.001), higher in 3 of 5 folds. Linear Regression 0.302 → 0.305.
+- **Outcome:** not adopted. Titles with a sequel marker do sell more (22.0% reach 100k owners against 10.1%),
+  but only 4.9% of games have one and 7.1% continue an earlier title, so few predictions change.
+
+### E08 — Store-page lead time
+
+- **Hypothesis:** a longer time on the store before release gives more time to collect attention; it is the
+  closest available substitute for the second parent paper's wishlist counts.
+- **Result:** on top of E06, 0.450 → 0.460 (+0.0101), higher in 5 of 5 folds. Linear Regression 0.302 → 0.313.
+- **Outcome:** adopted, just above the threshold. New reference model: 49 variables.
+- **Caveat:** the page-creation date is estimated from AppID order, and Early Access games may have sold
+  before their recorded release date, which lengthens their lead time.
+
+### E09 — Store-page extras
+
+- **Result:** on top of E08, 0.460 → 0.459 (−0.001), higher in 2 of 5 folds. Linear Regression 0.313 → 0.325.
+- **Outcome:** not adopted. Helps the linear model only; these fields are also read at the 2025 snapshot.
+
+### Validity checks for the adopted model (base 42 + A + C)
+
+- **Grouped folds by title:** R²_log 0.455 against 0.460 with random folds (Notebook 5 model: 0.434 against 0.437).
+- **Test set (used once for this model):** R²_log 0.446 against 0.426 for E02; MAE_log 0.637 against 0.653;
+  MAE_orig 0.108 M against 0.110 M.
+- **Permutation importance by group:** lead time 0.052 (4th of 12) and studio experience 0.030 (5th), after
+  release year 0.350, localisation 0.133 and price 0.105.
+- **By segment (out-of-fold):** paid 0.438 → 0.461; free-to-play 0.400 → 0.422.
+
+### E10 — Past sales of the studio's earlier games (sensitivity, chronological split)
+
+- **Variables:** mean and maximum log1p(owners) of the developer's, and the publisher's, earlier labeled
+  games (4 variables; available for 48.2% of games).
+- **Why not in the main model:** the owner counts are a 2025 snapshot, so they include sales made after the
+  predicted game's release. Under random folds, one game's target would also be another game's feature.
+- **Design:** training portion only; fit on releases up to 2021 (38,450 games), score on 2022 to June 2024
+  (22,931 games). Raw numbers: `results/E10_chronological_past_sales.csv`.
+
+| Feature set | Chronological R²_log | MAE_log | Random-fold CV R²_log (reference) |
+|---|---|---|---|
+| Base 42 (E02) | 0.161 | 0.622 | 0.437 |
+| Base 42 + A + C (E08) | 0.165 | 0.621 | 0.460 |
+| Base 42 + A + C + past sales | 0.252 | 0.576 | 0.499 |
+
+- **Interpretation:**
+  - Random folds overstate forecasting accuracy: for releases after the training period, R²_log is 0.16, not
+    0.44–0.46. Release year, the most important variable, cannot be learned for years with no training games.
+  - Groups A and C add almost nothing on the chronological split (+0.004).
+  - Past sales add +0.087, more than any pre-release group, but the figure is optimistic because of the
+    snapshot problem.
+- **Outcome:** not adopted. Chronological R² is reported next to random-fold R² from now on.
+

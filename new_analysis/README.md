@@ -34,6 +34,9 @@ automatically by notebook 01 with `kagglehub`; not stored in git.
 | Notebook | Modification | Result |
 |---|---|---|
 | [`04_modification_remove_popular_games`](notebooks/04_modification_remove_popular_games.ipynb) | Exclude the most popular games (10M+, 1M+, 100k+ owners); everything else identical to the baseline | Excluding the 86 games with 10M+ owners raises Random Forest CV R² from 0.01 to 0.23; kept as a diagnostic, not adopted, since popularity is unknown before release |
+| [`05_modification_log_target_and_boosting`](notebooks/05_modification_log_target_and_boosting.ipynb) | Log-transformed target, then Gradient Boosting, then a smearing correction, one change at a time (experiments E01–E03) | CV R² on the log scale rises from −0.12 (baseline Random Forest) to 0.44 (test 0.43), and MAE falls from 0.155M to 0.104M owners; adopted as the reference model |
+| [`06_modification_second_parent_paper`](notebooks/06_modification_second_parent_paper.ipynb) | The second parent paper's approach: separate paid and free-to-play models, price bands, percentage effects (experiments E04–E05) | Helps Linear Regression (CV R² 0.291 → 0.314) but not Gradient Boosting (0.437 → 0.428); kept for interpretation, e.g. +7.2% owners per language for free-to-play games against +1.8% for paid games |
+| [`07_modification_new_prerelease_variables`](notebooks/07_modification_new_prerelease_variables.ipynb) | New pre-release variables, one group at a time (experiments E06–E09), a chronological split, and past sales as a sensitivity check (E10) | Studio experience and store-page lead time are adopted: CV R² 0.437 → 0.460 (test 0.446). On releases after the training period R² is only 0.165; a studio's past sales would raise it to 0.252, but they are a 2025 snapshot, so they are not adopted |
 
 ## Experiments
 
@@ -43,9 +46,11 @@ an append-only results log and the write-ups:
 - [`RESEARCH_SUMMARY.md`](experiments/RESEARCH_SUMMARY.md): best model, comparison with the baseline, blockbuster analysis, limitations
 - [`interpretation/INTERPRETATION_SUMMARY.md`](experiments/interpretation/INTERPRETATION_SUMMARY.md): permutation importance, test-set error analysis, error patterns and blockbuster diagnostics for the best model (`interpret_best_model.py`)
 
-Best model so far on all games: HistGradientBoosting on log1p(owners). It reaches cross-validated
-R² 0.437 on the log scale (test 0.426), against −0.119 for the baseline Random Forest. On the
-original owner scale, R² is 0.088 with the smearing correction and MAE falls from 0.155M to 0.104M.
+Best model so far on all games: HistGradientBoosting on log1p(owners) with 49 release-time variables
+(the 42 of notebook 01 plus studio experience and store-page lead time, notebook 07). It reaches
+cross-validated R² 0.460 on the log scale (test 0.446), against −0.119 for the baseline Random Forest
+and 0.437 (test 0.426) with the original 42 variables. MAE falls from 0.155M to 0.103M owners. These
+scores use random folds; trained on releases up to 2021 and scored on later releases, R² is 0.165.
 
 ## How to run
 
@@ -54,8 +59,8 @@ pip install kagglehub pandas numpy matplotlib scikit-learn
 ```
 
 Run the notebooks in order from `notebooks/`. Notebook 01 downloads the data (~300 MB) and writes
-`data/processed/`; notebooks 02 and 03 read from there. Figures and tables are saved to
-`outputs/figures/` and `outputs/tables/`. Each notebook runs in about a minute.
+`data/processed/`; notebooks 02–07 read from there (07 also re-reads the raw file). Figures and tables are saved to
+`outputs/figures/` and `outputs/tables/`. Each notebook runs in one to three minutes.
 
 ## Earlier versions
 
