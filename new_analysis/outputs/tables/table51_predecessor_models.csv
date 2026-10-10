@@ -1,0 +1,4 @@
+Experiment,Variables,Number of variables,Random folds: R² (log),Random folds: gain,One year ahead: R² (log),One year ahead: gain,One year ahead: MAE (log),One year ahead: bias (log)
+Reference (Notebook 7),49 store-page variables,49,0.4599688288590489,,0.2503350039703247,,0.5563810861190837,0.11273492282877393
+E18,+ predecessor's owners and release gap (6 variables),55,0.49029042188432714,0.03032159302527826,0.2917569458699529,0.04142194189962817,0.5311894908136839,0.10131616800052942
+E19,+ studio averages of E10 (4 variables),59,0.5015499542254307,0.01125953234110355,0.3112750535566414,0.019518107686688546,0.522105004764519,0.0972536080772579

@@ -291,9 +291,189 @@ it raises CV R²_log by at least 0.01 over the last adopted set. All variables m
 
 - **Interpretation:**
   - Random folds overstate forecasting accuracy: for releases after the training period, R²_log is 0.16, not
-    0.44–0.46. Release year, the most important variable, cannot be learned for years with no training games.
+    0.44–0.46. This was first attributed to release year; E11–E14 below show the year level is the smallest
+    part of the gap.
   - Groups A and C add almost nothing on the chronological split (+0.004).
   - Past sales add +0.087, more than any pre-release group, but the figure is optimistic because of the
     snapshot problem.
 - **Outcome:** not adopted. Chronological R² is reported next to random-fold R² from now on.
+
+---
+
+## Forecasting later releases (E11–E14)
+
+Notebook: `notebooks/08_modification_forecasting_later_releases.ipynb`. Run with `python experiments.py E11`
+(E11–E14 run together). Reference: E08 (HistGB, log1p target, 49 variables). Chronological split of the
+training portion as in E10; the test set is not used. Raw numbers: `results/E11_E14_chronological.csv` and
+`results/E11_E14_one_year_ahead.csv`.
+
+**Adoption rule.** Gain of at least 0.01 in chronological R²_log (mean of five seeds), which must also hold
+when each year is predicted from earlier years only.
+
+**Where the gap comes from (E08 model).**
+
+| Games scored | Trained on | R²_log | Within-year R²_log | Bias (log) |
+|---|---|---|---|---|
+| All training games | random folds | 0.460 | 0.358 | −0.002 |
+| Released 2022–2024 | random folds | 0.298 | 0.295 | +0.006 |
+| Released 2022–2024 | releases up to 2021 | 0.165 | 0.215 | +0.204 |
+
+Within-year R² removes the release-year mean from actual and predicted values. The gap splits into −0.162
+(recent games are harder, even with random folds), −0.083 (no games of those years in training) and −0.051
+(level error). Mean log owners falls from 12.38 (2012 releases) to 9.53 (2024), and the share of games above
+the lowest owner range from 95% to 15%.
+
+**Experiments (fit up to 2021, score 2022–2024).**
+
+| ID | Change | R²_log (seed 42) | Within-year R²_log | Bias (log) | R²_log, mean of 5 seeds (range) | Gain | Outcome |
+|---|---|---|---|---|---|---|---|
+| E08 | reference | 0.165 | 0.215 | +0.204 | 0.164 (0.158–0.171) | | |
+| E11 | Release year removed | −0.013 | 0.132 | +0.354 | −0.011 | −0.175 | not adopted; random-fold CV 0.460 → 0.357 |
+| E12 | Year-relative target (level: last fitting year) | 0.172 | 0.219 | +0.195 | 0.167 (0.162–0.175) | +0.004 | not adopted |
+| E12+E11 | Year-relative target, release year removed | 0.127 | 0.168 | +0.183 | 0.121 | −0.043 | not adopted |
+| E13 | Fitted on 2017–2021 only | 0.180 | 0.228 | +0.199 | 0.170 (0.162–0.180) | +0.006 | not adopted (within seed noise) |
+| E14 | Year-relative target, level from a five-year trend | 0.215 | 0.219 | +0.064 | 0.212 (0.208–0.218) | +0.049 | passes on this split; fails the year-by-year check |
+
+**One year ahead (each year predicted from all earlier years).**
+
+| Release year | Random-fold R²_log | One-year-ahead R²_log | Bias (log) | E14 R²_log | E14 bias (log) |
+|---|---|---|---|---|---|
+| 2016 | 0.395 | 0.274 | +0.331 | 0.304 | +0.135 |
+| 2017 | 0.416 | 0.275 | +0.361 | 0.304 | −0.286 |
+| 2018 | 0.434 | 0.309 | +0.272 | 0.204 | −0.462 |
+| 2019 | 0.403 | 0.343 | +0.117 | 0.255 | −0.355 |
+| 2020 | 0.356 | 0.325 | −0.013 | 0.195 | −0.399 |
+| 2021 | 0.304 | 0.276 | +0.012 | 0.207 | −0.280 |
+| 2022 | 0.298 | 0.246 | +0.103 | 0.262 | +0.007 |
+| 2023 | 0.292 | 0.234 | +0.142 | 0.233 | +0.132 |
+| 2024 | 0.296 | 0.277 | +0.091 | 0.269 | +0.076 |
+
+- **Interpretation:**
+  - The year-relative target does not help: HistGB with release year as a variable already learns each year's level.
+  - Release year also helps within a year (E11), so the link between store-page variables and sales changes over time.
+  - E14's trend overshoots once the year level stops falling (2018–2021); its mean R²_log over 2016–2024 is 0.248
+    against 0.285 without it.
+  - One year ahead, the model reaches 0.253 on average for 2022–2024, against 0.295 with random folds.
+  - Seed-to-seed variation on the chronological split is about 0.01.
+- **Outcome:** no change adopted; E08 stays the reference. The forecasting figure to report is the
+  one-year-ahead R²_log (about 0.25 for 2022–2024), next to the random-fold R²_log (0.460).
+
+---
+
+## The low group and the breakout group (E15–E16)
+
+Notebook: `notebooks/09_modification_low_bracket_and_breakout.ipynb`. Run with `python experiments.py E15`
+(E15 and E16 run together). Raw numbers: `results/E15_breakout_classifier.csv`, `results/E16_two_stage.csv`.
+
+**Groups.** Low group: the 0–20,000 owner range, 53,446 games (69.7%). Breakout group: all others, 23,281 games
+(30.3%). The group is the outcome, so it cannot be used to filter games before release; it can only be
+predicted. Games inside the low group share one target value and cannot be told apart.
+
+**Profile (release-year mix held equal).** Largest standardised differences, breakout against low group:
+store-page lead time +0.37, Steam Cloud +0.36 (may partly follow success; pages are a 2025 snapshot),
+free-to-play +0.28, self-published −0.25, description length +0.24, Casual −0.24. No variable differs by more
+than 0.37 SD.
+
+### E15 — Classifying the group
+
+- **Change:** HistGradientBoostingClassifier (defaults) on the 49 variables of E08; outcome: above 20,000 owners.
+- **Result, random folds:** ROC-AUC 0.805; within release years 0.755; precision among the top 10% of each
+  year 72.7% (base rate 30.5%); Brier 0.151. Test set (used once): 0.801, 0.753, 72.1%.
+- **References:** Logistic Regression 0.767 (within-year 0.711). The E08 regression used only to rank: 0.798
+  (within-year 0.747, top-10% precision 72.1%).
+- **100,000 owners or more:** ROC-AUC 0.886 (within-year 0.851); top-10% precision 45.3% (base rate 10.7%).
+- **One year ahead:**
+
+| Release year | Base rate | ROC-AUC | Precision in top 10% | Mean predicted probability |
+|---|---|---|---|---|
+| 2022 | 24.3% | 0.714 | 62.0% | 28.4% |
+| 2023 | 19.5% | 0.751 | 59.9% | 26.2% |
+| 2024 | 15.5% | 0.754 | 51.1% | 20.2% |
+
+- **Interpretation:** the classifier ranks games usefully (top tenth breaks out about three times as often as
+  average) but is no more accurate than the regression used as a ranker. Its probabilities are calibrated
+  with random folds and too high for later years.
+- **Odds of breaking out (logistic regression with release-year controls).** Paid: lead time 2 years or more
+  +180%, price $20–59.99 +125% to +159%, online co-op +94%, RPG +42%, self-published −35%, VR only −59%,
+  price $80+ −94%. Free-to-play: lead time 2 years or more +106%, online PvP +58%, developer with 10+ earlier
+  releases +58%, self-published −20%, VR only −33%.
+
+### E16 — Two-stage prediction
+
+- **Change:** stage 1 = E15 probability p; stage 2 = HistGB regression of log owners fitted on breakout games
+  only. Combined as p × stage 2 + (1 − p) × log1p(10,000), or by a cut at p = 0.5.
+- **Adoption rule:** gain of at least 0.01 in random-fold R²_log that also holds one year ahead.
+
+| Model | Random folds R²_log | MAE_log | One year ahead R²_log | MAE_log | Correct side of 20,000, one year ahead |
+|---|---|---|---|---|---|
+| Always the low group | −0.306 | 0.687 | −0.184 | 0.399 | 80.2% |
+| Single regression (E08) | 0.460 | 0.634 | 0.250 | 0.556 | 78.7% |
+| Two-stage, expected value | 0.461 | 0.632 | 0.265 | 0.552 | 79.4% |
+| Two-stage, cut at 50% | 0.308 | 0.531 | 0.027 | 0.400 | 81.9% |
+
+(One year ahead: mean of 2022–2024 and five seeds.)
+
+- **Interpretation:** the expected-value version gains +0.001 with random folds and +0.015 one year ahead; the
+  cut version lowers absolute error but loses R². For recent games a yes/no call barely beats calling every
+  game low (81.9% against 80.2%).
+- **Outcome:** not adopted. E08 stays the reference. Results are to be stated as a ranking (breakout share among
+  the top-ranked games against the base rate), not as an owner number for one game.
+
+---
+
+## Forecasting from the predecessor (E17–E19)
+
+Notebook: `notebooks/10_modification_predecessor_analogy.ipynb`, which writes
+`data/processed/predecessor_features.csv.gz`. Run with `python experiments.py E17` (E17–E19 run together). Raw
+numbers: `results/E17_E19_predecessor.csv`.
+
+Source: Schaer, Kourentzes & Fildes, *Analogy-based life cycle forecasts with pre-release buzz*, European
+Journal of Operational Research 333 (2026) 88–100. Borrowed: the analogy (a game's predecessor) and the
+benchmark "new game = predecessor's sales". Not available: Google search interest before release.
+
+**Predecessors.** Series predecessor (same title stem, same developer or publisher): 6.9% of games.
+Developer's previous game: 33.0%. Publisher's previous game only: 8.3%. None: 51.8%. Correlation of log owners
+with the predecessor: 0.78, 0.56, 0.51. Share above 20,000 owners by the predecessor's owners: 18.0% (low
+group), 49.4% (20,000–100,000), 75.6% (100,000–1M), 88.3% (above 1M); no predecessor 25.5%.
+
+**Adoption rule.** Gain of at least 0.01 in random-fold R²_log that also holds one year ahead.
+
+### E17 — The predecessor alone (the paper's benchmark)
+
+One year ahead, mean of 2022–2024, games with a predecessor only.
+
+| Games | Forecast | R²_log | MAE_log | Bias (log) | MAE relative to benchmark |
+|---|---|---|---|---|---|
+| Series predecessor | Predecessor's owners | 0.160 | 0.502 | +0.204 | 1.00 |
+| Series predecessor | Adjusted for release year | 0.191 | 0.500 | +0.092 | 1.00 |
+| Series predecessor | × √(change in lead time) | −0.671 | 0.987 | +0.500 | 1.97 |
+| Series predecessor | E08 (49 store-page variables) | 0.459 | 0.552 | +0.138 | 1.10 |
+| Any predecessor | Predecessor's owners | −0.138 | 0.588 | +0.115 | 1.00 |
+| Any predecessor | E08 (49 store-page variables) | 0.332 | 0.614 | +0.132 | 1.04 |
+
+- **Interpretation:** the predecessor alone has a smaller absolute error than E08 but a much lower R²; it is
+  right for the 60% of games that stay in the predecessor's range and far off otherwise. Lead time is not a
+  substitute for search interest in the paper's formula.
+
+### E18 — Predecessor variables in the model; E19 — plus studio averages
+
+| ID | Variables | Random-fold R²_log | Gain | One-year-ahead R²_log | Gain | One-year-ahead MAE_log | Test R²_log |
+|---|---|---|---|---|---|---|---|
+| E08 | 49 store-page variables | 0.460 | | 0.250 | | 0.556 | 0.446 |
+| E18 | + 6 predecessor variables | 0.490 | +0.030 | 0.292 | +0.041 | 0.531 | 0.475 |
+| E19 | + 4 studio averages (E10) | **0.502** | +0.011 | **0.311** | +0.020 | 0.522 | **0.486** |
+
+One-year-ahead R²_log by the predecessor available (E08 → E18 → E19): series 0.455 → 0.560 → 0.588;
+developer's previous game 0.296 → 0.364 → 0.396; publisher's previous game 0.281 → 0.313 → 0.355; none
+0.090 → 0.092 → 0.089.
+
+**Snapshot check (E18).** Predecessors restricted to games released at least 0 / 1 / 2 / 3 years before:
+coverage 48.2% / 36.6% / 28.1% / 21.6%; one-year-ahead gain +0.041 / +0.035 / +0.030 / +0.024. The gain per
+game covered does not fall (0.086 → 0.109).
+
+**Ranking, one year ahead.** Breakout share in the top tenth: 57.1% (E08), 60.4% (E18), 61.8% (E19); base rate 19.8%.
+
+- **Outcome:** E18 and E19 adopted. New reference ("analogy model"): HistGB on log1p(owners) with 59 variables.
+  E08 is kept as the store-page model, which uses nothing measured after any release. This reverses the E10
+  decision; the limitation that predecessor owner counts are a 2025 snapshot is stated with every result.
 

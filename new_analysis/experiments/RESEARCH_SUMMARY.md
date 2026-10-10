@@ -135,11 +135,58 @@ been carried out.
   (was 0.426), CV MAE 0.103 M owners. Grouped folds by title: 0.455.
 - **Not adopted:** franchise and title variables (+0.001) and store-page extras (−0.001).
 - **Chronological validation:** fitted on releases up to 2021 and scored on 2022 to June 2024, R²_log is
-  0.161 with 42 variables and 0.165 with 49. Random folds overstate forecasting accuracy, mainly because
-  release year cannot be learned for years with no training games.
+  0.161 with 42 variables and 0.165 with 49. Random folds overstate forecasting accuracy (see Section 9
+  for the causes).
 - **Past sales of a studio's earlier games (E10, sensitivity only):** chronological R²_log 0.165 → 0.252.
   Not adopted, because the owner counts are a 2025 snapshot and include sales made after the predicted
   game's release.
-- **Next:** reduce the dependence on release year (for example a target relative to the release-year
-  cohort), find past-sales information dated before each release, then tune with nested cross-validation.
+- **Next (at the time):** reduce the dependence on release year, for example with a target relative to the
+  release-year cohort. This was tested in Section 9.
+
+## 9. Update: forecasting later releases (E11–E14, notebook 08)
+
+- **Where the gap between 0.460 and 0.165 comes from:** −0.162 appears when only 2022–2024 games are scored,
+  even with random folds (recent games mostly share the lowest owner range and are harder to tell apart);
+  −0.083 from having no games of those years in training; −0.051 from the level error (predictions about 23%
+  too high). The release-year level is the smallest part.
+- **Changes tested, none adopted:** removing release year (chronological R²_log −0.011), a year-relative
+  target (+0.004), fitting on 2017–2021 only (+0.006, within seed noise), and a linear trend for the year
+  level (+0.049 on the main split, but worse in the year-by-year check: 0.248 against 0.285).
+- **Forecasting accuracy to report:** each of 2022–2024 predicted from all earlier years gives R²_log 0.246,
+  0.234 and 0.277 (mean 0.253), with predictions roughly 10–15% too high; random folds give 0.295 on the same games.
+- **Reference model:** unchanged (49 variables, Section 8).
+- **Next:** a classification task for recent games (above the lowest owner range or not), past-sales
+  information dated before each release, then tuning scored one year ahead.
+
+## 10. Update: the low group and the breakout group (E15–E16, notebook 09)
+
+- **Why:** 69.7% of games sit in the lowest owner range (0–20,000) and share one target value.
+- **Profile:** with release year held equal, breakout games have longer store-page lead times, higher prices,
+  fuller pages, more languages and online play, and are less often self-published, Casual or VR-only. The
+  largest difference is 0.37 SD, so no single indicator separates the groups.
+- **E15, classifying the group:** ROC-AUC 0.805 with random folds (0.755 inside release years; test 0.801) and
+  0.71–0.75 one year ahead. Of the tenth of games ranked highest, 72.7% break out with random folds and 51–62%
+  one year ahead, about three times the base rate. Probabilities run high for later years.
+- **E16, two-stage prediction:** R²_log 0.461 against 0.460 with random folds; not adopted.
+- **How to state the result:** as a ranking, not as an owner number for one game. For recent games no model
+  here decides reliably which side of 20,000 owners a single game lands on.
+- **Reference model:** unchanged (49 variables, Section 8).
+
+## 11. Update: forecasting from the predecessor (E17–E19, notebook 10)
+
+Approach borrowed from Schaer, Kourentzes & Fildes (EJOR 2026): forecast a new game from an analogy, its
+predecessor.
+
+- **Predecessors:** 48% of games have one (series 6.9%, developer's previous game 33.0%, publisher's 8.3%).
+  After a low-group predecessor 18% of games rise above 20,000 owners; after one with more than 1M owners, 88%.
+- **E17, the predecessor alone:** smaller absolute error than the 49-variable model on games with a
+  predecessor (MAE_log 0.588 against 0.614; series 0.502 against 0.552) but much lower R².
+- **E18–E19, predecessor and studio averages in the model (adopted):** random-fold R²_log 0.460 → 0.502,
+  one-year-ahead 0.250 → 0.311, test 0.446 → 0.486.
+- **Who can be forecast:** one year ahead, R²_log is 0.59 with a series predecessor, 0.40 with a developer's
+  previous game and 0.09 with no predecessor (52% of games).
+- **Not reproduced:** the paper's pre-release buzz model; no search data, and lead time fails as a substitute.
+- **Limitation:** predecessor owner counts are the 2025 snapshot. The gain persists when only predecessors
+  released one to three years earlier are used.
+- **Reference models:** the analogy model (59 variables) and, for comparison, the store-page model (49).
 
