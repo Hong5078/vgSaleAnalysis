@@ -477,3 +477,68 @@ game covered does not fall (0.086 → 0.109).
   E08 is kept as the store-page model, which uses nothing measured after any release. This reverses the E10
   decision; the limitation that predecessor owner counts are a 2025 snapshot is stated with every result.
 
+
+---
+
+## E20 — Google Trends pilot (failed attempt)
+
+Script: `experiments/google_trends_pilot.py` (`pip install pytrends`). Per-game summary:
+`results/E20_google_trends_pilot.csv`; raw weekly series in `data/google_trends_pilot/` (not tracked).
+
+- **Purpose:** test whether the third paper's buzz measure, Google search interest before release, can be
+  collected for mid-range Steam games, before planning a study of 100–500 of them.
+- **Sample:** 30 games released 2019 to June 2024, five from each owner range between 20,000 and 2 million.
+- **Method:** Knowledge Graph entity where one exists (23 of 30), otherwise the title in the Games category;
+  weekly worldwide interest from 52 weeks before to 12 weeks after release; the same paired with the paper's
+  reference keyword "marker". Usable = interest in at least 6 of the 26 weeks before release.
+- **Result:**
+
+| Owner range | Games | Any data returned | Usable pre-release signal |
+|---|---|---|---|
+| 20,000 – 500,000 | 20 | 12 | 0 |
+| 500,000 – 2 million | 10 | 10 | 7 |
+
+  Below 500,000 owners, 8 games returned no data at all and the rest showed interest in only 1–3 weeks before
+  release, single spikes consistent with sampling noise. The 7 usable games are mostly big-budget franchise
+  titles or games sold before their Steam release date (console ports, Early Access). Paired with "marker",
+  only 13 of 30 games kept any pre-release signal.
+- **Outcome:** failed; not pursued. Google search interest does not reach mid-range Steam games, and at
+  500,000+ owners (about 3% of games) it would mean selecting games by the outcome.
+
+---
+
+## E21 — Tuning the analogy model, and the final model
+
+Notebook: `notebooks/11_final_model.ipynb` (tables 55–60). Not repeated in `experiments.py`; the notebook is the
+record.
+
+- **Change:** 36 HistGB settings (learning rate 0.03 / 0.1; max leaves 15 / 31 / 63; min samples per leaf
+  20 / 50 / 200; L2 0 / 1; up to 1,000 trees with early stopping) on the 59-variable analogy model.
+- **Selection without leakage into the evaluation:** each setting scored by predicting 2019, 2020 and 2021, each
+  from earlier years; the best evaluated on 2022–2024 (five seeds) and with random folds.
+- **Rule:** adopt if one-year-ahead R²_log on 2022–2024 rises by at least 0.01 and random folds do not fall.
+- **Result:** best setting learning rate 0.03, 31 leaves, min 50 per leaf, L2 1: tuning years 0.373 → 0.377;
+  2022–2024 0.311 → 0.315 (+0.004); random folds 0.502 → 0.504 (+0.002).
+- **Outcome:** not adopted. **Final model = E19 analogy model with default settings.**
+
+**Final model under every evaluation:** random folds 0.502; grouped by title 0.498; test 0.486; one year ahead
+0.311 (series predecessor 0.588, developer's previous game 0.396, publisher's 0.355, none 0.089; paid 0.342,
+free-to-play −0.035).
+
+**Permutation importance (final model):** release year 0.212, studio averages 0.139, price / business model
+0.071, localisation 0.071, lead time 0.025, predecessor's owners 0.017; studio experience 0.005.
+
+**One-year-ahead errors by actual owner range (typical factor off):** 0–20k over-predicted ×1.3; 20k–100k
+under-predicted ×2.5; 100k–1M ×5.4; above 1M ×8.7. Largest misses: Lost Ark, Vampire Survivors, Brotato,
+Party Animals, Chained Together.
+
+**Every model on the same evaluations (R²_log: random folds / one year ahead, seed 42 / test; test MAE in M owners):**
+
+| Model | Random folds | One year ahead | Test | Test MAE |
+|---|---|---|---|---|
+| Linear Regression, owners in millions (parent paper 1 method) | −24.19 | −72.56 | −24.27 | 0.203 |
+| Decision Tree, owners in millions (parent paper 1 method) | −0.197 | −0.925 | −0.209 | 0.173 |
+| Random Forest, owners in millions (baseline) | −0.119 | −1.110 | −0.117 | 0.157 |
+| Gradient Boosting, log owners (E02) | 0.437 | 0.237 | 0.426 | 0.110 |
+| Store-page model (E08) | 0.460 | 0.253 | 0.446 | 0.108 |
+| Analogy model = final model (E19) | 0.502 | 0.313 | 0.486 | 0.106 |

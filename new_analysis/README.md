@@ -40,6 +40,7 @@ automatically by notebook 01 with `kagglehub`; not stored in git.
 | [`08_modification_forecasting_later_releases`](notebooks/08_modification_forecasting_later_releases.ipynb) | Where the drop on later releases comes from, and four changes aimed at it: no release year, a year-relative target, recent training years only, a trend for the year level (experiments E11–E14) | None is adopted. Most of the drop is that recent games are harder to tell apart, not the release-year level. Predicting each year from earlier years gives R² about 0.25 for 2022–2024, against 0.30 with random folds |
 | [`09_modification_low_bracket_and_breakout`](notebooks/09_modification_low_bracket_and_breakout.ipynb) | The 70% of games in the lowest owner range against the rest: how they differ, a classifier for the group, and a two-stage prediction (experiments E15–E16) | Breakout games have longer lead times, higher prices, a publisher and online play, but no single variable separates the groups. The classifier reaches ROC-AUC 0.805 (0.71–0.75 one year ahead); of the tenth of games it ranks highest, 51–62% break out one year ahead, about three times the base rate. The two-stage model does not beat the single regression and is not adopted |
 | [`10_modification_predecessor_analogy`](notebooks/10_modification_predecessor_analogy.ipynb) | A third paper's approach (Schaer, Kourentzes & Fildes, EJOR 2026): forecast a game from its predecessor (experiments E17–E19) | Adopted. With the predecessor's owners and the studio's averages added, one-year-ahead R² rises from 0.250 to 0.311, random-fold R² from 0.460 to 0.502 and test R² from 0.446 to 0.486. Games with a series predecessor reach 0.59 one year ahead; the 52% of games with no predecessor stay at 0.09 |
+| [`11_final_model`](notebooks/11_final_model.ipynb) | Tuning chosen on 2019–2021 and evaluated on 2022–2024, full validation, interpretation, and every model of the study on the same evaluations (E21) | Tuning adds only +0.004 and is not adopted. Final model = the analogy model: R² 0.502 random folds, 0.486 test, 0.311 one year ahead. Free-to-play games cannot be forecast one year ahead (R² −0.04) |
 
 ## Experiments
 
@@ -53,7 +54,7 @@ Two models are reported, both HistGradientBoosting on log1p(owners):
 - **Store-page model (notebook 07):** 49 release-time variables. Cross-validated R² 0.460 on the log scale
   (test 0.446), against −0.119 for the baseline Random Forest. Predicting each of 2022–2024 from earlier
   years gives R² 0.250.
-- **Analogy model (notebook 10):** the same plus the owners of each game's predecessor and the studio's
+- **Analogy model (notebook 10), the final model (notebook 11):** the same plus the owners of each game's predecessor and the studio's
   earlier games, 59 variables. Cross-validated R² 0.502 (test 0.486); one year ahead 0.311. Its extra
   variables are owner counts read in 2025, which include sales made after the predicted game's release.
 

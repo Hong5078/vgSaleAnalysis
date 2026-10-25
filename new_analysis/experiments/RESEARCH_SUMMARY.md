@@ -190,3 +190,27 @@ predecessor.
   released one to three years earlier are used.
 - **Reference models:** the analogy model (59 variables) and, for comparison, the store-page model (49).
 
+
+## 12. Failed attempt: Google Trends (E20)
+
+The third paper's buzz measure was piloted on 30 games released 2019–2024. None of the 20 games below 500,000
+owners had a usable pre-release search signal; 7 of the 10 games above it did, mostly big-budget or previously
+released titles. The approach is concluded as a failed attempt and not pursued. Pre-release interest for
+mid-range games would need another source (for example trailer views or Steam followers), none of which is in
+the dataset.
+
+## 13. Final model (E21, notebook 11)
+
+- **Tuning:** 36 settings chosen on 2019–2021, evaluated on 2022–2024: +0.004 one year ahead, +0.002 with random
+  folds. Not adopted; the defaults were already near the best available.
+- **Final model:** the analogy model (HistGB, default settings, 59 variables). R²_log 0.502 random folds, 0.498
+  grouped by title, 0.486 test, 0.311 one year ahead; 0.588 with a series predecessor, 0.089 with none; paid
+  0.342, free-to-play −0.035.
+- **What it relies on:** release year (0.212) and the studio's sales track record (0.139), then price (0.071)
+  and localisation (0.071).
+- **Where it fails:** it pulls predictions toward the typical game; hits are under-predicted (games above 1M
+  owners by a typical factor of 8.7). The largest misses are free-to-play and viral hits without a history.
+- **From the baseline to the final model:** R²_log on the test set −0.117 (baseline Random Forest) → 0.426
+  (log target, Gradient Boosting) → 0.446 (store-page model) → 0.486 (final model); test MAE 0.157 → 0.106
+  million owners. The modelling stage is complete.
+

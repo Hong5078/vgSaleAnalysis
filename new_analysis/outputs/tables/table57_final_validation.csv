@@ -1,0 +1,11 @@
+Evaluation,R² (log)
+Random folds,0.5015499542254307
+Random folds grouped by title,0.4980546776762246
+"One year ahead, all games",0.3112750535566414
+"One year ahead, series predecessor",0.5876640155392663
+"One year ahead, developer's previous game",0.39546499628642645
+"One year ahead, publisher's previous game",0.35500995985626965
+"One year ahead, no predecessor",0.08909591523287382
+"One year ahead, paid games",0.3417624606342639
+"One year ahead, free-to-play games",-0.03530252857189447
+Test set,0.48591398943174857
