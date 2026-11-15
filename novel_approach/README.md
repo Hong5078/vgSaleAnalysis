@@ -63,6 +63,26 @@ development results were committed before the validation section was added.
 **Where the final model works:** one year ahead, it reaches R² = 0.589 for games with a series predecessor and 0.096
 for games with no earlier title from their series, developer or publisher.
 
+## Validation results (unseen 10%, scored once)
+
+After the final model (M7) was chosen on the training and test sets, the validation set was read once. Each model
+was fitted on the training set and scored on the 7,673 validation games.
+
+| Model | Test: R² (log) | Validation: R² (log) | Validation: MAE (owners) |
+|---|---|---|---|
+| Baseline: Linear Regression, raw owners | −25.58 | −25.92 | 195,404 |
+| Baseline: Decision Tree, raw owners | −0.215 | −0.219 | 196,448 |
+| M3: Linear Regression with Paper 2's changes | 0.311 | 0.314 | 102,562 |
+| M4: Gradient Boosting, log owners | 0.431 | 0.440 | 95,099 |
+| **M7: final model** | **0.495** | **0.506** | **89,381** |
+
+The validation scores are close to the test scores, and every model keeps its rank. So the improvement holds on
+games that were never used during development.
+
+The modeling ideas were first explored in `new_analysis/notebooks/03`–`11`, on a different 80/20 split made
+before this validation set existed. This notebook itself never used the validation games for fitting or for
+choosing a model.
+
 ## Files
 
 | File | Contents |
